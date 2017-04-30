@@ -3,7 +3,7 @@ body {
   background-color: #22272a;
   font-family: Roboto, sans-serif;
   color: #eee;
-  overflow-x:hidden;
+  font-weight: lighter;
 }
 * {
   margin: 0;
@@ -28,7 +28,6 @@ a * {
 .description,
 .title {
   font-size: 1.2rem;
-  font-weight: normal;
 }
 .item-content {
   max-width: 750px;
