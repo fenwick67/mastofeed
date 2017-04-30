@@ -22,7 +22,7 @@ Querystring options:
 | option | required | description |
 | ------ | -------- | ----------- |
 | `url` | **yes** | Mastodon Atom feed URL |
-| `style` | no | either `dark` or `light`, to select the UI theme (default is `dark`). |
+| `theme` | no | either `dark` or `light`, to select the UI theme (default is `dark`). |
 | `size` | no | the scale of the UI in percent. |
 
 ## Server Installation
