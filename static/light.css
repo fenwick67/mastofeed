@@ -1,0 +1,86 @@
+html,
+body {
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  color: #000;
+  font-weight: light;
+  overflow-x: hidden;
+  font-size: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a,
+a * {
+  color: #09c;
+}
+.meta {
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+.meta * {
+  line-height: 2rem;
+}
+.item {
+  padding: 1rem;
+  border-top: solid 2px #d6d6d6;
+}
+.item-content,
+.description,
+.title {
+  font-size: 1.2rem;
+}
+.item-content {
+  max-width: 750px;
+}
+.item-content p {
+  margin: 0.5em 0;
+}
+.item-title,
+.date,
+.author-fullname,
+.description {
+  color: #808080;
+  font-size: 0.9rem;
+}
+.author {
+  display: flex;
+  margin: 1rem 0;
+}
+.author-info {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.author-info .author-displayname {
+  font-size: 1.2rem;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  font-weight: bolder;
+}
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 10%;
+}
+.enclosures {
+  padding: 0.5em 0;
+  display: flex;
+  flex-direction: row;
+  max-height: 12rem;
+  max-width: 42rem;
+  overflow: hidden;
+}
+.enclosure,
+.enclosure > img {
+  flex: 0 1 1;
+  display: inline-block;
+  border: none;
+  cursor: zoom-in;
+  max-height: 12rem;
+  max-width: 42rem;
+}

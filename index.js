@@ -14,11 +14,17 @@ app.get('/api/feed',function(req,res){
 		res.status(400);
 		res.send('You need to specify a feed URL');
 	}
-	
+
 	var opts = {};
-		
+	if (req.query.size){
+		opts.size = req.query.size;
+	}
+	if (req.query.theme){
+		opts.theme = req.query.theme;
+	}
+
 	var req = request.get(feedUrl);
-	convert(req,{},function(er,data){
+	convert(req,opts,function(er,data){
 		if (er){
 			res.status(500);
 			res.send('error fetching or parsing feed');
@@ -26,7 +32,7 @@ app.get('/api/feed',function(req,res){
 		res.status(200);
 		res.send(data);
 	});
-	
+
 });
 
 app.listen(process.env.PORT || 8000,function(){
