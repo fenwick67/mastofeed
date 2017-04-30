@@ -3,6 +3,7 @@ body {
   background-color: #22272a;
   font-family: Roboto, sans-serif;
   color: #eee;
+  overflow-x:hidden;
 }
 * {
   margin: 0;

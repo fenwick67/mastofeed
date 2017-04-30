@@ -1,5 +1,34 @@
 <html><head></head><body>
-Example:
+<h4>Example:</h4>
+<label>Instance URL:<input type="text" id="urlin" placeholder="octodon.social"></input></label><br>
+<label>Username:<input type="text" id="usernamein" placeholder="fenwick67"></input></label><br>
+<label>Width(px):<input type="text" id="width" value="400"></input></label><br>
+<label>Height(px):<input type="text" id="height" value="800"></input></label><br>
 
-<iframe sandbox src="/api/feed?url=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67.atom"></iframe>
+<button onclick="genUrl()" value="generate">Generate</button>
+<br>
+<br>
+<label>Use this markup in your HTML: <input id="result" placeholder="result will go here"></input>
+<br>
+<h4>Preview</h4>
+<iframe width="400" height="800" id="frame" sandbox src=""></iframe>
+<script>
+function genUrl(){
+	//https://octodon.social/users/fenwick67.atom
+	function val(id){
+		return document.getElementById(id).value;
+	}
+	
+	var inUrl = 'http://' + val('urlin') + '/users/'+val('usernamein')+'.atom';
+	
+	
+	var iframeUrl = 'http://'+ window.location.hostname +((window.location.port && window.location.port!=80)?(':'+window.location.port):'') +"/api/feed?url="+encodeURIComponent(inUrl);
+	document.getElementById('result').value = '<iframe sandbox width="'+val('width')+'" height="'+val('height')+'" src="'+iframeUrl+'"></iframe>';
+
+	var iframe = document.getElementById('frame');
+	iframe.src = iframeUrl;
+	iframe.width = val('width');
+	iframe.height = val('height');
+}
+</script>
 </body></html>
