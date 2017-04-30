@@ -6,11 +6,24 @@ var log = console.log;
 
 var app = Express();
 
-app.use(serveStatic('static'));
+function logMiddleware(req,res,next){
+	log(req.method.toUpperCase() +' '+ req.url);
+	log( '\t'+ new Date().toISOString() );
+	if(req.headers && req.headers.referer){
+		log('\tReferer: '+req.headers.referer);
+	}
+	return next(null);
+}
+
+app.use(logMiddleware);
+
+app.use(
+	serveStatic('static',{
+		maxAge:'1d'
+	})
+);
 
 app.get('/api/feed',function(req,res){
-	// logging
-	log(req.url);
 
 	// get feed url
 	var feedUrl = req.query.url;
@@ -40,5 +53,5 @@ app.get('/api/feed',function(req,res){
 });
 
 app.listen(process.env.PORT || 8000,function(){
-	console.log('listening on '+(process.env.PORT || 8000));
+	log('listening on '+(process.env.PORT || 8000));
 });
