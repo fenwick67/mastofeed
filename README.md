@@ -2,6 +2,8 @@
 
 Embed a mastodon feed in your blog et cetera.
 
+Preview (note: domain name incoming): https://mastofeed.herokuapp.com/
+
 ## Usage guide
 
 The homepage has a tool for generating iframe code for you, with a sensible `sandbox` attribute.  The feeds fit comfortably in a 400px wide area.
