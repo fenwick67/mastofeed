@@ -25,7 +25,7 @@ function genUrl(){
 	
 	
 	var iframeUrl = window.location.protocol + '//'+ window.location.hostname +((window.location.port && window.location.port!=80)?(':'+window.location.port):'') +"/api/feed?url="+encodeURIComponent(inUrl);
-	document.getElementById('result').value = '<iframe sandbox width="'+val('width')+'" height="'+val('height')+'" src="'+iframeUrl+'"></iframe>';
+	document.getElementById('result').value = '<iframe sandbox="allow-top-navigation" width="'+val('width')+'" height="'+val('height')+'" src="'+iframeUrl+'"></iframe>';
 
 	var iframe = document.getElementById('frame');
 	iframe.src = iframeUrl;
