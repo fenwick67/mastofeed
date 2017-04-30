@@ -19,7 +19,7 @@ function genUrl(){
 		return document.getElementById(id).value;
 	}
 	
-	var inUrl = 'http://' + val('urlin') + '/users/'+val('usernamein')+'.atom';
+	var inUrl = window.location.protocol + '//' + val('urlin') + '/users/'+val('usernamein')+'.atom';
 	
 	
 	var iframeUrl = 'http://'+ window.location.hostname +((window.location.port && window.location.port!=80)?(':'+window.location.port):'') +"/api/feed?url="+encodeURIComponent(inUrl);
