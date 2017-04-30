@@ -2,12 +2,16 @@ var Express = require('express');
 var convert = require('./lib/convert');
 var serveStatic = require('serve-static');
 var request = require('request');
+var log = console.log;
 
 var app = Express();
 
 app.use(serveStatic('static'));
 
 app.get('/api/feed',function(req,res){
+	// logging
+	log(req.url);
+
 	// get feed url
 	var feedUrl = req.query.url;
 	if (!feedUrl){
