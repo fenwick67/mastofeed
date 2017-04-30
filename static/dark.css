@@ -4,7 +4,8 @@ body {
   font-family: Roboto, sans-serif;
   color: #eee;
   font-weight: lighter;
-  overflow-x:hidden;
+  overflow-x: hidden;
+  font-size: 100%;
 }
 * {
   margin: 0;
@@ -15,14 +16,14 @@ a * {
   color: #09c;
 }
 .meta {
-  padding: 1em;
+  padding: 1rem;
   background-color: #292f32;
 }
 .meta * {
-  line-height: 2em;
+  line-height: 2rem;
 }
 .item {
-  padding: 1em;
+  padding: 1rem;
   border-top: solid 2px #30373b;
 }
 .item-content,
@@ -45,10 +46,10 @@ a * {
 }
 .author {
   display: flex;
-  margin: 1em 0;
+  margin: 1rem 0;
 }
 .author-info {
-  margin: 0.5em 1em;
+  margin: 0 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -61,8 +62,8 @@ a * {
   font-weight: bolder;
 }
 .avatar {
-  width: 70px;
-  height: 70px;
+  width: 3rem;
+  height: 3rem;
   border: none;
   border-radius: 10%;
 }
@@ -70,8 +71,8 @@ a * {
   padding: 0.5em 0;
   display: flex;
   flex-direction: row;
-  max-height: 200px;
-  max-width: 700px;
+  max-height: 12rem;
+  max-width: 42rem;
   overflow: hidden;
 }
 .enclosure,
@@ -80,6 +81,6 @@ a * {
   display: inline-block;
   border: none;
   cursor: zoom-in;
-  max-height: 200px;
-  max-width: 700px;
+  max-height: 12rem;
+  max-width: 42rem;
 }
