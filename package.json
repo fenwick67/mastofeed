@@ -4,6 +4,7 @@
     "express": "^4.15.2",
     "feedparser": "^2.2.0",
     "pug": "^2.0.0-beta.12",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "serve-static": "^1.12.2"
   }
 }
