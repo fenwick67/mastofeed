@@ -2,7 +2,7 @@
 
 Embed a mastodon feed in your blog et cetera.
 
-Preview (note: domain name incoming): https://mastofeed.herokuapp.com/
+https://www.mastofeed.com
 
 ## User guide
 
