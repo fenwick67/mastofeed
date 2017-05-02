@@ -1,0 +1,18 @@
+@import 'mastodon-vars.scss';
+
+$bg: $white ;
+$bg2: mix($lightest,$white);
+$fg: $darkest;
+$dim: mix($lighter,$darkest,90%);
+$dimmer: mix($lighter,$darkest,80%);
+$link: $vibrant;
+
+@import 'base.scss';
+
+.item-content,
+.description,
+.title,
+html,
+body {
+  font-weight:normal;
+}

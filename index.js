@@ -44,7 +44,7 @@ app.get('/api/feed',function(req,res){
 	convert(req,opts,function(er,data){
 		if (er){
 			res.status(500);
-			res.send('error fetching or parsing feed');
+			return res.send('Error fetching or parsing your feed.');
 		}
 		res.status(200);
 		res.send(data);

@@ -1,86 +1,101 @@
 html,
 body {
-  background-color: #fff;
-  font-family: Roboto, sans-serif;
-  color: #000;
-  font-weight: light;
+  background-color: #ffffff;
+  font-family: 'Roboto', roboto, Arial, sans-serif;
+  color: #282c37;
+  font-weight: lighter;
   overflow-x: hidden;
-  font-size: 100%;
-}
+  font-size: 100%; }
+
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
+
 a,
 a * {
-  color: #09c;
-}
+  color: #2b90d9; }
+
 .meta {
   padding: 1rem;
-  background-color: #f0f0f0;
-}
+  background-color: #ecf0f4; }
+
 .meta * {
-  line-height: 2rem;
-}
+  line-height: 2rem; }
+
 .item {
   padding: 1rem;
-  border-top: solid 2px #d6d6d6;
-}
+  border-top: solid 1px #8494ab; }
+
 .item-content,
 .description,
 .title {
-  font-size: 1.2rem;
-}
-.item-content {
-  max-width: 750px;
-}
-.item-content p {
-  margin: 0.5em 0;
-}
+  font-size: 1.1rem;
+  font-weight: lighter; }
+
+.item-content * {
+  margin: 1rem 0;
+  line-height: 1.4rem; }
+
 .item-title,
 .date,
 .author-fullname,
 .description {
-  color: #808080;
-  font-size: 0.9rem;
-}
+  color: #90a1ba;
+  font-size: 0.9rem; }
+
+.date {
+  margin: 1rem 0 0 0; }
+
 .author {
   display: flex;
-  margin: 1rem 0;
-}
+  margin: 1rem 0; }
+
 .author-info {
   margin: 0 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-}
-.author-info .author-displayname {
-  font-size: 1.2rem;
-  color: #000;
-  text-decoration: none;
-  display: block;
-  font-weight: bolder;
-}
+  justify-content: space-around; }
+  .author-info .author-displayname {
+    font-size: 1.2rem;
+    color: #282c37;
+    text-decoration: none;
+    display: block;
+    font-weight: bolder; }
+
 .avatar {
   width: 3rem;
   height: 3rem;
   border: none;
-  border-radius: 10%;
-}
+  border-radius: 10%; }
+
 .enclosures {
   padding: 0.5em 0;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  max-height: 12rem;
-  max-width: 42rem;
-  overflow: hidden;
-}
-.enclosure,
-.enclosure > img {
-  flex: 0 1 1;
+  overflow: hidden; }
+
+.enclosure {
+  display: flex;
+  flex: 1 1 auto;
+  width: 50%;
   display: inline-block;
   border: none;
   cursor: zoom-in;
-  max-height: 12rem;
-  max-width: 42rem;
-}
+  max-height: 12rem; }
+
+.enclosure > * {
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.meta .title {
+  font-weight: bold; }
+
+.item-content,
+.description,
+.title,
+html,
+body {
+  font-weight: normal; }

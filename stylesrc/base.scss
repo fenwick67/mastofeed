@@ -1,0 +1,118 @@
+$bg: #fff !default;
+$bg2: darken($bg, 6) !default;
+$fg: #000 !default;
+$dim: lighten($fg, 50) !default;
+$dimmer: darken($bg2, 10) !default;
+$link: #09c !default;
+
+html,
+body {
+  background-color: $bg;
+  font-family: 'Roboto', roboto, Arial, sans-serif;
+  color: $fg;
+  font-weight: lighter;
+  overflow-x:hidden;
+  font-size:100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a * {
+  color: $link;
+}
+
+.meta {
+  padding: 1rem;
+  background-color: $bg2;
+}
+
+.meta * {
+  line-height: 2rem;
+}
+
+.item {
+  padding: 1rem;
+  border-top: solid 1px $dimmer;
+}
+
+.item-content,
+.description,
+.title {
+  font-size: 1.1rem;
+  font-weight:lighter;
+}
+
+
+.item-content * {
+  margin: 1rem 0;
+  line-height:1.4rem;
+}
+
+.item-title,
+.date,
+.author-fullname,
+.description {
+  color: $dim;
+  font-size: 0.9rem;
+}
+.date{
+  margin: 1rem 0 0 0;
+}
+
+.author {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.author-info {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .author-displayname {
+    font-size: 1.2rem;
+    color: $fg;
+    text-decoration: none;
+    display: block;
+    font-weight: bolder;
+  }
+}
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 10%;
+}
+
+.enclosures {
+  padding: 0.5em 0;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.enclosure{
+
+  display:flex;
+  flex: 1 1 auto;
+  width:50%;
+  display: inline-block;
+  border: none;
+  cursor: zoom-in;
+  max-height: 12rem;
+}
+.enclosure>*{
+  flex: 1 1 auto;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.meta .title{
+  font-weight:bold;
+}
