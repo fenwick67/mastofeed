@@ -39,6 +39,13 @@ app.get('/api/feed',function(req,res){
 	if (req.query.theme){
 		opts.theme = req.query.theme;
 	}
+	if (req.query.header){
+		if (req.query.header.toLowerCase() == 'no' || req.query.header.toLowerCase() == 'false'){
+			opts.header = false;
+		}else{
+			opts.header = true;
+		}
+	}
 
 	var req = request.get(feedUrl);
 	convert(req,opts,function(er,data){

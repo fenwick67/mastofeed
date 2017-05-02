@@ -18,6 +18,7 @@
 			<option value="light">light</option>
 		</select>
 	</label><br>
+	<label>Show header?<input id="header" type="checkbox" checked></label><br>
 	<button value="generate">Generate</button>
 </form>
 <br>
@@ -25,7 +26,7 @@
 <label>Use this markup in your HTML: <br><textarea id="result" placeholder="result will go here"></textarea></label>
 <br>
 <h4>Live Preview:</h4>
-<iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800" src="/api/feed?url=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67.atom&theme=dark&size=100"></iframe>
+<iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800" src="/api/feed?url=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67.atom&theme=dark&size=100&header=true"></iframe>
 <script>
 window.genUrl = function genUrl(){
 	function val(id){
@@ -34,7 +35,9 @@ window.genUrl = function genUrl(){
 
 	var inUrl = 'https://' + val('urlin') + '/users/'+val('usernamein')+'.atom';
 
-	var iframeUrl = window.location.protocol + '//'+ window.location.hostname +((window.location.port && window.location.port!=80)?(':'+window.location.port):'') +"/api/feed?url="+encodeURIComponent(inUrl)+"&theme="+val('theme')+'&size='+val('size');
+	var iframeUrl = window.location.protocol + '//'+ window.location.hostname +((window.location.port && window.location.port!=80)?(':'+window.location.port):'')
+	+"/api/feed?url="+encodeURIComponent(inUrl)+"&theme="+val('theme')+'&size='+val('size')
+	+ "&header="+(document.getElementById('header').checked.toString());
 
 	document.getElementById('result').value = '<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="'+val('width')+'" height="'+val('height')+'" src="'+iframeUrl+'"></iframe>';
 
