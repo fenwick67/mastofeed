@@ -1,0 +1,130 @@
+/*
+ * Based on .css file from https://joinmastodon.org (by Gargron and latrani)
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Quando|Judson|Montserrat:500|Roboto:400,500);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
+body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl,
+dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4,
+h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li,
+mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small,
+span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead,
+time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section {
+    display: block
+}
+
+a {
+    outline: 0
+}
+
+label, h3 {
+    color: #607ea7;
+    margin-bottom: 26px
+    font-size: 16px;
+    line-height: 24px
+}
+
+body {
+    text-rendering: optimizelegibility;
+    -webkit-font-feature-settings: "kern";
+    font-feature-settings: "kern";
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    background-color: #1f232b;
+    color: #5f6b84;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px
+}
+
+button {
+    background: transparent;
+    border: 1px solid #9baec8;
+    padding: 3px 15px;
+    color: #9baec8;
+    margin-left: 4px
+    font-weight: 500;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1)
+}
+
+button:hover {
+    background-color: #b5c3d6
+}
+
+input[type="text"], input[type="number"] {
+    outline: 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    padding-right: 30px;
+    font-family: inherit;
+    background: #0e1013;
+    color: #9baec8;
+    font-size: 14px;
+    margin: 0
+}
+
+h4 {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #9baec8
+}
+
+img {
+    width: 16px;
+    height: 16px;
+    opacity: .5;
+    -webkit-transition: opacity .25s linear;
+    transition: opacity .25s linear
+}
+
+div {
+    max-width: 800px;
+    margin: 0 auto
+}
+
+iframe {
+    float: middle;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 36px;
+    padding: 4px 16px;
+    background: transparent;
+    border: 1px solid #9baec8;
+    border-radius: 4px;
+    padding: 3px 15px;
+    color: #9baec8;
+    margin-left: 4px
+}
+

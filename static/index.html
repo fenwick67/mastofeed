@@ -1,10 +1,15 @@
-<html><head>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
 	<title>Mastofeed - embeddable Mastodon feeds</title>
+    <link rel="stylesheet" href="./stylesheet.css">
 </head>
 <body>
+<br>
+<div>
 <h1>Mastofeed</h1>
 <h4>Embedded Mastodon feeds for blogs etc.</h4>
-<a href="https://github.com/fenwick67/mastofeed">Fork on Github</a><br>
+<a href="https://github.com/fenwick67/mastofeed" class="cta button alt">Fork on Github <img class="link-logo after" src="github-logo.svg" alt="Github Logo" data-reactid="19"></a><br>
 <br><hr><br>
 <form action="javascript:genUrl()">
 	<label>Instance URL:<input required type="text" id="urlin" placeholder="octodon.social"></label><br>
@@ -25,8 +30,10 @@
 <br>
 <label>Use this markup in your HTML: <br><textarea id="result" placeholder="result will go here"></textarea></label>
 <br>
-<h4>Live Preview:</h4>
+<h3>Live Preview:</h3>
 <iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800" src="/api/feed?url=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67.atom&theme=dark&size=100&header=true"></iframe>
+<br>
+</div>
 <script>
 window.genUrl = function genUrl(){
 	function val(id){
