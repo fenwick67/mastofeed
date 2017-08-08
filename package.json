@@ -6,7 +6,7 @@
     "request": "^2.81.0",
     "serve-static": "^1.12.2",
     "timeago.js": "^3.0.1",
-    "pug":"2.x.x"
+    "pug":"2.0.0-rc.3"
   },
   "main": "index.js",
   "scripts": {
