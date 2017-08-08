@@ -12,12 +12,12 @@
 <a href="https://github.com/fenwick67/mastofeed" class="cta button alt">Fork on Github <img class="link-logo after" src="github-logo.svg" alt="Github Logo" data-reactid="19"></a><br>
 <br><hr><br>
 <form action="javascript:genUrl()">
-	<label>Instance URL:<input required type="text" id="urlin" placeholder="octodon.social"></label><br>
-	<label>Username:<input required type="text" id="usernamein" placeholder="fenwick67"></label><br>
-	<label>Width(px):<input required type="number" id="width" value="400"></label><br>
-	<label>Height(px):<input required type="number" id="height" value="800"></label><br>
-	<label>UI scale (percent):<input required type="number" id="size" value="100"></label><br>
-	<label>theme:
+	<label>Instance URL:<input required type="text" id="urlin" placeholder="octodon.social" oninvalid="this.setCustomValidity('Insert your instance URL. Example: octodon.social')"></label><br>
+	<label>Username:<input required type="text" id="usernamein" placeholder="fenwick67" oninvalid="this.setCustomValidity('Insert your username. Example: fenwick67')"></label><br>
+	<label>Width (px):<input required type="number" id="width" value="400" oninvalid="this.setCustomValidity('Insert width of generated feed. Default: 400')"></label><br>
+	<label>Height (px):<input required type="number" id="height" value="800" oninvalid="this.setCustomValidity('Insert height of generated feed. Default: 800')"></label><br>
+	<label>UI scale (percent):<input required type="number" id="size" value="100" oninvalid="this.setCustomValidity('Insert UI scale. Default: 100')"></label><br>
+	<label>Theme:
 		<select id="theme">
 			<option value="dark">dark</option>
 			<option value="light">light</option>
