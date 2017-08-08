@@ -5,7 +5,8 @@
     "feedparser": "^2.2.0",
     "request": "^2.81.0",
     "serve-static": "^1.12.2",
-    "timeago.js": "^3.0.1"
+    "timeago.js": "^3.0.1",
+    "pug":"2.x.x"
   },
   "main": "index.js",
   "scripts": {
