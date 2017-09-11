@@ -30,7 +30,7 @@ a {
 
 label, h3 {
     color: #607ea7;
-    margin-bottom: 26px
+    margin-bottom: 26px;
     font-size: 16px;
     line-height: 24px
 }
@@ -41,7 +41,7 @@ body {
     font-feature-settings: "kern";
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
-    text-size-adjust: none
+    text-size-adjust: none;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     background-color: #1f232b;
@@ -62,7 +62,7 @@ button {
     border: 1px solid #9baec8;
     padding: 3px 15px;
     color: #9baec8;
-    margin-left: 4px
+    margin-left: 4px;
     font-weight: 500;
     border-radius: 4px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .1)
