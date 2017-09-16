@@ -48,7 +48,8 @@ body {
     color: #5f6b84;
     font-size: 13px;
     line-height: 18px;
-    font-weight: 400
+    font-weight: 400;
+    margin:1em
 }
 
 h1 {
@@ -127,4 +128,3 @@ a {
     color: #9baec8;
     margin-left: 4px
 }
-
