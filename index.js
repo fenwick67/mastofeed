@@ -46,6 +46,8 @@ app.get('/api/feed',function(req,res){
 			opts.header = true;
 		}
 	}
+
+	opts.boosts = true;
 	if (req.query.boosts){
 		if (req.query.boosts.toLowerCase() == 'no' || req.query.boosts.toLowerCase() == 'false'){
 			opts.boosts = false;
@@ -53,6 +55,8 @@ app.get('/api/feed',function(req,res){
 			opts.boosts = true;
 		}
 	}
+	
+	opts.replies = true;
 	if (req.query.replies){
 		if (req.query.replies.toLowerCase() == 'no' || req.query.replies.toLowerCase() == 'false'){
 			opts.replies = false;
