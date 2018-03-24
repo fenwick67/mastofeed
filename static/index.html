@@ -30,7 +30,6 @@
 
 	<button value="generate">Generate</button>
 </form>
-<div id="warnings"></div>
 <br>
 <br>
 <label>Use this markup in your HTML: <br><textarea id="result" placeholder="result will go here"></textarea></label>
@@ -60,9 +59,6 @@ window.genUrl = function genUrl(){
 	iframe.src = iframeUrl;
 	iframe.width = val('width');
 	iframe.height = val('height');
-
-  var warnings = (!showBoosts || !showReplies)?"<b>Friendly warning</b>: if you haven't posted lately, we may still show your boosts and/or replies":'';
-  document.getElementById('warnings').innerHTML = warnings;
 }
 </script>
 </body>
