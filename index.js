@@ -46,6 +46,20 @@ app.get('/api/feed',function(req,res){
 			opts.header = true;
 		}
 	}
+	if (req.query.boosts){
+		if (req.query.boosts.toLowerCase() == 'no' || req.query.boosts.toLowerCase() == 'false'){
+			opts.boosts = false;
+		}else{
+			opts.boosts = true;
+		}
+	}
+	if (req.query.replies){
+		if (req.query.replies.toLowerCase() == 'no' || req.query.replies.toLowerCase() == 'false'){
+			opts.replies = false;
+		}else{
+			opts.replies = true;
+		}
+	}
 
 	var req = request.get(feedUrl);
 	convert(req,opts,function(er,data){

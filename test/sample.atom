@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:poco="http://portablecontacts.net/spec/1.0" xmlns:media="http://purl.org/syndication/atommedia" xmlns:ostatus="http://ostatus.org/schema/1.0" xmlns:mastodon="http://mastodon.social/schema/1.0">
   <id>https://octodon.social/users/fenwick67.atom</id>
-  <title>fenwick67 🦆</title>
+  <title>fenwick 🦆</title>
   <subtitle>Engineer, Developer, Person.  http://fenwick.pizza</subtitle>
-  <updated>2017-04-26T21:55:05Z</updated>
+  <updated>2018-03-23T15:09:56Z</updated>
   <logo>https://assets.octodon.social/accounts/avatars/000/008/871/original/d5281ad9c6c7401d.jpg</logo>
   <author>
     <id>https://octodon.social/users/fenwick67</id>
@@ -11,597 +11,711 @@
     <uri>https://octodon.social/users/fenwick67</uri>
     <name>fenwick67</name>
     <email>fenwick67@octodon.social</email>
-    <summary type="html">&lt;p&gt;Engineer, Developer, Person.  &lt;a href="http://fenwick.pizza/" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class=""&gt;fenwick.pizza/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Engineer, Developer, Person.  &lt;a href="http://fenwick.pizza" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class=""&gt;fenwick.pizza&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</summary>
     <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67"/>
     <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/008/871/original/d5281ad9c6c7401d.jpg"/>
-    <link rel="header" type="" media:width="700" media:height="335" href="/headers/original/missing.png"/>
     <poco:preferredUsername>fenwick67</poco:preferredUsername>
-    <poco:displayName>fenwick67 🦆</poco:displayName>
+    <poco:displayName>fenwick 🦆</poco:displayName>
     <poco:note>Engineer, Developer, Person.  http://fenwick.pizza</poco:note>
     <mastodon:scope>public</mastodon:scope>
   </author>
   <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67"/>
   <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67.atom"/>
-  <link rel="next" type="application/atom+xml" href="https://octodon.social/users/fenwick67.atom?max_id=100918"/>
+  <link rel="next" type="application/atom+xml" href="https://octodon.social/users/fenwick67.atom?max_id=400111"/>
   <link rel="hub" href="https://octodon.social/api/push"/>
   <link rel="salmon" href="https://octodon.social/api/salmon/8871"/>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1470035:objectType=Status</id>
-    <published>2017-05-01T22:33:01Z</published>
-    <updated>2017-05-01T22:33:01Z</updated>
-    <title>fenwick67 shared a status by atomjack@mastodon.cloud</title>
+    <id>https://octodon.social/users/fenwick67/statuses/99736382143914398/activity</id>
+    <published>2018-03-24T01:53:36Z</published>
+    <updated>2018-03-24T01:53:36Z</updated>
+    <title>fenwick67 shared a status by cypnk@mastodon.social</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
     <activity:object>
-      <id>tag:mastodon.cloud,2017-05-01:objectId=5469441:objectType=Status</id>
-      <published>2017-05-01T22:25:25Z</published>
-      <updated>2017-05-01T22:25:26Z</updated>
-      <title>New status by atomjack@mastodon.cloud</title>
+      <id>https://mastodon.social/users/cypnk/statuses/99736359953171849</id>
+      <published>2018-03-24T01:48:12Z</published>
+      <updated>2018-03-24T01:48:12Z</updated>
+      <title>New status by cypnk@mastodon.social</title>
       <author>
-        <id>https://mastodon.cloud/users/atomjack</id>
+        <id>https://mastodon.social/users/cypnk</id>
         <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
-        <uri>https://mastodon.cloud/users/atomjack</uri>
-        <name>atomjack</name>
-        <email>atomjack@mastodon.cloud</email>
-        <summary type="html">&lt;p&gt;calibrating, stabilizing, vortexing, remain calm &lt;/p&gt;&lt;p&gt;beyond the green event horizon&lt;/p&gt;</summary>
-        <link rel="alternate" type="text/html" href="https://mastodon.cloud/@atomjack"/>
-        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/028/884/original/6aec0dd6b35caa8f.jpg"/>
-        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/028/884/original/fc0b527417bc89cc.jpg"/>
-        <poco:preferredUsername>atomjack</poco:preferredUsername>
-        <poco:displayName>@Om*</poco:displayName>
-        <poco:note>calibrating, stabilizing, vortexing, remain calm beyond the green event horizon</poco:note>
+        <uri>https://mastodon.social/users/cypnk</uri>
+        <name>cypnk</name>
+        <email>cypnk@mastodon.social</email>
+        <summary type="html">&lt;p&gt;Coffee, Code, Cabins&lt;br&gt;New York 🇺🇲&lt;/p&gt;&lt;p&gt;Tor: &lt;a href="http://zgmlocci2uheaw6y.onion" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class=""&gt;zgmlocci2uheaw6y.onion&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://mastodon.social/@cypnk"/>
+        <link rel="avatar" type="image/png" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/020/009/original/086ced36687bf000.png"/>
+        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/020/009/original/485fa1ad392dd656.jpg"/>
+        <poco:preferredUsername>cypnk</poco:preferredUsername>
+        <poco:displayName>r҉ustic cy͠be̸rpu̵nk🤠🤖</poco:displayName>
+        <poco:note>Coffee, Code, CabinsNew York 🇺🇲Tor: http://zgmlocci2uheaw6y.onion</poco:note>
         <mastodon:scope>public</mastodon:scope>
       </author>
       <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
       <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-      <content type="html" xml:lang="ru">&lt;p&gt;sea green slice...&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.cloud/tags/seagreen"&gt;#&lt;span&gt;seagreen&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/turquoise"&gt;#&lt;span&gt;turquoise&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/teal"&gt;#&lt;span&gt;teal&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/triangle"&gt;#&lt;span&gt;triangle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/slice"&gt;#&lt;span&gt;slice&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/slicing"&gt;#&lt;span&gt;slicing&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/animatedgif"&gt;#&lt;span&gt;animatedgif&lt;/span&gt;&lt;/a&gt; #∇ #▲ # ▽ #⦿&lt;/p&gt;</content>
+      <content type="html" xml:lang="en">&lt;p&gt;So curl parrot.live is a thing&lt;/p&gt;&lt;p&gt;( Via &lt;a href="https://twitter.com/darksim905/status/977256948918874112" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;twitter.com/darksim905/status/&lt;/span&gt;&lt;span class="invisible"&gt;977256948918874112&lt;/span&gt;&lt;/a&gt; )&lt;/p&gt;</content>
       <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-      <category term="seagreen"/>
-      <category term="turquoise"/>
-      <category term="teal"/>
-      <category term="triangle"/>
-      <category term="slice"/>
-      <category term="slicing"/>
-      <category term="animatedgif"/>
-      <link rel="enclosure" type="video/mp4" length="128983" href="https://assets.octodon.social/media_attachments/files/000/121/044/original/media.mp4"/>
+      <link rel="enclosure" type="video/mp4" length="587982" href="https://assets.octodon.social/media_attachments/files/001/460/576/original/a3f046541a1be4cb.mp4"/>
       <mastodon:scope>public</mastodon:scope>
-      <link rel="alternate" type="text/html" href="https://mastodon.cloud/users/atomjack/updates/530298"/>
+      <link rel="alternate" type="text/html" href="https://mastodon.social/@cypnk/99736359953171849"/>
+      <ostatus:conversation ref="tag:mastodon.social,2018-03-24:objectId=27426557:objectType=Conversation"/>
     </activity:object>
-    <content type="html" xml:lang="en">&lt;p&gt;sea green slice...&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.cloud/tags/seagreen"&gt;#&lt;span&gt;seagreen&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/turquoise"&gt;#&lt;span&gt;turquoise&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/teal"&gt;#&lt;span&gt;teal&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/triangle"&gt;#&lt;span&gt;triangle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/slice"&gt;#&lt;span&gt;slice&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/slicing"&gt;#&lt;span&gt;slicing&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.cloud/tags/animatedgif"&gt;#&lt;span&gt;animatedgif&lt;/span&gt;&lt;/a&gt; #∇ #▲ # ▽ #⦿&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99736382143914398/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;So curl parrot.live is a thing&lt;/p&gt;&lt;p&gt;( Via &lt;a href="https://twitter.com/darksim905/status/977256948918874112" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;twitter.com/darksim905/status/&lt;/span&gt;&lt;span class="invisible"&gt;977256948918874112&lt;/span&gt;&lt;/a&gt; )&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/102554"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/102554.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99736382143914398"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/404069.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-24:objectId=6288327:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1470031:objectType=Status</id>
-    <published>2017-05-01T22:32:45Z</published>
-    <updated>2017-05-01T22:32:45Z</updated>
-    <title>fenwick67 shared a status by Lanthus@mastodon.social</title>
+    <id>https://octodon.social/users/fenwick67/statuses/99736372019184621/activity</id>
+    <published>2018-03-24T01:51:02Z</published>
+    <updated>2018-03-24T01:51:02Z</updated>
+    <title>fenwick67 shared a status by LinuxSocist@icosahedron.website</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
     <activity:object>
-      <id>tag:mastodon.social,2017-05-01:objectId=4846903:objectType=Status</id>
-      <published>2017-05-01T22:27:36Z</published>
-      <updated>2017-05-01T22:27:38Z</updated>
-      <title>New status by Lanthus@mastodon.social</title>
+      <id>https://icosahedron.website/users/LinuxSocist/statuses/99736289786218826</id>
+      <published>2018-03-24T01:30:11Z</published>
+      <updated>2018-03-24T01:30:11Z</updated>
+      <title>New status by LinuxSocist@icosahedron.website</title>
       <author>
-        <id>https://mastodon.social/users/Lanthus</id>
+        <id>https://icosahedron.website/users/LinuxSocist</id>
         <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
-        <uri>https://mastodon.social/users/Lanthus</uri>
-        <name>Lanthus</name>
-        <email>Lanthus@mastodon.social</email>
-        <summary type="html">&lt;p&gt;Pro-wrestling sound guy, game music composer, openly magical girl, embiggened dog petter. 󾓦/🎵/🎮 | soundcloud.com/LanthusVernalis&lt;/p&gt;</summary>
-        <link rel="alternate" type="text/html" href="https://mastodon.social/@Lanthus"/>
-        <link rel="avatar" type="image/gif" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/002/461/original/3b78f937a0ef4ef9.gif"/>
-        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/002/461/original/media.jpg"/>
-        <poco:preferredUsername>Lanthus</poco:preferredUsername>
-        <poco:displayName>Magical Lan</poco:displayName>
-        <poco:note>Pro-wrestling sound guy, game music composer, openly magical girl, embiggened dog petter. 󾓦/🎵/🎮 | soundcloud.com/LanthusVernalis</poco:note>
+        <uri>https://icosahedron.website/users/LinuxSocist</uri>
+        <name>LinuxSocist</name>
+        <email>LinuxSocist@icosahedron.website</email>
+        <summary type="html">&lt;p&gt;If you can't hack it then you don't own it.&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://icosahedron.website/@LinuxSocist"/>
+        <link rel="avatar" type="image/png" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/002/386/original/cd9c7aa648d840c6.png"/>
+        <link rel="header" type="image/png" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/002/386/original/7d1ccd7f07d99e51.png"/>
+        <poco:preferredUsername>LinuxSocist</poco:preferredUsername>
+        <poco:displayName>Linux Socialist</poco:displayName>
+        <poco:note>If you can't hack it then you don't own it.</poco:note>
         <mastodon:scope>public</mastodon:scope>
       </author>
       <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
       <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-      <content type="html" xml:lang="en">&lt;p&gt;&lt;a href="https://mastodon.social/media/tVmZDIUbzvqkF_spZoA"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;mastodon.social/media/tVmZDIUb&lt;/span&gt;&lt;span class="invisible"&gt;zvqkF_spZoA&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+      <content type="html" xml:lang="">&lt;p&gt;'Why we choose Godot Engine – Rock Milk'&lt;br&gt;&lt;a href="https://medium.com/@rockmilkgames/why-godot-engine-e0d4736d6eb0" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;medium.com/@rockmilkgames/why-&lt;/span&gt;&lt;span class="invisible"&gt;godot-engine-e0d4736d6eb0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
       <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-      <link rel="enclosure" type="video/mp4" length="4461142" href="https://assets.octodon.social/media_attachments/files/000/121/050/original/media.mp4"/>
       <mastodon:scope>public</mastodon:scope>
-      <link rel="alternate" type="text/html" href="https://mastodon.social/users/Lanthus/updates/2214087"/>
+      <link rel="alternate" type="text/html" href="https://icosahedron.website/@LinuxSocist/99736289786218826"/>
+      <ostatus:conversation ref="tag:icosahedron.website,2018-03-24:objectId=4008292:objectType=Conversation"/>
     </activity:object>
-    <content type="html" xml:lang="en">&lt;p&gt;&lt;a href="https://mastodon.social/media/tVmZDIUbzvqkF_spZoA"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;mastodon.social/media/tVmZDIUb&lt;/span&gt;&lt;span class="invisible"&gt;zvqkF_spZoA&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99736372019184621/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;'Why we choose Godot Engine – Rock Milk'&lt;br&gt;&lt;a href="https://medium.com/@rockmilkgames/why-godot-engine-e0d4736d6eb0" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;medium.com/@rockmilkgames/why-&lt;/span&gt;&lt;span class="invisible"&gt;godot-engine-e0d4736d6eb0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/102553"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/102553.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99736372019184621"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/404064.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-24:objectId=6288255:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1466148:objectType=Status</id>
-    <published>2017-05-01T21:04:04Z</published>
-    <updated>2017-05-01T21:04:04Z</updated>
-    <title>fenwick67 shared a status by eggplant@mastodon.social</title>
+    <id>https://octodon.social/users/fenwick67/statuses/99736293961915027/activity</id>
+    <published>2018-03-24T01:31:11Z</published>
+    <updated>2018-03-24T01:31:11Z</updated>
+    <title>fenwick67 shared a status by meirlbot@mastodon.social</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
     <activity:object>
-      <id>tag:mastodon.social,2017-05-01:objectId=4838351:objectType=Status</id>
-      <published>2017-05-01T19:31:10Z</published>
-      <updated>2017-05-01T19:31:10Z</updated>
-      <title>New status by eggplant@mastodon.social</title>
+      <id>https://mastodon.social/users/meirlbot/statuses/99736260594446646</id>
+      <published>2018-03-24T01:22:45Z</published>
+      <updated>2018-03-24T01:22:45Z</updated>
+      <title>New status by meirlbot@mastodon.social</title>
       <author>
-        <id>https://mastodon.social/users/eggplant</id>
+        <id>https://mastodon.social/users/meirlbot</id>
         <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
-        <uri>https://mastodon.social/users/eggplant</uri>
-        <name>eggplant</name>
-        <email>eggplant@mastodon.social</email>
-        <summary type="html">&lt;p&gt;swiss art student, 20 y/o 🍆 he/they 🍆 I make TootyFruity, an universal app for Mastodon and all it's instances. Get the beta here: &lt;a href="https://goo.gl/CLSwYz"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;goo.gl/CLSwYz&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</summary>
-        <link rel="alternate" type="text/html" href="https://mastodon.social/@eggplant"/>
-        <link rel="avatar" type="image/png" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/001/063/original/media.png"/>
-        <link rel="header" type="image/png" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/001/063/original/media.png"/>
-        <poco:preferredUsername>eggplant</poco:preferredUsername>
-        <poco:displayName>Kev</poco:displayName>
-        <poco:note>swiss art student, 20 y/o 🍆 he/they 🍆 I make TootyFruity, an universal app for Mastodon and all it's instances. Get the beta here: https://goo.gl/CLSwYz</poco:note>
+        <uri>https://mastodon.social/users/meirlbot</uri>
+        <name>meirlbot</name>
+        <email>meirlbot@mastodon.social</email>
+        <summary type="html">&lt;p&gt;i'm a bot by &lt;span class="h-card"&gt;&lt;a href="https://ultrix.me/@corbin" class="u-url mention" rel="nofollow noopener" target="_blank"&gt;@&lt;span&gt;corbin&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; that mirrors the latest posts from /r/me_irl&lt;/p&gt;&lt;p&gt;twitter: &lt;a href="https://twitter.com/itmeirl" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;twitter.com/itmeirl&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://mastodon.social/@meirlbot"/>
+        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/091/213/original/b214dff45bb239f3.jpg"/>
+        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/091/213/original/30ab34776dc153a1.jpg"/>
+        <poco:preferredUsername>meirlbot</poco:preferredUsername>
+        <poco:displayName>me irl</poco:displayName>
+        <poco:note>i'm a bot by @corbin that mirrors the latest posts from /r/me_irltwitter: https://twitter.com/itmeirl</poco:note>
         <mastodon:scope>public</mastodon:scope>
       </author>
       <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
       <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-      <content type="html" xml:lang="en">&lt;p&gt;did you know gaming literally just said that kk slider can't technically play some songs because he only has three fingers and some chords need four fingers to be played&lt;/p&gt;&lt;p&gt;kk slider&lt;br&gt;the talking dog&lt;/p&gt;</content>
+      <content type="html" xml:lang="">&lt;p&gt;me irl &lt;a href="https://redd.it/86nbzr" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;redd.it/86nbzr&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
       <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+      <link rel="enclosure" type="image/png" length="298179" href="https://assets.octodon.social/media_attachments/files/001/460/499/original/3231efe4233d15bd.png"/>
       <mastodon:scope>public</mastodon:scope>
-      <link rel="alternate" type="text/html" href="https://mastodon.social/users/eggplant/updates/2212061"/>
+      <link rel="alternate" type="text/html" href="https://mastodon.social/@meirlbot/99736260594446646"/>
+      <ostatus:conversation ref="tag:mastodon.social,2018-03-24:objectId=27425100:objectType=Conversation"/>
     </activity:object>
-    <content type="html" xml:lang="en">&lt;p&gt;did you know gaming literally just said that kk slider can't technically play some songs because he only has three fingers and some chords need four fingers to be played&lt;/p&gt;&lt;p&gt;kk slider&lt;br&gt;the talking dog&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99736293961915027/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;me irl &lt;a href="https://redd.it/86nbzr" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;redd.it/86nbzr&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/102397"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/102397.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99736293961915027"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/404044.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-24:objectId=6287883:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1465566:objectType=Status</id>
-    <published>2017-05-01T20:50:31Z</published>
-    <updated>2017-05-01T20:50:31Z</updated>
-    <title>fenwick67 shared a status by bit_aspect</title>
+    <id>https://octodon.social/users/fenwick67/statuses/99736270823277858/activity</id>
+    <published>2018-03-24T01:25:18Z</published>
+    <updated>2018-03-24T01:25:18Z</updated>
+    <title>fenwick67 shared a status by natecull@mastodon.social</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
     <activity:object>
-      <id>tag:octodon.social,2017-05-01:objectId=1465546:objectType=Status</id>
-      <published>2017-05-01T20:50:11Z</published>
-      <updated>2017-05-01T20:50:11Z</updated>
-      <title>New status by bit_aspect</title>
+      <id>https://mastodon.social/users/natecull/statuses/99735315450345700</id>
+      <published>2018-03-23T21:22:24Z</published>
+      <updated>2018-03-23T21:22:24Z</updated>
+      <title>New status by natecull@mastodon.social</title>
       <author>
-        <id>https://octodon.social/users/bit_aspect</id>
+        <id>https://mastodon.social/users/natecull</id>
         <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
-        <uri>https://octodon.social/users/bit_aspect</uri>
-        <name>bit_aspect</name>
-        <email>bit_aspect@octodon.social</email>
-        <summary type="html">&lt;p&gt;russian junior pixel artist, cyberpunk addicted, love my pug&lt;/p&gt;</summary>
-        <link rel="alternate" type="text/html" href="https://octodon.social/@bit_aspect"/>
-        <link rel="avatar" type="image/gif" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/007/003/original/05b1c63ed5688d1a.gif"/>
-        <link rel="header" type="image/gif" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/007/003/original/0226dd57f3c3cf19.gif"/>
-        <poco:preferredUsername>bit_aspect</poco:preferredUsername>
-        <poco:displayName>Alex 👾</poco:displayName>
-        <poco:note>russian junior pixel artist, cyberpunk addicted, love my pug</poco:note>
+        <uri>https://mastodon.social/users/natecull</uri>
+        <name>natecull</name>
+        <email>natecull@mastodon.social</email>
+        <summary type="html">&lt;p&gt;and we're all gonna shine a light together&lt;/p&gt;&lt;p&gt; &lt;a href="http://natecull.org/wordpress/tomorrow/" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class="ellipsis"&gt;natecull.org/wordpress/tomorro&lt;/span&gt;&lt;span class="invisible"&gt;w/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://mastodon.social/@natecull"/>
+        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/004/022/original/5e674cac327b3746.jpg"/>
+        <poco:preferredUsername>natecull</poco:preferredUsername>
+        <poco:displayName>Nate Cull</poco:displayName>
+        <poco:note>and we're all gonna shine a light together http://natecull.org/wordpress/tomorrow/</poco:note>
         <mastodon:scope>public</mastodon:scope>
       </author>
       <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
       <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-      <content type="html" xml:lang="en">&lt;p&gt;I decided to do one more mini-landscape. It took one hour, but I&amp;apos;m had so much fun doing this! Landscape as usual ahaha&lt;br /&gt;&lt;a href="https://octodon.social/tags/pixelart" class="mention hashtag"&gt;#&lt;span&gt;pixelart&lt;/span&gt;&lt;/a&gt; &lt;a href="https://octodon.social/tags/mastoart" class="mention hashtag"&gt;#&lt;span&gt;mastoart&lt;/span&gt;&lt;/a&gt; &lt;a href="https://octodon.social/tags/landscape" class="mention hashtag"&gt;#&lt;span&gt;landscape&lt;/span&gt;&lt;/a&gt; &lt;a href="https://octodon.social/tags/ocean" class="mention hashtag"&gt;#&lt;span&gt;ocean&lt;/span&gt;&lt;/a&gt; &lt;a href="https://octodon.social/tags/sunset" class="mention hashtag"&gt;#&lt;span&gt;sunset&lt;/span&gt;&lt;/a&gt; &lt;a href="https://octodon.social/media/cYdYc2pP_vr1s9VpFkU" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;octodon.social/media/cYdYc2pP_&lt;/span&gt;&lt;span class="invisible"&gt;vr1s9VpFkU&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+      <content type="html" xml:lang="en">&lt;p&gt;Medium needs to stop doing this, or people need to stop using Medium.&lt;/p&gt;&lt;p&gt;It's a website that hosts blogs.&lt;/p&gt;&lt;p&gt;That you read.&lt;/p&gt;&lt;p&gt;it doesn't need your Fooglebaceook account.&lt;/p&gt;</content>
       <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-      <category term="sunset"/>
-      <category term="ocean"/>
-      <category term="landscape"/>
-      <category term="mastoart"/>
-      <category term="pixelart"/>
-      <link rel="enclosure" type="image/png" length="2741" href="https://assets.octodon.social/media_attachments/files/000/120/697/original/165ca3a1c16625b2.png"/>
+      <link rel="enclosure" type="image/png" length="132769" href="https://assets.octodon.social/media_attachments/files/001/459/532/original/6ae62ea552e0115b.png"/>
       <mastodon:scope>public</mastodon:scope>
-      <link rel="alternate" type="text/html" href="https://octodon.social/@bit_aspect/1465546"/>
+      <link rel="alternate" type="text/html" href="https://mastodon.social/@natecull/99735315450345700"/>
+      <ostatus:conversation ref="tag:mastodon.social,2018-03-23:objectId=27410361:objectType=Conversation"/>
     </activity:object>
-    <content type="html" xml:lang="en">&lt;p&gt;I decided to do one more mini-landscape. It took one hour, but I&amp;apos;m had so much fun doing this! Landscape as usual ahaha&lt;br /&gt;&lt;a href="https://octodon.social/tags/pixelart" class="mention hashtag"&gt;#&lt;span&gt;pixelart&lt;/span&gt;&lt;/a&gt; &lt;a href="https://octodon.social/tags/mastoart" class="mention hashtag"&gt;#&lt;span&gt;mastoart&lt;/span&gt;&lt;/a&gt; &lt;a href="https://octodon.social/tags/landscape" class="mention hashtag"&gt;#&lt;span&gt;landscape&lt;/span&gt;&lt;/a&gt; &lt;a href="https://octodon.social/tags/ocean" class="mention hashtag"&gt;#&lt;span&gt;ocean&lt;/span&gt;&lt;/a&gt; &lt;a href="https://octodon.social/tags/sunset" class="mention hashtag"&gt;#&lt;span&gt;sunset&lt;/span&gt;&lt;/a&gt; &lt;a href="https://octodon.social/media/cYdYc2pP_vr1s9VpFkU" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;octodon.social/media/cYdYc2pP_&lt;/span&gt;&lt;span class="invisible"&gt;vr1s9VpFkU&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99736270823277858/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;Medium needs to stop doing this, or people need to stop using Medium.&lt;/p&gt;&lt;p&gt;It's a website that hosts blogs.&lt;/p&gt;&lt;p&gt;That you read.&lt;/p&gt;&lt;p&gt;it doesn't need your Fooglebaceook account.&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/102366"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/102366.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99736270823277858"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/404039.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-24:objectId=6287739:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1461813:objectType=Status</id>
-    <published>2017-05-01T19:22:25Z</published>
-    <updated>2017-05-01T19:22:25Z</updated>
-    <title>fenwick67 shared a status by cadey@mst3k.interlinked.me</title>
+    <id>https://octodon.social/users/fenwick67/statuses/99736154791289301/activity</id>
+    <published>2018-03-24T00:55:47Z</published>
+    <updated>2018-03-24T00:55:47Z</updated>
+    <title>fenwick67 shared a status by tom@slime.global</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
     <activity:object>
-      <id>tag:mst3k.interlinked.me,2017-05-01:objectId=169303:objectType=Status</id>
-      <published>2017-05-01T19:14:51Z</published>
-      <updated>2017-05-01T19:14:54Z</updated>
-      <title>New status by cadey@mst3k.interlinked.me</title>
+      <id>https://slime.global/users/tom/statuses/99732325744900240</id>
+      <published>2018-03-23T08:42:08Z</published>
+      <updated>2018-03-23T08:42:08Z</updated>
+      <title>New status by tom@slime.global</title>
       <author>
-        <id>https://mst3k.interlinked.me/users/cadey</id>
+        <id>https://slime.global/users/tom</id>
         <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
-        <uri>https://mst3k.interlinked.me/users/cadey</uri>
-        <name>cadey</name>
-        <email>cadey@mst3k.interlinked.me</email>
-        <summary type="html">&lt;p&gt;Just your average orca | Experimenting in using emoji as a formal communication method. Please don't mind the linguistic exploration using pictograms.&lt;/p&gt;</summary>
-        <link rel="alternate" type="text/html" href="https://mst3k.interlinked.me/@cadey"/>
-        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/037/105/original/927923b8c70648d3.jpg"/>
-        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/037/105/original/18f2598df836134f.jpg"/>
-        <poco:preferredUsername>cadey</poco:preferredUsername>
-        <poco:displayName>Cadey ✅</poco:displayName>
-        <poco:note>Just your average orca | Experimenting in using emoji as a formal communication method. Please don't mind the linguistic exploration using pictograms.</poco:note>
+        <uri>https://slime.global/users/tom</uri>
+        <name>tom</name>
+        <email>tom@slime.global</email>
+        <summary type="html">&lt;p&gt;systems engineer by day, instance admin by night! &lt;/p&gt;&lt;p&gt;also makes music &amp;amp; takes photos. &lt;/p&gt;&lt;p&gt;nb, they/them ❤️ &lt;a href="https://tom.ovh" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;tom.ovh&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a href="https://ko-fi.com/itstom" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;ko-fi.com/itstom&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; (EN/DE OK)&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://slime.global/@tom"/>
+        <link rel="avatar" type="image/gif" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/005/490/original/a9f04627c77b06db.gif"/>
+        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/005/490/original/96143b7dd2e2b8a6.jpg"/>
+        <poco:preferredUsername>tom</poco:preferredUsername>
+        <poco:displayName>switched-on tom</poco:displayName>
+        <poco:note>systems engineer by day, instance admin by night! also makes music &amp;amp; takes photos. nb, they/them ❤️ https://tom.ovh https://ko-fi.com/itstom (EN/DE OK)</poco:note>
         <mastodon:scope>public</mastodon:scope>
       </author>
       <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
       <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-      <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://hex.bz/@somarasu"&gt;@&lt;span&gt;somarasu&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;a href="https://mst3k.interlinked.me/media/WXHO4KS_mNYwtwP7E_8"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;mst3k.interlinked.me/media/WXH&lt;/span&gt;&lt;span class="invisible"&gt;O4KS_mNYwtwP7E_8&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
-      <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://hex.bz/users/somarasu"/>
+      <content type="html" xml:lang="">&lt;p&gt;fuck you&lt;/p&gt;</content>
       <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-      <link rel="enclosure" type="image/jpeg" length="78645" href="https://assets.octodon.social/media_attachments/files/000/120/369/original/319ddeae0a3bb4ad.jpg"/>
+      <link rel="enclosure" type="video/mp4" length="273939" href="https://assets.octodon.social/media_attachments/files/001/456/443/original/d4af7e0451af8676.mp4"/>
       <mastodon:scope>public</mastodon:scope>
-      <link rel="alternate" type="text/html" href="https://mst3k.interlinked.me/users/cadey/updates/18503"/>
-      <thr:in-reply-to ref="tag:hex.bz,2017-05-01:objectId=508037:objectType=Status" href="https://hex.bz/users/somarasu/updates/9297"/>
+      <link rel="alternate" type="text/html" href="https://slime.global/@tom/99732325744900240"/>
+      <thr:in-reply-to ref="https://slime.global/users/tom/statuses/99732195259645456" href="https://slime.global/@tom/99732195259645456"/>
+      <ostatus:conversation ref="tag:slime.global,2018-03-23:objectId=1669703:objectType=Conversation"/>
     </activity:object>
-    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://hex.bz/@somarasu"&gt;@&lt;span&gt;somarasu&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;a href="https://mst3k.interlinked.me/media/WXHO4KS_mNYwtwP7E_8"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;mst3k.interlinked.me/media/WXH&lt;/span&gt;&lt;span class="invisible"&gt;O4KS_mNYwtwP7E_8&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99736154791289301/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;fuck you&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/102193"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/102193.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99736154791289301"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/404008.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-24:objectId=6286988:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1461800:objectType=Status</id>
-    <published>2017-05-01T19:21:59Z</published>
-    <updated>2017-05-01T19:21:59Z</updated>
-    <title>fenwick67 shared a status by muninnherself@social.tchncs.de</title>
+    <id>https://octodon.social/users/fenwick67/statuses/99735931584316464/activity</id>
+    <published>2018-03-23T23:59:02Z</published>
+    <updated>2018-03-23T23:59:02Z</updated>
+    <title>fenwick67 shared a status by mcmoots@a.weirder.earth</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
     <activity:object>
-      <id>tag:social.tchncs.de,2017-05-01:objectId=1531797:objectType=Status</id>
-      <published>2017-05-01T19:18:44Z</published>
-      <updated>2017-05-01T19:18:46Z</updated>
-      <title>New status by muninnherself@social.tchncs.de</title>
+      <id>https://a.weirder.earth/users/mcmoots/statuses/99735929849758025</id>
+      <published>2018-03-23T23:58:41Z</published>
+      <updated>2018-03-23T23:58:41Z</updated>
+      <title>New status by mcmoots@a.weirder.earth</title>
       <author>
-        <id>https://social.tchncs.de/users/muninnherself</id>
+        <id>https://a.weirder.earth/users/mcmoots</id>
         <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
-        <uri>https://social.tchncs.de/users/muninnherself</uri>
-        <name>muninnherself</name>
-        <email>muninnherself@social.tchncs.de</email>
-        <summary type="html">&lt;p&gt;I write stuff, edit things, and look at rocks&lt;/p&gt;</summary>
-        <link rel="alternate" type="text/html" href="https://social.tchncs.de/@muninnherself"/>
-        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/018/289/original/eb6b32e85f8606b4.jpg"/>
-        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/018/289/original/f4774cad6d756bed.jpg"/>
-        <poco:preferredUsername>muninnherself</poco:preferredUsername>
-        <poco:displayName>Jack Fraser</poco:displayName>
-        <poco:note>I write stuff, edit things, and look at rocks</poco:note>
+        <uri>https://a.weirder.earth/users/mcmoots</uri>
+        <name>mcmoots</name>
+        <email>mcmoots@a.weirder.earth</email>
+        <summary type="html">&lt;p&gt;your favorite non-masculine pronouns are fine&lt;/p&gt;&lt;p&gt;🌲🌿🍄&lt;br&gt;🌋🏔&lt;br&gt;🥗🥘&lt;br&gt;🍸🍷🍺 &lt;br&gt;🍩 🥧&lt;br&gt;😻&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://a.weirder.earth/@mcmoots"/>
+        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/016/718/original/ca9a8d20edf9f2de.jpg"/>
+        <poco:preferredUsername>mcmoots</poco:preferredUsername>
+        <poco:displayName>👀🌲</poco:displayName>
+        <poco:note>your favorite non-masculine pronouns are fine🌲🌿🍄🌋🏔🥗🥘🍸🍷🍺 🍩 🥧😻</poco:note>
         <mastodon:scope>public</mastodon:scope>
       </author>
       <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
       <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-      <content type="html" xml:lang="fr">&lt;p&gt;&lt;a href="https://social.tchncs.de/tags/dailymegalith"&gt;#&lt;span&gt;DailyMegalith&lt;/span&gt;&lt;/a&gt; Standing stone, Merrivale, &lt;a href="https://social.tchncs.de/tags/dartmoor"&gt;#&lt;span&gt;Dartmoor&lt;/span&gt;&lt;/a&gt; &lt;a href="https://social.tchncs.de/tags/devon"&gt;#&lt;span&gt;Devon&lt;/span&gt;&lt;/a&gt; (2013) &lt;a href="https://social.tchncs.de/media/qGTpuwuUh2P8ZYPDjM0"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;social.tchncs.de/media/qGTpuwu&lt;/span&gt;&lt;span class="invisible"&gt;Uh2P8ZYPDjM0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+      <content type="html" xml:lang="en">&lt;p&gt;From yesterday. Even with a surprise snow it's still the most wonderful time of the year.&lt;/p&gt;</content>
       <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-      <category term="dailymegalith"/>
-      <category term="dartmoor"/>
-      <category term="devon"/>
-      <link rel="enclosure" type="image/jpeg" length="111930" href="https://assets.octodon.social/media_attachments/files/000/120/392/original/66ba1accf50e57ee.jpg"/>
+      <link rel="enclosure" type="image/jpeg" length="397459" href="https://assets.octodon.social/media_attachments/files/001/460/171/original/fcad285b55062f29.jpg"/>
       <mastodon:scope>public</mastodon:scope>
-      <link rel="alternate" type="text/html" href="https://social.tchncs.de/users/muninnherself/updates/71222"/>
+      <link rel="alternate" type="text/html" href="https://a.weirder.earth/@mcmoots/99735929849758025"/>
+      <ostatus:conversation ref="tag:a.weirder.earth,2018-03-23:objectId=1180128:objectType=Conversation"/>
     </activity:object>
-    <content type="html" xml:lang="en">&lt;p&gt;&lt;a href="https://social.tchncs.de/tags/dailymegalith"&gt;#&lt;span&gt;DailyMegalith&lt;/span&gt;&lt;/a&gt; Standing stone, Merrivale, &lt;a href="https://social.tchncs.de/tags/dartmoor"&gt;#&lt;span&gt;Dartmoor&lt;/span&gt;&lt;/a&gt; &lt;a href="https://social.tchncs.de/tags/devon"&gt;#&lt;span&gt;Devon&lt;/span&gt;&lt;/a&gt; (2013) &lt;a href="https://social.tchncs.de/media/qGTpuwuUh2P8ZYPDjM0"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;social.tchncs.de/media/qGTpuwu&lt;/span&gt;&lt;span class="invisible"&gt;Uh2P8ZYPDjM0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99735931584316464/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;From yesterday. Even with a surprise snow it's still the most wonderful time of the year.&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/102192"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/102192.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99735931584316464"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/403924.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-23:objectId=6285649:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1456502:objectType=Status</id>
-    <published>2017-05-01T17:23:42Z</published>
-    <updated>2017-05-01T17:23:42Z</updated>
-    <title>fenwick67 shared a status by JensE@mammouth.cafe</title>
+    <id>https://octodon.social/users/fenwick67/statuses/99735917404431053</id>
+    <published>2018-03-23T23:55:25Z</published>
+    <updated>2018-03-23T23:55:25Z</updated>
+    <title>New status by fenwick67</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99735917404431053"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://kitty.town/@GinnyMcQueen" class="u-url mention"&gt;@&lt;span&gt;GinnyMcQueen&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; these are so geometric I thought it was some plastic thing when I scrolled past&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://kitty.town/users/GinnyMcQueen"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99735917404431053"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/403911.atom"/>
+    <thr:in-reply-to ref="https://kitty.town/users/GinnyMcQueen/statuses/99735901170047043" href="https://kitty.town/@GinnyMcQueen/99735901170047043"/>
+    <ostatus:conversation ref="tag:kitty.town,2018-03-23:objectId=2280854:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://octodon.social/users/fenwick67/statuses/99735390633117557/activity</id>
+    <published>2018-03-23T21:41:27Z</published>
+    <updated>2018-03-23T21:41:27Z</updated>
+    <title>fenwick67 shared a status by fillertrack@slime.global</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
     <activity:object>
-      <id>tag:mammouth.cafe,2017-05-01:objectId=105375:objectType=Status</id>
-      <published>2017-05-01T16:41:30Z</published>
-      <updated>2017-05-01T17:22:58Z</updated>
-      <title>New status by JensE@mammouth.cafe</title>
+      <id>https://slime.global/users/fillertrack/statuses/99732555261994849</id>
+      <published>2018-03-23T09:40:25Z</published>
+      <updated>2018-03-23T09:40:25Z</updated>
+      <title>New status by fillertrack@slime.global</title>
       <author>
-        <id>https://mammouth.cafe/users/JensE</id>
+        <id>https://slime.global/users/fillertrack</id>
         <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
-        <uri>https://mammouth.cafe/users/JensE</uri>
-        <name>JensE</name>
-        <email>JensE@mammouth.cafe</email>
-        <summary type="html">Danish poet</summary>
-        <link rel="alternate" type="text/html" href="https://mammouth.cafe/@JensE"/>
-        <link rel="avatar" type="image/png" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/039/712/original/194cc899a33cc4a9.png"/>
-        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/039/712/original/e7ac95be86570e29.jpg"/>
-        <poco:preferredUsername>JensE</poco:preferredUsername>
-        <poco:note>Danish poet</poco:note>
+        <uri>https://slime.global/users/fillertrack</uri>
+        <name>fillertrack</name>
+        <email>fillertrack@slime.global</email>
+        <summary type="html">&lt;p&gt;Queer socialist grackle. Want to make video games and mixtapes. They/Them&lt;/p&gt;&lt;p&gt;Donations appreciated&lt;br&gt;ko-fi.com/fillertrack&lt;br&gt;paypal.me/imack666&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://slime.global/@fillertrack"/>
+        <link rel="avatar" type="image/png" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/007/118/original/9e846c957d91a7a4.png"/>
+        <link rel="header" type="image/png" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/007/118/original/6788c670b2ca4571.png"/>
+        <poco:preferredUsername>fillertrack</poco:preferredUsername>
+        <poco:displayName>🐦birdtom🐦</poco:displayName>
+        <poco:note>Queer socialist grackle. Want to make video games and mixtapes. They/ThemDonations appreciatedko-fi.com/fillertrackpaypal.me/imack666</poco:note>
         <mastodon:scope>public</mastodon:scope>
       </author>
       <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
       <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-      <content type="html" xml:lang="en">&lt;p&gt;Chicks hatched today.&lt;/p&gt;&lt;p&gt;They're still wet so I won't subject them to a photosession, but if you stick your head out you're fair game ... &lt;a href="https://mammouth.cafe/media/e4MxKqk66t0s9hSLr2g"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;mammouth.cafe/media/e4MxKqk66t&lt;/span&gt;&lt;span class="invisible"&gt;0s9hSLr2g&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+      <content type="html" xml:lang="en">&lt;p&gt;I am become death, destroyer of worlds.&lt;/p&gt;</content>
       <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-      <link rel="enclosure" type="image/jpeg" length="108436" href="https://assets.octodon.social/media_attachments/files/000/119/941/original/aa56c4532e53ffd4.jpg"/>
+      <link rel="enclosure" type="video/mp4" length="41718" href="https://assets.octodon.social/media_attachments/files/001/456/618/original/c7ab2c504af72a36.mp4"/>
       <mastodon:scope>public</mastodon:scope>
-      <link rel="alternate" type="text/html" href="https://mammouth.cafe/users/JensE/updates/2391"/>
+      <link rel="alternate" type="text/html" href="https://slime.global/@fillertrack/99732555261994849"/>
+      <ostatus:conversation ref="tag:slime.global,2018-03-23:objectId=1670016:objectType=Conversation"/>
     </activity:object>
-    <content type="html" xml:lang="en">&lt;p&gt;Chicks hatched today.&lt;/p&gt;&lt;p&gt;They're still wet so I won't subject them to a photosession, but if you stick your head out you're fair game ... &lt;a href="https://mammouth.cafe/media/e4MxKqk66t0s9hSLr2g"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;mammouth.cafe/media/e4MxKqk66t&lt;/span&gt;&lt;span class="invisible"&gt;0s9hSLr2g&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99735390633117557/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;I am become death, destroyer of worlds.&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/102012"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/102012.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99735390633117557"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/403655.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-23:objectId=6282158:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1456116:objectType=Status</id>
-    <published>2017-05-01T17:15:14Z</published>
-    <updated>2017-05-01T17:15:14Z</updated>
+    <id>https://octodon.social/users/fenwick67/statuses/99734417810440700</id>
+    <published>2018-03-23T17:34:03Z</published>
+    <updated>2018-03-23T17:34:03Z</updated>
     <title>New status by fenwick67</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://mastodon.social/@LukasRos" class="u-url mention"&gt;@&lt;span&gt;LukasRos&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; looks like you shared an embedded video, which I did not test for.  The video does not show up yet, but it no longer crashes the application and the rest of your feed shows up now 😉&lt;/p&gt;</content>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://mastodon.social/users/LukasRos"/>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99734417810440700"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://cybre.space/@zigg" class="u-url mention"&gt;@&lt;span&gt;zigg&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; node&amp;apos;s FS module on Windows is buggy enough that I recommend using the graceful-fs module in its place when you can&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://cybre.space/users/zigg"/>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/101997"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/101997.atom"/>
-    <thr:in-reply-to ref="tag:octodon.social,2017-05-01:objectId=1451964:objectType=Status" href="https://octodon.social/@fenwick67/1451964"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99734417810440700"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/403137.atom"/>
+    <thr:in-reply-to ref="https://cybre.space/users/zigg/statuses/99734402832717239" href="https://cybre.space/@zigg/99734402832717239"/>
+    <ostatus:conversation ref="tag:cybre.space,2018-03-23:objectId=5381860:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1452713:objectType=Status</id>
-    <published>2017-05-01T15:53:44Z</published>
-    <updated>2017-05-01T15:53:44Z</updated>
+    <id>https://octodon.social/users/fenwick67/statuses/99733847193567183</id>
+    <published>2018-03-23T15:08:56Z</published>
+    <updated>2018-03-23T15:08:56Z</updated>
     <title>New status by fenwick67</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-    <content type="html" xml:lang="pl">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://mastodon.cloud/@bscott" class="u-url mention"&gt;@&lt;span&gt;bscott&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; Thanks, I&amp;apos;ll put this on my todo list.&lt;/p&gt;</content>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://mastodon.cloud/users/bscott"/>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99733847193567183"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://octodon.social/@kingu_platypus_gidora" class="u-url mention"&gt;@&lt;span&gt;kingu_platypus_gidora&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; me tbh&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://octodon.social/users/kingu_platypus_gidora"/>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/101872"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/101872.atom"/>
-    <thr:in-reply-to ref="tag:mastodon.cloud,2017-05-01:objectId=5260587:objectType=Status" href="https://mastodon.cloud/users/bscott/updates/515512"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99733847193567183"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/402782.atom"/>
+    <thr:in-reply-to ref="https://octodon.social/users/kingu_platypus_gidora/statuses/99733830894126614" href="https://octodon.social/@kingu_platypus_gidora/99733830894126614"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-23:objectId=6268551:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1451964:objectType=Status</id>
-    <published>2017-05-01T15:32:55Z</published>
-    <updated>2017-05-01T15:32:55Z</updated>
-    <title>New status by fenwick67</title>
-    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
-    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://mastodon.social/@LukasRos" class="u-url mention"&gt;@&lt;span&gt;LukasRos&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; will investigate later today&lt;/p&gt;</content>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://mastodon.social/users/LukasRos"/>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-    <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/101848"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/101848.atom"/>
-    <thr:in-reply-to ref="tag:mastodon.social,2017-05-01:objectId=4804576:objectType=Status" href="https://mastodon.social/users/LukasRos/updates/2206854"/>
-  </entry>
-  <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1429714:objectType=Status</id>
-    <published>2017-05-01T03:12:24Z</published>
-    <updated>2017-05-01T03:12:24Z</updated>
-    <title>New status by fenwick67</title>
-    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
-    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-    <content type="html" xml:lang="es">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://cybre.space/@chr" class="u-url mention"&gt;@&lt;span&gt;chr&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;span class="h-card"&gt;&lt;a href="https://slime.global/@masklayer" class="u-url mention"&gt;@&lt;span&gt;masklayer&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;a href="https://octodon.social/media/nd0U3ZxrKlNtEgpdB-Q" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;octodon.social/media/nd0U3ZxrK&lt;/span&gt;&lt;span class="invisible"&gt;lNtEgpdB-Q&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://slime.global/users/masklayer"/>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://cybre.space/users/chr"/>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-    <link rel="enclosure" type="image/png" length="132390" href="https://assets.octodon.social/media_attachments/files/000/117/081/original/cdd1746eb0dec365.png"/>
-    <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/101099"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/101099.atom"/>
-    <thr:in-reply-to ref="tag:cybre.space,2017-05-01:objectId=740225:objectType=Status" href="https://cybre.space/users/chr/updates/30854"/>
-  </entry>
-  <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1429232:objectType=Status</id>
-    <published>2017-05-01T02:57:35Z</published>
-    <updated>2017-05-01T02:57:35Z</updated>
-    <title>New status by fenwick67</title>
-    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
-    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://mastodon.technology/@asbjorn" class="u-url mention"&gt;@&lt;span&gt;asbjorn&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; This is simultaneously really slick but also not annoying web-3.0 stuff.  💯on the design.&lt;/p&gt;&lt;p&gt;Notes: Font-awesome fails to load.  I like to use &amp;quot;//&amp;quot; for my absolute URLs and that usually avoids that 😊.  Also it looks kinda wonky with a mobile sized viewport, most noticably by where it says &amp;quot;loud as hell&amp;quot;.&lt;/p&gt;</content>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://mastodon.technology/users/asbjorn"/>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-    <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/101081"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/101081.atom"/>
-    <thr:in-reply-to ref="tag:mastodon.technology,2017-05-01:objectId=640789:objectType=Status" href="https://mastodon.technology/users/asbjorn/updates/28979"/>
-  </entry>
-  <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1427013:objectType=Status</id>
-    <published>2017-05-01T01:54:35Z</published>
-    <updated>2017-05-01T01:54:35Z</updated>
-    <title>fenwick67 shared a status by programwitch@social.targaryen.house</title>
+    <id>https://octodon.social/users/fenwick67/statuses/99733846304708662/activity</id>
+    <published>2018-03-23T15:08:43Z</published>
+    <updated>2018-03-23T15:08:43Z</updated>
+    <title>fenwick67 shared a status by kingu_platypus_gidora</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
     <activity:object>
-      <id>tag:social.targaryen.house,2017-05-01:objectId=1465017:objectType=Status</id>
-      <published>2017-05-01T01:54:18Z</published>
-      <updated>2017-05-01T01:54:18Z</updated>
-      <title>New status by programwitch@social.targaryen.house</title>
+      <id>https://octodon.social/users/kingu_platypus_gidora/statuses/99733830894126614</id>
+      <published>2018-03-23T15:04:48Z</published>
+      <updated>2018-03-23T15:04:48Z</updated>
+      <title>New status by kingu_platypus_gidora</title>
       <author>
-        <id>https://social.targaryen.house/users/programwitch</id>
+        <id>https://octodon.social/users/kingu_platypus_gidora</id>
         <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
-        <uri>https://social.targaryen.house/users/programwitch</uri>
-        <name>programwitch</name>
-        <email>programwitch@social.targaryen.house</email>
-        <summary type="html">&lt;p&gt;Center Left Chaotic Good Weaver of Code. (programwitch.com) ## Host Blog Oklahoma Podcast (blogoklahoma.net)  ##  @}-;--  {also on mastodon.cloud}&lt;/p&gt;</summary>
-        <link rel="alternate" type="text/html" href="https://social.targaryen.house/@programwitch"/>
-        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/034/731/original/d45847138fa633bf.jpeg"/>
-        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/034/731/original/cdcecfce8f1436b2.jpg"/>
-        <poco:preferredUsername>programwitch</poco:preferredUsername>
-        <poco:displayName>K. Latham 🎃</poco:displayName>
-        <poco:note>Center Left Chaotic Good Weaver of Code. (programwitch.com) ## Host Blog Oklahoma Podcast (blogoklahoma.net)  ##  @}-;--  {also on mastodon.cloud}</poco:note>
+        <uri>https://octodon.social/users/kingu_platypus_gidora</uri>
+        <name>kingu_platypus_gidora</name>
+        <email>kingu_platypus_gidora@octodon.social</email>
+        <summary type="html">&lt;p&gt;Hello World! I am Kingu&lt;br /&gt;D*: &lt;a href="https://diasp.org/people/37b279f2a9f2348d" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;diasp.org/people/37b279f2a9f23&lt;/span&gt;&lt;span class="invisible"&gt;48d&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;Music: &lt;a href="https://kingu.reactoweb.com/" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;kingu.reactoweb.com/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://octodon.social/@kingu_platypus_gidora"/>
+        <link rel="avatar" type="image/gif" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/001/586/original/751443ed5e9bea89.gif"/>
+        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/001/586/original/488457a59ee3a63f.jpg"/>
+        <poco:preferredUsername>kingu_platypus_gidora</poco:preferredUsername>
+        <poco:displayName>Anarkingu Gidora</poco:displayName>
+        <poco:note>Hello World! I am Kingu
+D*: https://diasp.org/people/37b279f2a9f2348d
+Music: https://kingu.reactoweb.com/</poco:note>
         <mastodon:scope>public</mastodon:scope>
       </author>
       <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
       <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-      <content type="html" xml:lang="en">&lt;p&gt;Sure, you're goth, but are you dejectedly riding the subway with your raven goth? &lt;a href="http://pic.twitter.com/KDboTBUI2O"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class=""&gt;pic.twitter.com/KDboTBUI2O&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;br&gt;— Max Sparber (@maxsparber) April 29, 2017&lt;br&gt;&lt;a href="https://t.co/KDboTBUI2O"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;t.co/KDboTBUI2O&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a href="https://social.targaryen.house/tags/twitter"&gt;#&lt;span&gt;twitter&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://social.targaryen.house/media/ZaOdFDAeEowGVnpbHps"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;social.targaryen.house/media/Z&lt;/span&gt;&lt;span class="invisible"&gt;aOdFDAeEowGVnpbHps&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+      <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/kingu_platypus_gidora/statuses/99733830894126614"/>
+      <content type="html" xml:lang="en">&lt;p&gt;.&lt;/p&gt;</content>
       <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-      <category term="twitter"/>
-      <link rel="enclosure" type="image/jpeg" length="300501" href="https://assets.octodon.social/media_attachments/files/000/116/863/original/c6d262aacd64d7c2.jpeg"/>
+      <link rel="enclosure" type="image/jpeg" length="32544" href="https://assets.octodon.social/media_attachments/files/001/457/875/original/f2b73debb45d360b.jpg"/>
       <mastodon:scope>public</mastodon:scope>
-      <link rel="alternate" type="text/html" href="https://social.targaryen.house/users/programwitch/updates/39046"/>
+      <link rel="alternate" type="text/html" href="https://octodon.social/@kingu_platypus_gidora/99733830894126614"/>
+      <ostatus:conversation ref="tag:octodon.social,2018-03-23:objectId=6268551:objectType=Conversation"/>
     </activity:object>
-    <content type="html" xml:lang="en">&lt;p&gt;Sure, you're goth, but are you dejectedly riding the subway with your raven goth? &lt;a href="http://pic.twitter.com/KDboTBUI2O"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class=""&gt;pic.twitter.com/KDboTBUI2O&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;br&gt;— Max Sparber (@maxsparber) April 29, 2017&lt;br&gt;&lt;a href="https://t.co/KDboTBUI2O"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;t.co/KDboTBUI2O&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a href="https://social.targaryen.house/tags/twitter"&gt;#&lt;span&gt;twitter&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://social.targaryen.house/media/ZaOdFDAeEowGVnpbHps"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;social.targaryen.house/media/Z&lt;/span&gt;&lt;span class="invisible"&gt;aOdFDAeEowGVnpbHps&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99733846304708662/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;RT &lt;span class="h-card"&gt;&lt;a href="https://octodon.social/@kingu_platypus_gidora" class="u-url mention"&gt;@&lt;span&gt;kingu_platypus_gidora&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; .&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/100989"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/100989.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99733846304708662"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/402781.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-23:objectId=6268669:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1426930:objectType=Status</id>
-    <published>2017-05-01T01:51:29Z</published>
-    <updated>2017-05-01T01:51:29Z</updated>
-    <title>New status by fenwick67</title>
-    <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
-    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-    <content type="html" xml:lang="en">&lt;p&gt;&lt;a href="https://octodon.social/tags/easteregg" class="mention hashtag"&gt;#&lt;span&gt;easteregg&lt;/span&gt;&lt;/a&gt; there&amp;apos;s a SCSS variable called &amp;quot;succ green&amp;quot; in the mastodon source but I don&amp;apos;t see any green in the UI, so I must assume this is just &lt;span class="h-card"&gt;&lt;a href="https://mastodon.social/@Gargron" class="u-url mention"&gt;@&lt;span&gt;gargron&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;  making a joke&lt;/p&gt;&lt;p&gt; &lt;a href="https://github.com/tootsuite/mastodon/blob/3d3e32befb369f8c6a9f3ac1ee48bce3d266f4b8/app/assets/stylesheets/variables.scss#L7" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;github.com/tootsuite/mastodon/&lt;/span&gt;&lt;span class="invisible"&gt;blob/3d3e32befb369f8c6a9f3ac1ee48bce3d266f4b8/app/assets/stylesheets/variables.scss#L7&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://mastodon.social/users/Gargron"/>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-    <category term="easteregg"/>
-    <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/100986"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/100986.atom"/>
-  </entry>
-  <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1426677:objectType=Status</id>
-    <published>2017-05-01T01:42:45Z</published>
-    <updated>2017-05-01T01:42:45Z</updated>
+    <id>https://octodon.social/users/fenwick67/statuses/99730862747105610</id>
+    <published>2018-03-23T02:29:57Z</published>
+    <updated>2018-03-23T02:29:57Z</updated>
     <title>New status by fenwick67</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-    <content type="html" xml:lang="fi">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://botsin.space/@neural_tv" class="u-url mention"&gt;@&lt;span&gt;neural_tv&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; omg Sarah McLaughlin followed us to Mastodon to get us to join the ASPCA&lt;/p&gt;</content>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://botsin.space/users/neural_tv"/>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99730862747105610"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://meow.social/@Mycroft" class="u-url mention"&gt;@&lt;span&gt;Mycroft&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; the starter set is legit, it&amp;apos;s easy to pick up and a surprising amount of content.  Also, the SRD is free to download and there are free adventures on DM&amp;apos;s guild.&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://meow.social/users/Mycroft"/>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/100979"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/100979.atom"/>
-    <thr:in-reply-to ref="tag:botsin.space,2017-05-01:objectId=63721:objectType=Status" href="https://botsin.space/users/neural_tv/updates/23145"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99730862747105610"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/402147.atom"/>
+    <thr:in-reply-to ref="https://meow.social/users/Mycroft/statuses/99730814417520421" href="https://meow.social/@Mycroft/99730814417520421"/>
+    <ostatus:conversation ref="tag:meow.social,2018-03-23:objectId=1635630:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1426597:objectType=Status</id>
-    <published>2017-05-01T01:40:35Z</published>
-    <updated>2017-05-01T01:40:35Z</updated>
+    <id>https://octodon.social/users/fenwick67/statuses/99730686004948111</id>
+    <published>2018-03-23T01:45:00Z</published>
+    <updated>2018-03-23T01:45:00Z</updated>
     <title>New status by fenwick67</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-    <content type="html" xml:lang="pl">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://mastodon.cloud/@expenses" class="u-url mention"&gt;@&lt;span&gt;expenses&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; looks like one of those obfuscated scripts somebody gets you to run that really just runs &amp;quot;rm -rf /&amp;quot;&lt;/p&gt;</content>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://mastodon.cloud/users/expenses"/>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99730686004948111"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://niu.moe/@phenethylamine" class="u-url mention"&gt;@&lt;span&gt;phenethylamine&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; vlc?&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://niu.moe/users/phenethylamine"/>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/100973"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/100973.atom"/>
-    <thr:in-reply-to ref="tag:mastodon.cloud,2017-05-01:objectId=5241624:objectType=Status" href="https://mastodon.cloud/users/expenses/updates/514673"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99730686004948111"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/402067.atom"/>
+    <thr:in-reply-to ref="https://niu.moe/users/phenethylamine/statuses/99730658198254244" href="https://niu.moe/@phenethylamine/99730658198254244"/>
+    <ostatus:conversation ref="tag:niu.moe,2018-03-23:objectId=6679592:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1426538:objectType=Status</id>
-    <published>2017-05-01T01:39:02Z</published>
-    <updated>2017-05-01T01:39:02Z</updated>
+    <id>https://octodon.social/users/fenwick67/statuses/99730669809908537</id>
+    <published>2018-03-23T01:40:53Z</published>
+    <updated>2018-03-23T01:40:53Z</updated>
     <title>New status by fenwick67</title>
-    <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-    <content type="html" xml:lang="en">&lt;p&gt;IDE features I would pay for:  &lt;/p&gt;&lt;p&gt;A list of buttons that run my npm/gulp tasks based on my package.json with one click.  Instead of having to alt+tab, ctrl+c, up, enter, alt+tab every time.&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99730669809908537"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://octodon.social/@Shalazah" class="u-url mention"&gt;@&lt;span&gt;Shalazah&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; welcome y&amp;apos;all&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://octodon.social/users/Shalazah"/>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/100970"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/100970.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99730669809908537"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/402059.atom"/>
+    <thr:in-reply-to ref="https://octodon.social/users/Shalazah/statuses/99730456201572202" href="https://octodon.social/@Shalazah/99730456201572202"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-23:objectId=6250411:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1426321:objectType=Status</id>
-    <published>2017-05-01T01:32:50Z</published>
-    <updated>2017-05-01T01:32:50Z</updated>
-    <title>fenwick67 shared a status by steeliestllama@witches.town</title>
+    <id>https://octodon.social/users/fenwick67/statuses/99730661494096566/activity</id>
+    <published>2018-03-23T01:38:46Z</published>
+    <updated>2018-03-23T01:38:46Z</updated>
+    <title>fenwick67 shared a status by plsburydoughboy@kitty.town</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
     <activity:object>
-      <id>tag:witches.town,2017-05-01:objectId=1137251:objectType=Status</id>
-      <published>2017-05-01T01:32:08Z</published>
-      <updated>2017-05-01T01:32:09Z</updated>
-      <title>New status by steeliestllama@witches.town</title>
+      <id>https://kitty.town/users/plsburydoughboy/statuses/99730600493978927</id>
+      <published>2018-03-23T01:23:25Z</published>
+      <updated>2018-03-23T01:23:25Z</updated>
+      <title>New status by plsburydoughboy@kitty.town</title>
       <author>
-        <id>https://witches.town/users/steeliestllama</id>
+        <id>https://kitty.town/users/plsburydoughboy</id>
         <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
-        <uri>https://witches.town/users/steeliestllama</uri>
-        <name>steeliestllama</name>
-        <email>steeliestllama@witches.town</email>
-        <summary type="html">&lt;p&gt;Trans | ace | bisexual | cyborg | white but anti whiteness | คɭɭ ђคเɭ ςՇђยɭђย | bab witch (he/him) 🇬🇧 speaker mostly, learning: 🇩🇪 &amp;amp; 🇫🇷&lt;/p&gt;</summary>
-        <link rel="alternate" type="text/html" href="https://witches.town/@steeliestllama"/>
-        <link rel="avatar" type="image/png" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/016/054/original/81c62c7e7d351553.png"/>
-        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/016/054/original/b5ba963a199c95fb.jpg"/>
-        <poco:preferredUsername>steeliestllama</poco:preferredUsername>
-        <poco:displayName>Logan Osborne  🐙⚧</poco:displayName>
-        <poco:note>Trans | ace | bisexual | cyborg | white but anti whiteness | คɭɭ ђคเɭ ςՇђยɭђย | bab witch (he/him) 🇬🇧 speaker mostly, learning: 🇩🇪 &amp;amp; 🇫🇷</poco:note>
+        <uri>https://kitty.town/users/plsburydoughboy</uri>
+        <name>plsburydoughboy</name>
+        <email>plsburydoughboy@kitty.town</email>
+        <summary type="html">&lt;p&gt;&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://kitty.town/@plsburydoughboy"/>
+        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/075/768/original/90d34987b9fdd5b8.jpg"/>
+        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/075/768/original/94c2812f09205c54.jpg"/>
+        <poco:preferredUsername>plsburydoughboy</poco:preferredUsername>
+        <poco:displayName>pls pet the kitty db</poco:displayName>
+        <poco:note></poco:note>
         <mastodon:scope>public</mastodon:scope>
       </author>
       <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
       <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-      <content type="html" xml:lang="en">&lt;p&gt;me: I don't care about anything lol&lt;/p&gt;&lt;p&gt;also me: gives food that resembles an animal feelings and a personality&lt;/p&gt;&lt;p&gt;also me: does this with plushies&lt;/p&gt;&lt;p&gt;me: yeah don't care about anything ever lol&lt;/p&gt;</content>
+      <content type="html" xml:lang="en">&lt;p&gt;Marvel: “Infinity War is the most ambitious crossover event in history.”&lt;/p&gt;&lt;p&gt;Me, fighting off the bad vibes of the world:&lt;/p&gt;</content>
       <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+      <link rel="enclosure" type="image/jpeg" length="73798" href="https://assets.octodon.social/media_attachments/files/001/455/106/original/3a7f27a898dfad51.jpg"/>
+      <link rel="enclosure" type="image/jpeg" length="56100" href="https://assets.octodon.social/media_attachments/files/001/455/107/original/b2c15e091ae118b0.jpg"/>
+      <link rel="enclosure" type="image/jpeg" length="54462" href="https://assets.octodon.social/media_attachments/files/001/455/108/original/87d8b73ad85faf44.jpg"/>
+      <link rel="enclosure" type="image/jpeg" length="70995" href="https://assets.octodon.social/media_attachments/files/001/455/109/original/a248e41cfee2a4de.jpg"/>
       <mastodon:scope>public</mastodon:scope>
-      <link rel="alternate" type="text/html" href="https://witches.town/users/steeliestllama/updates/149426"/>
+      <link rel="alternate" type="text/html" href="https://kitty.town/@plsburydoughboy/99730600493978927"/>
+      <ostatus:conversation ref="tag:kitty.town,2018-03-23:objectId=2272083:objectType=Conversation"/>
     </activity:object>
-    <content type="html" xml:lang="en">&lt;p&gt;me: I don't care about anything lol&lt;/p&gt;&lt;p&gt;also me: gives food that resembles an animal feelings and a personality&lt;/p&gt;&lt;p&gt;also me: does this with plushies&lt;/p&gt;&lt;p&gt;me: yeah don't care about anything ever lol&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99730661494096566/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;Marvel: “Infinity War is the most ambitious crossover event in history.”&lt;/p&gt;&lt;p&gt;Me, fighting off the bad vibes of the world:&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/100961"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/100961.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99730661494096566"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/402054.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-23:objectId=6251655:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1425919:objectType=Status</id>
-    <published>2017-05-01T01:21:14Z</published>
-    <updated>2017-05-01T01:21:14Z</updated>
-    <title>fenwick67 shared a status by 6669@catdon.life</title>
+    <id>https://octodon.social/users/fenwick67/statuses/99729911231380605</id>
+    <published>2018-03-22T22:27:58Z</published>
+    <updated>2018-03-22T22:27:58Z</updated>
+    <title>New status by fenwick67</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99729911231380605"/>
+    <content type="html" xml:lang="en">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://mastodon.social/@idesofmerch" class="u-url mention"&gt;@&lt;span&gt;idesofmerch&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; a radar chart would work great for this imo&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://mastodon.social/users/idesofmerch"/>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99729911231380605"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/401762.atom"/>
+    <thr:in-reply-to ref="https://mastodon.social/users/idesofmerch/statuses/99729118882454675" href="https://mastodon.social/@idesofmerch/99729118882454675"/>
+    <ostatus:conversation ref="tag:mastodon.social,2018-03-22:objectId=27292083:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://octodon.social/users/fenwick67/statuses/99728007954983808/activity</id>
+    <published>2018-03-22T14:23:57Z</published>
+    <updated>2018-03-22T14:23:57Z</updated>
+    <title>fenwick67 shared a status by weird_hell@cybre.space</title>
     <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
     <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
     <activity:object>
-      <id>tag:catdon.life,2017-05-01:objectId=107632:objectType=Status</id>
-      <published>2017-05-01T00:40:45Z</published>
-      <updated>2017-05-01T01:20:48Z</updated>
-      <title>New status by 6669@catdon.life</title>
+      <id>https://cybre.space/users/weird_hell/statuses/99725634875265024</id>
+      <published>2018-03-22T04:20:27Z</published>
+      <updated>2018-03-22T04:20:27Z</updated>
+      <title>New status by weird_hell@cybre.space</title>
       <author>
-        <id>https://catdon.life/users/6669</id>
+        <id>https://cybre.space/users/weird_hell</id>
         <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
-        <uri>https://catdon.life/users/6669</uri>
-        <name>6669</name>
-        <email>6669@catdon.life</email>
-        <summary type="html">趣味でお絵描きしてます( ˙ ꒳ ˙ )雨と猫と洋楽が好き
-http://chocolate69.net/
-https://pawoo.net/@6669</summary>
-        <link rel="alternate" type="text/html" href="https://catdon.life/@6669"/>
-        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/049/095/original/f01bdd6fcc3ba225.jpeg"/>
-        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/049/095/original/ed59cb8e2db68205.jpg"/>
-        <poco:preferredUsername>6669</poco:preferredUsername>
-        <poco:displayName>なりちか</poco:displayName>
-        <poco:note>趣味でお絵描きしてます( ˙ ꒳ ˙ )雨と猫と洋楽が好き
-http://chocolate69.net/
-https://pawoo.net/@6669</poco:note>
+        <uri>https://cybre.space/users/weird_hell</uri>
+        <name>weird_hell</name>
+        <email>weird_hell@cybre.space</email>
+        <summary type="html">&lt;p&gt;A robot that builds and maintains other, less complex robots.&lt;/p&gt;&lt;p&gt;Enby / bi/pan as hell / Some days really appreciates your food CWs. &amp;lt;3&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://cybre.space/@weird_hell"/>
+        <link rel="avatar" type="image/png" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/064/532/original/bc18522f40c53be1.png"/>
+        <link rel="header" type="image/png" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/064/532/original/b530a373fc50e742.png"/>
+        <poco:preferredUsername>weird_hell</poco:preferredUsername>
+        <poco:displayName>Display Neam</poco:displayName>
+        <poco:note>A robot that builds and maintains other, less complex robots.Enby / bi/pan as hell / Some days really appreciates your food CWs. &amp;lt;3</poco:note>
         <mastodon:scope>public</mastodon:scope>
       </author>
       <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
       <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-      <content type="html" xml:lang="es">&lt;p&gt;耳毛ぼわっさぁ&lt;br&gt;&lt;a href="https://catdon.life/media/WVW-PRppyww4nIm542o"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;catdon.life/media/WVW-PRppyww4&lt;/span&gt;&lt;span class="invisible"&gt;nIm542o&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+      <content type="html" xml:lang="en">&lt;p&gt;if you can't be normal, stop trying to be normal.&lt;/p&gt;&lt;p&gt;Be weird. Go hard. Don't follow the advice.&lt;/p&gt;</content>
       <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
-      <link rel="enclosure" type="image/jpeg" length="265296" href="https://assets.octodon.social/media_attachments/files/000/116/773/original/badeb618946b2f18.jpeg"/>
       <mastodon:scope>public</mastodon:scope>
-      <link rel="alternate" type="text/html" href="https://catdon.life/users/6669/updates/3600"/>
+      <link rel="alternate" type="text/html" href="https://cybre.space/@weird_hell/99725634875265024"/>
+      <ostatus:conversation ref="tag:cybre.space,2018-03-22:objectId=5342800:objectType=Conversation"/>
     </activity:object>
-    <content type="html" xml:lang="en">&lt;p&gt;耳毛ぼわっさぁ&lt;br&gt;&lt;a href="https://catdon.life/media/WVW-PRppyww4nIm542o"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;catdon.life/media/WVW-PRppyww4&lt;/span&gt;&lt;span class="invisible"&gt;nIm542o&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99728007954983808/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;if you can't be normal, stop trying to be normal.&lt;/p&gt;&lt;p&gt;Be weird. Go hard. Don't follow the advice.&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/100946"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/100946.atom"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99728007954983808"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/401069.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-22:objectId=6232877:objectType=Conversation"/>
   </entry>
   <entry>
-    <id>tag:octodon.social,2017-05-01:objectId=1425066:objectType=Status</id>
-    <published>2017-05-01T00:53:33Z</published>
-    <updated>2017-05-01T00:53:33Z</updated>
-    <title>New status by fenwick67</title>
-    <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
-    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
-    <content type="html" xml:lang="pl">&lt;p&gt;&lt;span class="h-card"&gt;&lt;a href="https://mastodon.xyz/@marko" class="u-url mention"&gt;@&lt;span&gt;marko&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; this one is beautiful &lt;a href="http://www.ustream.tv/channel/iss-hdev-payload" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;ustream.tv/channel/iss-hdev-pa&lt;/span&gt;&lt;span class="invisible"&gt;yload&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://mastodon.xyz/users/marko"/>
+    <id>https://octodon.social/users/fenwick67/statuses/99727127483386833/activity</id>
+    <published>2018-03-22T10:40:02Z</published>
+    <updated>2018-03-22T10:40:02Z</updated>
+    <title>fenwick67 shared a status by irisjaycomics@mastodon.social</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <activity:object>
+      <id>https://mastodon.social/users/irisjaycomics/statuses/99718925908910667</id>
+      <published>2018-03-20T23:54:19Z</published>
+      <updated>2018-03-20T23:54:19Z</updated>
+      <title>New status by irisjaycomics@mastodon.social</title>
+      <author>
+        <id>https://mastodon.social/users/irisjaycomics</id>
+        <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        <uri>https://mastodon.social/users/irisjaycomics</uri>
+        <name>irisjaycomics</name>
+        <email>irisjaycomics@mastodon.social</email>
+        <summary type="html">&lt;p&gt;She/they. Comics: Crossed Wires, Epiphany, Golden Trick (writer). &lt;a href="http://irisjay.net" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class=""&gt;irisjay.net&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;. Icon by @skollirubedo.&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://mastodon.social/@irisjaycomics"/>
+        <link rel="avatar" type="image/jpeg" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/003/021/original/5af47bfdcd870f0f.jpg"/>
+        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/003/021/original/7909c6cf96e18beb.jpeg"/>
+        <poco:preferredUsername>irisjaycomics</poco:preferredUsername>
+        <poco:displayName>✨Iris Jay✨</poco:displayName>
+        <poco:note>She/they. Comics: Crossed Wires, Epiphany, Golden Trick (writer). http://irisjay.net. Icon by @skollirubedo.</poco:note>
+        <mastodon:scope>public</mastodon:scope>
+      </author>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+      <content type="html" xml:lang="en">&lt;p&gt;crossedwires.irisjay.net/?comic=02-106  NEW CROSSED WIRES UPDATE IS LIVE! It’s showdown time and nobody’s playing fair. &lt;a href="https://mastodon.social/tags/cyberpunk" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;cyberpunk&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/webcomic" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;webcomic&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/queercomics" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;queercomics&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;Read from the beginning here: &lt;a href="http://crossedwires.irisjay.net/?comic=001" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class="ellipsis"&gt;crossedwires.irisjay.net/?comi&lt;/span&gt;&lt;span class="invisible"&gt;c=001&lt;/span&gt;&lt;/a&gt;  Buy the book here: &lt;a href="http://oreillyjay.tictail.com/product/crossed-wires-volume-1" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class="ellipsis"&gt;oreillyjay.tictail.com/product&lt;/span&gt;&lt;span class="invisible"&gt;/crossed-wires-volume-1&lt;/span&gt;&lt;/a&gt; … Send me a tip here: &lt;a href="http://ko-fi.com/irisjay" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class=""&gt;ko-fi.com/irisjay&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
+      <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+      <category term="cyberpunk"/>
+      <category term="webcomic"/>
+      <category term="queercomics"/>
+      <link rel="enclosure" type="image/jpeg" length="318770" href="https://assets.octodon.social/media_attachments/files/001/444/174/original/8c0612168aa67f3b.jpg"/>
+      <mastodon:scope>public</mastodon:scope>
+      <link rel="alternate" type="text/html" href="https://mastodon.social/@irisjaycomics/99718925908910667"/>
+      <ostatus:conversation ref="tag:mastodon.social,2018-03-20:objectId=27105506:objectType=Conversation"/>
+    </activity:object>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99727127483386833/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;crossedwires.irisjay.net/?comic=02-106  NEW CROSSED WIRES UPDATE IS LIVE! It’s showdown time and nobody’s playing fair. &lt;a href="https://mastodon.social/tags/cyberpunk" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;cyberpunk&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/webcomic" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;webcomic&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/queercomics" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;queercomics&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;Read from the beginning here: &lt;a href="http://crossedwires.irisjay.net/?comic=001" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class="ellipsis"&gt;crossedwires.irisjay.net/?comi&lt;/span&gt;&lt;span class="invisible"&gt;c=001&lt;/span&gt;&lt;/a&gt;  Buy the book here: &lt;a href="http://oreillyjay.tictail.com/product/crossed-wires-volume-1" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class="ellipsis"&gt;oreillyjay.tictail.com/product&lt;/span&gt;&lt;span class="invisible"&gt;/crossed-wires-volume-1&lt;/span&gt;&lt;/a&gt; … Send me a tip here: &lt;a href="http://ko-fi.com/irisjay" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class=""&gt;ko-fi.com/irisjay&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
     <mastodon:scope>public</mastodon:scope>
-    <link rel="alternate" type="text/html" href="https://octodon.social/users/fenwick67/updates/100918"/>
-    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/100918.atom"/>
-    <thr:in-reply-to ref="tag:mastodon.xyz,2017-05-01:objectId=1921602:objectType=Status" href="https://mastodon.xyz/users/marko/updates/137893"/>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99727127483386833"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/400867.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-22:objectId=6227034:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://octodon.social/users/fenwick67/statuses/99724279300280892/activity</id>
+    <published>2018-03-21T22:35:42Z</published>
+    <updated>2018-03-21T22:35:42Z</updated>
+    <title>fenwick67 shared a status by omanreagan@scholar.social</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <activity:object>
+      <id>https://scholar.social/users/omanreagan/statuses/99723766503256517</id>
+      <published>2018-03-21T20:25:48Z</published>
+      <updated>2018-03-21T20:25:48Z</updated>
+      <title>New status by omanreagan@scholar.social</title>
+      <author>
+        <id>https://scholar.social/users/omanreagan</id>
+        <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        <uri>https://scholar.social/users/omanreagan</uri>
+        <name>omanreagan</name>
+        <email>omanreagan@scholar.social</email>
+        <summary type="html">&lt;p&gt;Anthropologist. PhDing: exploration beyond Sol system, SETI, imagination, interstellar futures, sci-fi. [he/him, they/them] &lt;a href="https://www.patreon.com/omanreagan" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;patreon.com/omanreagan&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://scholar.social/@omanreagan"/>
+        <link rel="avatar" type="image/png" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/061/431/original/fc6afa77dfda97a6.png"/>
+        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/061/431/original/bdb680f32974ecd0.jpg"/>
+        <poco:preferredUsername>omanreagan</poco:preferredUsername>
+        <poco:displayName>Michael 🚀</poco:displayName>
+        <poco:note>Anthropologist. PhDing: exploration beyond Sol system, SETI, imagination, interstellar futures, sci-fi. [he/him, they/them] https://www.patreon.com/omanreagan</poco:note>
+        <mastodon:scope>public</mastodon:scope>
+      </author>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+      <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+      <content type="html" xml:lang="en">&lt;p&gt;Most importantly, stop putting institutional events on Facebook, stop using it at universities, stop making participation in Facebook mandatory through your institutional, organization, and activist roles. You can be online, and social, and connected without supporting Facebook.&lt;/p&gt;</content>
+      <mastodon:scope>unlisted</mastodon:scope>
+      <link rel="alternate" type="text/html" href="https://scholar.social/@omanreagan/99723766503256517"/>
+      <thr:in-reply-to ref="https://scholar.social/users/omanreagan/statuses/99723719599246271" href="https://scholar.social/@omanreagan/99723719599246271"/>
+      <ostatus:conversation ref="tag:scholar.social,2018-03-21:objectId=1388298:objectType=Conversation"/>
+    </activity:object>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99724279300280892/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;Most importantly, stop putting institutional events on Facebook, stop using it at universities, stop making participation in Facebook mandatory through your institutional, organization, and activist roles. You can be online, and social, and connected without supporting Facebook.&lt;/p&gt;</content>
+    <mastodon:scope>unlisted</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99724279300280892"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/400244.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-21:objectId=6213207:objectType=Conversation"/>
+  </entry>
+  <entry>
+    <id>https://octodon.social/users/fenwick67/statuses/99723825992791716/activity</id>
+    <published>2018-03-21T20:40:25Z</published>
+    <updated>2018-03-21T20:40:25Z</updated>
+    <title>fenwick67 shared a status by elomatreb@glitch.social</title>
+    <activity:object-type>http://activitystrea.ms/schema/1.0/activity</activity:object-type>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <activity:object>
+      <id>https://glitch.social/users/elomatreb/statuses/99723784825017673</id>
+      <published>2018-03-21T20:29:58Z</published>
+      <updated>2018-03-21T20:29:58Z</updated>
+      <title>New status by elomatreb@glitch.social</title>
+      <author>
+        <id>https://glitch.social/users/elomatreb</id>
+        <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        <uri>https://glitch.social/users/elomatreb</uri>
+        <name>elomatreb</name>
+        <email>elomatreb@glitch.social</email>
+        <summary type="html">&lt;p&gt;German, English&lt;/p&gt;&lt;p&gt;Ruby, High Voltage electronics, [Shockingly] bad at computers. Lives in northern Germany.&lt;/p&gt;&lt;p&gt;&lt;a href="https://ole.bertr.am/" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;ole.bertr.am/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; - Previously &lt;span class="h-card"&gt;&lt;a href="https://anti.energy/@elomatreb" class="u-url mention" rel="nofollow noopener" target="_blank"&gt;@&lt;span&gt;elomatreb&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+        <link rel="alternate" type="text/html" href="https://glitch.social/@elomatreb"/>
+        <link rel="avatar" type="image/png" media:width="120" media:height="120" href="https://assets.octodon.social/accounts/avatars/000/076/355/original/0d8540c1ddb5b8f0.png"/>
+        <link rel="header" type="image/jpeg" media:width="700" media:height="335" href="https://assets.octodon.social/accounts/headers/000/076/355/original/913bfe0ea3e805cb.jpg"/>
+        <poco:preferredUsername>elomatreb</poco:preferredUsername>
+        <poco:displayName>elomatreb 🐟</poco:displayName>
+        <poco:note>German, EnglishRuby, High Voltage electronics, [Shockingly] bad at computers. Lives in northern Germany.https://ole.bertr.am/ - Previously @elomatreb</poco:note>
+        <mastodon:scope>public</mastodon:scope>
+      </author>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+      <content type="html" xml:lang="en">&lt;p&gt;Decades of programming language research destroyed in one sick own by a rotating coyote&lt;/p&gt;</content>
+      <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+      <mastodon:scope>public</mastodon:scope>
+      <link rel="alternate" type="text/html" href="https://glitch.social/@elomatreb/99723784825017673"/>
+      <ostatus:conversation ref="tag:glitch.social,2018-03-21:objectId=4167153:objectType=Conversation"/>
+    </activity:object>
+    <link rel="alternate" type="application/activity+json" href="https://octodon.social/users/fenwick67/statuses/99723825992791716/activity"/>
+    <content type="html" xml:lang="">&lt;p&gt;Decades of programming language research destroyed in one sick own by a rotating coyote&lt;/p&gt;</content>
+    <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+    <mastodon:scope>public</mastodon:scope>
+    <link rel="alternate" type="text/html" href="https://octodon.social/@fenwick67/99723825992791716"/>
+    <link rel="self" type="application/atom+xml" href="https://octodon.social/users/fenwick67/updates/400111.atom"/>
+    <ostatus:conversation ref="tag:octodon.social,2018-03-21:objectId=6210577:objectType=Conversation"/>
   </entry>
 </feed>

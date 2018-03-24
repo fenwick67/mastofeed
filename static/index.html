@@ -15,18 +15,22 @@
 <form action="javascript:genUrl()">
 	<label>Instance URL:<input required type="text" id="urlin" placeholder="octodon.social" oninvalid="this.setCustomValidity('Insert your instance URL. Example: octodon.social')" oninput="this.setCustomValidity('')"></label><br>
 	<label>Username:<input required type="text" id="usernamein" placeholder="fenwick67" oninvalid="this.setCustomValidity('Insert your username. Example: fenwick67')" oninput="this.setCustomValidity('')"></label><br>
-	<label>Width (px):<input required type="number" id="width" value="400" oninvalid="this.setCustomValidity('Insert width of generated feed. Default: 400')" oninput="this.setCustomValidity('')"></label><br>
+  <label>Width (px):<input required type="number" id="width" value="400" oninvalid="this.setCustomValidity('Insert width of generated feed. Default: 400')" oninput="this.setCustomValidity('')"></label><br>
 	<label>Height (px):<input required type="number" id="height" value="800" oninvalid="this.setCustomValidity('Insert height of generated feed. Default: 800')" oninput="this.setCustomValidity('')"></label><br>
-	<label>UI scale (percent):<input required type="number" id="size" value="100" oninvalid="this.setCustomValidity('Insert UI scale. Default: 100')" oninput="this.setCustomValidity('')"></label><br>
+	<label>UI Scale (percent):<input required type="number" id="size" value="100" oninvalid="this.setCustomValidity('Insert UI scale. Default: 100')" oninput="this.setCustomValidity('')"></label><br>
 	<label>Theme:
 		<select id="theme">
 			<option value="dark">dark</option>
 			<option value="light">light</option>
 		</select>
 	</label><br>
-	<label>Show header?<input id="header" type="checkbox" checked="checked"></label><br>
+	<label>Show Header?<input id="header" type="checkbox" checked="checked"></label><br>
+  <label>Hide replies?<input type="checkbox" id="hidereplies"></label><br>
+  <label>Hide boosts?<input type="checkbox" id="hideboosts"></label><br>
+
 	<button value="generate">Generate</button>
 </form>
+<div id="warnings"></div>
 <br>
 <br>
 <label>Use this markup in your HTML: <br><textarea id="result" placeholder="result will go here"></textarea></label>
@@ -43,9 +47,12 @@ window.genUrl = function genUrl(){
 
 	var inUrl = 'https://' + val('urlin') + '/users/'+val('usernamein')+'.atom';
 
+  var showBoosts = (!document.getElementById('hideboosts').checked).toString();
+  var showReplies = (!document.getElementById('hidereplies').checked).toString();
+
 	var iframeUrl = window.location.protocol + '//'+ window.location.hostname +((window.location.port && window.location.port!=80)?(':'+window.location.port):'')
 	+"/api/feed?url="+encodeURIComponent(inUrl)+"&theme="+val('theme')+'&size='+val('size')
-	+ "&header="+(document.getElementById('header').checked.toString());
+	+ "&header="+(document.getElementById('header').checked.toString())+'&replies='+showReplies+'&boosts='+showBoosts;
 
 	document.getElementById('result').value = '<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="'+val('width')+'" height="'+val('height')+'" src="'+iframeUrl+'"></iframe>';
 
@@ -53,6 +60,9 @@ window.genUrl = function genUrl(){
 	iframe.src = iframeUrl;
 	iframe.width = val('width');
 	iframe.height = val('height');
+
+  var warnings = (!showBoosts || !showReplies)?"<b>Friendly warning</b>: if you haven't posted lately, we may still show your boosts and/or replies":'';
+  document.getElementById('warnings').innerHTML = warnings;
 }
 </script>
 </body>
