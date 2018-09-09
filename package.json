@@ -1,12 +1,12 @@
 {
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2",
+    "express": "^4.16.3",
     "feedparser": "^2.2.0",
-    "request": "^2.81.0",
-    "serve-static": "^1.12.2",
-    "timeago.js": "^3.0.1",
-    "pug": "2.0.0-rc.3"
+    "pug": "2.0.0-rc.3",
+    "request": "^2.88.0",
+    "serve-static": "^1.13.2",
+    "timeago.js": "^3.0.1"
   },
   "main": "index.js",
   "scripts": {
