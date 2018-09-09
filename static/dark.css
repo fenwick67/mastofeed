@@ -36,6 +36,7 @@ a * {
       position: relative;
       top: calc(50% - 3rem); }
   .header .header-right {
+    flex-grow: 1;
     font-size: 0.9rem;
     padding: 0.9rem;
     background: rgba(40, 44, 55, 0.85); }
@@ -110,3 +111,17 @@ a * {
 
 .meta .title {
   font-weight: bold; }
+
+.hidden {
+  display: none; }
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+  background: #2b90d9;
+  color: #ffffff;
+  font-weight: 400; }

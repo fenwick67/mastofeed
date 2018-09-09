@@ -55,7 +55,7 @@ app.get('/api/feed',function(req,res){
 			opts.boosts = true;
 		}
 	}
-	
+
 	opts.replies = true;
 	if (req.query.replies){
 		if (req.query.replies.toLowerCase() == 'no' || req.query.replies.toLowerCase() == 'false'){
@@ -64,6 +64,8 @@ app.get('/api/feed',function(req,res){
 			opts.replies = true;
 		}
 	}
+	opts.feedUrl = feedUrl;
+	opts.mastofeedUrl = req.url;
 
 	var req = request.get(feedUrl);
 	convert(req,opts,function(er,data){
