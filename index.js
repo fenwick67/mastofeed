@@ -2,6 +2,7 @@ var Express = require('express');
 var convert = require('./lib/convert');
 var serveStatic = require('serve-static');
 var request = require('request');
+var cors = require('cors');
 var log = console.log;
 
 var app = Express();
@@ -23,7 +24,8 @@ app.use(
 	})
 );
 
-app.get('/api/feed',function(req,res){
+app.options('/api/feed',cors());
+app.get('/api/feed',cors(),function(req,res){
 
 	// get feed url
 	var feedUrl = req.query.url;
