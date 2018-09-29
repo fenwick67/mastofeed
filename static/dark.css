@@ -46,11 +46,12 @@ a * {
   border-top: solid 1px #626d80; }
 
 .item-content,
+.cw,
 .title {
   font-size: 1.1rem;
   font-weight: lighter; }
 
-.item-content * {
+.item-content *, .cw {
   margin: 1rem 0;
   line-height: 1.4rem; }
 
@@ -124,4 +125,31 @@ a * {
   text-decoration: none;
   background: #2b90d9;
   color: #ffffff;
-  font-weight: 400; }
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: uppercase; }
+
+label.button {
+  padding: 0.25rem 0.5rem;
+  margin: 0.4rem;
+  background: #626d80;
+  color: #282c37;
+  font-size: 0.8rem; }
+
+input[type=checkbox] {
+  position: absolute;
+  left: -9999px; }
+
+label {
+  -webkit-appearance: push-button;
+  -moz-appearance: button;
+  cursor: pointer; }
+
+input[type=checkbox]:checked ~ label::after {
+  content: " Less"; }
+
+input[type=checkbox]:not(:checked) ~ label::after {
+  content: " More"; }
+
+input[type=checkbox]:not(:checked) ~ div {
+  display: none; }
