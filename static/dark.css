@@ -5,7 +5,8 @@ body {
   color: #ffffff;
   font-weight: lighter;
   overflow-x: hidden;
-  font-size: 100%; }
+  font-size: 100%;
+  word-break: break-word; }
 
 * {
   margin: 0;
@@ -127,7 +128,8 @@ a * {
   color: #ffffff;
   font-weight: 400;
   cursor: pointer;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  user-select: none; }
 
 label.button {
   padding: 0.25rem 0.5rem;
