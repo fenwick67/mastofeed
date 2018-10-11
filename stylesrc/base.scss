@@ -173,12 +173,6 @@ input[type=checkbox] {
    position: absolute;
    left: -9999px;
 }
-
-label {
-  -webkit-appearance: push-button;
-  -moz-appearance: button;
-  cursor: pointer;
-}
 input[type=checkbox]:checked ~ label::after{
   content:" Less";
 }
