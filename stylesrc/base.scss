@@ -125,14 +125,15 @@ a * {
 }
 
 .enclosure{
-
   display:flex;
   flex: 1 1 auto;
   width:50%;
   display: inline-block;
   border: none;
-  cursor: zoom-in;
   max-height: 12rem;
+}
+a.enclosure{
+  cursor: zoom-in;
 }
 .enclosure>*{
   flex: 1 1 auto;
