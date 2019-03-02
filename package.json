@@ -4,7 +4,6 @@
     "ejs": "^2.5.6",
     "express": "^4.16.3",
     "feedparser": "^2.2.0",
-    "pug": "2.0.0-rc.3",
     "request": "^2.88.0",
     "serve-static": "^1.13.2",
     "timeago.js": "^3.0.1"
@@ -15,8 +14,6 @@
     "build-styles": "node build-styles.js"
   },
   "devDependencies": {
-    "metalsmith": "^2.3.0",
-    "metalsmith-sass": "^1.4.0",
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.11.0"
   }
 }
