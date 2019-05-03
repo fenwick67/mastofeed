@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "cors": "^2.8.4",
-    "ejs": "^2.5.6",
-    "express": "^4.16.3",
-    "feedparser": "^2.2.0",
+    "cors": "^2.8.5",
+    "ejs": "^2.5.8",
+    "express": "^4.16.4",
+    "feedparser": "^2.2.9",
     "request": "^2.88.0",
     "serve-static": "^1.13.2",
-    "timeago.js": "^3.0.1"
+    "timeago.js": "^3.0.2"
   },
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,6 @@
     "build-styles": "node build-styles.js"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.12.0"
   }
 }
