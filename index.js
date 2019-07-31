@@ -95,7 +95,7 @@ app.get('/apiv2/feed',cors(),function(req,res){
 		res.send('You need to specify a user URL');
 	}
 
-	var feedUrl = req.query.feedUrl;
+	var feedUrl = req.query.feedurl;
 
 	var opts = {};
 	if (req.query.size){
@@ -140,7 +140,7 @@ app.get('/apiv2/feed',cors(),function(req,res){
 		res.status(500);
 		res.send('Error fetching or parsing your feed.');
 		// TODO log the error
-		console.error(er);
+		console.error(er,er.stack);
 	})
 })
 
