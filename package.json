@@ -5,6 +5,7 @@
     "express": "^4.16.4",
     "feedparser": "^2.2.9",
     "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
     "serve-static": "^1.13.2",
     "timeago.js": "^3.0.2"
   },
