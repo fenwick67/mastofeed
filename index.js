@@ -7,20 +7,11 @@ var serveStatic = require('serve-static');
 var request = require('request');
 var cors = require('cors');
 var errorPage = require('./lib/errorPage');
-var log = console.log;
+var morgan = require('morgan');
 
 var app = Express();
 
-function logMiddleware(req,res,next){
-	log(req.method.toUpperCase() +' '+ req.url);
-	log( '\t'+ new Date().toISOString() );
-	if(req.headers && req.headers.referer){
-		log('\tReferer: '+req.headers.referer);
-	}
-	return next(null);
-}
-
-app.use(logMiddleware);
+var logger = morgan('tiny') 
 
 app.use(
 	serveStatic('static',{
@@ -64,7 +55,7 @@ app.get('/api/feed',cors(),function(req,res){
 
 app.options('/apiv2/feed',cors());
 // http://localhost:8000/apiv2/feed?userurl=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67
-app.get('/apiv2/feed',cors(),function(req,res){
+app.get('/apiv2/feed',cors(),logger,function(req,res){
 	
 	// get feed url
 	var userUrl = req.query.userurl;
@@ -118,12 +109,12 @@ app.get('/apiv2/feed',cors(),function(req,res){
 		res.send(data);
 	}).catch((er)=>{
 		res.status(500);
-		res.send(errorPage(500));
+		res.send(errorPage(500,null,{theme:opts.theme,size:opts.size}));
 		// TODO log the error
 		console.error(er,er.stack);
 	})
 })
 
 app.listen(process.env.PORT || 8000,function(){
-	log('listening on '+(process.env.PORT || 8000));
+	console.log('Server started, listening on '+(process.env.PORT || 8000));
 });

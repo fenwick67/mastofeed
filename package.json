@@ -4,6 +4,7 @@
     "ejs": "^2.5.8",
     "express": "^4.16.4",
     "feedparser": "^2.2.9",
+    "morgan": "^1.9.1",
     "request": "^2.88.0",
     "request-promise-cache": "^2.0.1",
     "request-promise-native": "^1.0.7",
