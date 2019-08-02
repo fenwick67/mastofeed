@@ -6,6 +6,7 @@ var convertv2 = require('./lib/convertv2');
 var serveStatic = require('serve-static');
 var request = require('request');
 var cors = require('cors');
+var errorPage = require('./lib/errorPage');
 var log = console.log;
 
 var app = Express();
@@ -42,7 +43,7 @@ app.get('/api/feed',cors(),function(req,res){
 	var feedUrl = req.query.url;
 	if (!feedUrl){
 		res.status(400);
-		res.send('You need to specify a feed URL');
+		res.send(errorPage(400,'You need to specify a feed URL'));
 		return;
 	}
 
@@ -69,7 +70,7 @@ app.get('/apiv2/feed',cors(),function(req,res){
 	var userUrl = req.query.userurl;
 	if (!userUrl){
 		res.status(400);
-		res.send('You need to specify a user URL');
+		res.send(errorPage(400,'You need to specify a user URL'));
 		return;
 	}
 
@@ -117,7 +118,7 @@ app.get('/apiv2/feed',cors(),function(req,res){
 		res.send(data);
 	}).catch((er)=>{
 		res.status(500);
-		res.send('Error fetching or parsing your feed.');
+		res.send(errorPage(500));
 		// TODO log the error
 		console.error(er,er.stack);
 	})

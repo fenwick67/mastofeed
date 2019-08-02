@@ -41,6 +41,8 @@ a * {
     font-size: 0.9rem;
     padding: 0.9rem;
     background: rgba(40, 44, 55, 0.85); }
+  .header .header-title {
+    font-size: 1.3rem; }
 
 .item {
   padding: 1rem;
