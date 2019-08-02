@@ -33,6 +33,8 @@ function doCache(res,durationSecs){
 	})
 }
 
+
+// this just redirects to the 
 app.options('/api/feed',cors());
 app.get('/api/feed',cors(),function(req,res){
 
@@ -41,53 +43,21 @@ app.get('/api/feed',cors(),function(req,res){
 	if (!feedUrl){
 		res.status(400);
 		res.send('You need to specify a feed URL');
+		return;
 	}
 
-	var opts = {};
-	if (req.query.size){
-		opts.size = req.query.size;
-	}
-	if (req.query.theme){
-		opts.theme = req.query.theme;
-	}
-	if (req.query.header){
-		if (req.query.header.toLowerCase() == 'no' || req.query.header.toLowerCase() == 'false'){
-			opts.header = false;
-		}else{
-			opts.header = true;
-		}
-	}
+	var userUrl = feedUrl.replace(/\.atom$/i,'');
 
-	opts.boosts = true;
-	if (req.query.boosts){
-		if (req.query.boosts.toLowerCase() == 'no' || req.query.boosts.toLowerCase() == 'false'){
-			opts.boosts = false;
-		}else{
-			opts.boosts = true;
-		}
-	}
+	var redirectUrl = '/apiv2/feed?';
+	var qs = ['userurl='+userUrl];
 
-	opts.replies = true;
-	if (req.query.replies){
-		if (req.query.replies.toLowerCase() == 'no' || req.query.replies.toLowerCase() == 'false'){
-			opts.replies = false;
-		}else{
-			opts.replies = true;
+	(['size','theme','boosts','replies']).forEach(key=>{
+		if (typeof req.query[key] != 'undefined'){
+			qs.push(key+'='+encodeURIComponent(req.query[key]));
 		}
-	}
-	opts.feedUrl = feedUrl;
-	opts.mastofeedUrl = req.url;
+	})
 
-	var req = request.get(feedUrl);
-	convert(req,opts,function(er,data){
-		if (er){
-			res.status(500);
-			return res.send('Error fetching or parsing your feed.');
-		}
-		res.status(200);
-		doCache(res,60*60)
-		res.send(data);
-	});
+	res.redirect(redirectUrl + qs.join('&'));
 
 });
 
@@ -100,6 +70,7 @@ app.get('/apiv2/feed',cors(),function(req,res){
 	if (!userUrl){
 		res.status(400);
 		res.send('You need to specify a user URL');
+		return;
 	}
 
 	var feedUrl = req.query.feedurl;
