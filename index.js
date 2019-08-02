@@ -27,6 +27,12 @@ app.use(
 	})
 );
 
+function doCache(res,durationSecs){
+	res.set({
+		"Cache-Control":"max-age="+durationSecs
+	})
+}
+
 app.options('/api/feed',cors());
 app.get('/api/feed',cors(),function(req,res){
 
@@ -79,6 +85,7 @@ app.get('/api/feed',cors(),function(req,res){
 			return res.send('Error fetching or parsing your feed.');
 		}
 		res.status(200);
+		doCache(res,60*60)
 		res.send(data);
 	});
 
@@ -135,6 +142,7 @@ app.get('/apiv2/feed',cors(),function(req,res){
 
 	convertv2(opts).then((data)=>{
 		res.status(200);
+		doCache(res,60*60);
 		res.send(data);
 	}).catch((er)=>{
 		res.status(500);
