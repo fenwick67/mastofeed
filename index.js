@@ -11,7 +11,7 @@ var morgan = require('morgan');
 
 var app = Express();
 
-var logger = morgan('tiny') 
+var logger = morgan(':method :url :status via :referrer - :response-time ms') 
 
 app.use(
 	serveStatic('static',{
@@ -41,7 +41,7 @@ app.get('/api/feed',cors(),function(req,res){
 	var userUrl = feedUrl.replace(/\.atom$/i,'');
 
 	var redirectUrl = '/apiv2/feed?';
-	var qs = ['userurl='+userUrl];
+	var qs = ['userurl='+encodeURIComponent(userUrl),"api=v1"];
 
 	(['size','theme','boosts','replies']).forEach(key=>{
 		if (typeof req.query[key] != 'undefined'){
