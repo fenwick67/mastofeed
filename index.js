@@ -38,7 +38,7 @@ app.get('/api/feed',cors(),function(req,res){
 		return;
 	}
 
-	var userUrl = feedUrl.replace(/\.atom$/i,'');
+	var userUrl = feedUrl.replace(/\.atom/i,'');
 
 	var redirectUrl = '/apiv2/feed?';
 	var qs = ['userurl='+encodeURIComponent(userUrl),"api=v1"];
