@@ -28,7 +28,7 @@ function doCache(res,durationSecs){
 
 // this just redirects to the 
 app.options('/api/feed',cors());
-app.get('/api/feed',cors(),function(req,res){
+app.get('/api/feed',cors(),logger,function(req,res){
 
 	// get feed url
 	var feedUrl = req.query.url;
