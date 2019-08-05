@@ -25,6 +25,14 @@ function doCache(res,durationSecs){
 	})
 }
 
+// web.site:another.one.here => [ /web\.site/i , /another\.one/i ]
+var blocklist = [];
+if (process.env["BLOCKLIST"]){
+	blocklist = process.env["BLOCKLIST"].split(':').map((s)=>{
+		var dotsFixed = s.replace(/\./gi,'\\.');
+		return new RegExp(dotsFixed, 'i');
+	});
+}
 
 // this just redirects to the 
 app.options('/api/feed',cors());
@@ -64,7 +72,6 @@ app.get('/apiv2/feed',cors(),logger,function(req,res){
 		res.send(errorPage(400,'You need to specify a user URL'));
 		return;
 	}
-
 	var feedUrl = req.query.feedurl;
 
 	var opts = {};
@@ -103,16 +110,55 @@ app.get('/apiv2/feed',cors(),logger,function(req,res){
 	opts.feedUrl = feedUrl;
 	opts.mastofeedUrl = req.url;
 
-	convertv2(opts).then((data)=>{
-		res.status(200);
-		doCache(res,60*60);
-		res.send(data);
-	}).catch((er)=>{
-		res.status(500);
-		res.send(errorPage(500,null,{theme:opts.theme,size:opts.size}));
-		// TODO log the error
-		console.error(er,er.stack);
-	})
+	var blocked = false;
+
+	function fakeFail(){
+		var t = 1000 + 1000 * Math.random() * Math.random();
+		blocked = true;
+		setTimeout(function(){
+			res.status(500);
+			res.send(errorPage(500,null,{theme:opts.theme,size:opts.size}));
+		},t);
+	}
+
+	// shall I block the user?
+	var base = new URL(userUrl).hostname;
+	for (var i = 0; i < blocklist.length; i++){
+		var re = blocklist[i];
+		if (re.test(base)){
+			fakeFail();
+			console.log("blocked domain: "+base+" (matches "+re.source+")");
+			return; // need to exit this function so feed isn't actually fetched
+		}
+	}
+
+	// block by referer
+	var ref = req.get("referer")
+	if (ref){
+		for (var i = 0; i < blocklist.length; i++){
+			var re = blocklist[i];
+			if (re.test(ref)){
+				fakeFail();
+				console.log("blocked domain via referer: "+base+" (matches "+re.source+")");
+				return; // need to exit this function so feed isn't actually fetched
+			}
+		}
+	}
+
+	if (!blocked){
+		
+		convertv2(opts).then((data)=>{
+			res.status(200);
+			doCache(res,60*60);
+			res.send(data);
+		}).catch((er)=>{
+			res.status(500);
+			res.send(errorPage(500,null,{theme:opts.theme,size:opts.size}));
+			// TODO log the error
+			console.error(er,er.stack);
+		})
+
+	}
 })
 
 app.listen(process.env.PORT || 8000,function(){
