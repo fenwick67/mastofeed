@@ -1,0 +1,5 @@
+@import 'light.scss';
+
+@media (prefers-color-scheme: dark) {
+    @import 'dark.scss';
+}

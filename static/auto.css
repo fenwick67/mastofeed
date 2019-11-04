@@ -1,0 +1,295 @@
+html,
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', roboto, Arial, sans-serif;
+  color: #282c37;
+  font-weight: lighter;
+  overflow-x: hidden;
+  font-size: 100%;
+  word-break: break-word; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a,
+a * {
+  color: #2b90d9; }
+
+.meta {
+  background-color: #ecf0f4; }
+
+.header {
+  display: flex;
+  background-size: cover;
+  min-height: 8rem;
+  color: #282c37; }
+  .header .header-left, .header .header-right {
+    margin: 0; }
+  .header .header-left {
+    min-width: 8rem;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3); }
+    .header .header-left .avatar {
+      width: 6rem;
+      height: 6rem;
+      position: relative;
+      top: calc(50% - 3rem); }
+  .header .header-right {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    padding: 0.9rem;
+    background: rgba(255, 255, 255, 0.85); }
+  .header .header-title {
+    font-size: 1.3rem; }
+
+.item {
+  padding: 1rem;
+  border-top: solid 1px #8494ab; }
+
+.item-content,
+.cw,
+.title {
+  font-size: 1.1rem;
+  font-weight: lighter; }
+
+.item-content *, .cw {
+  margin: 1rem 0;
+  line-height: 1.4rem; }
+
+.item-title,
+.date,
+.author-fullname {
+  color: #90a1ba;
+  font-size: 0.9rem; }
+
+.date {
+  margin: 1rem 0 0 0; }
+
+.author {
+  display: flex;
+  margin: 1rem 0; }
+
+.author-info {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .author-info .author-displayname {
+    font-size: 1.2rem;
+    color: #282c37;
+    text-decoration: none;
+    display: block;
+    font-weight: bolder; }
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 10%; }
+  .avatar.circular {
+    border-radius: 100%; }
+
+.enclosures {
+  padding: 0.5em 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: hidden; }
+
+.enclosure {
+  display: flex;
+  flex: 1 1 auto;
+  width: 50%;
+  border: none;
+  max-height: 12rem; }
+
+a.enclosure {
+  cursor: zoom-in; }
+
+.enclosure > * {
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.meta .title {
+  font-weight: bold; }
+
+.hidden {
+  display: none; }
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+  background: #2b90d9;
+  color: #282c37;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: uppercase;
+  user-select: none; }
+
+label.button {
+  padding: 0.25rem 0.5rem;
+  margin: 0.4rem;
+  background: #8494ab;
+  color: #ffffff;
+  font-size: 0.8rem; }
+
+input[type=checkbox] {
+  position: absolute;
+  left: -9999px; }
+
+input[type=checkbox]:checked ~ label::after {
+  content: " Less"; }
+
+input[type=checkbox]:not(:checked) ~ label::after {
+  content: " More"; }
+
+input[type=checkbox]:not(:checked) ~ div {
+  display: none; }
+
+.item-content,
+.description,
+.title,
+html,
+body {
+  font-weight: normal; }
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    background-color: #282c37;
+    font-family: 'Roboto', roboto, Arial, sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    overflow-x: hidden;
+    font-size: 100%;
+    word-break: break-word; }
+  * {
+    margin: 0;
+    padding: 0; }
+  a,
+  a * {
+    color: #2b90d9; }
+  .meta {
+    background-color: #39404d; }
+  .header {
+    display: flex;
+    background-size: cover;
+    min-height: 8rem;
+    color: #ffffff; }
+    .header .header-left, .header .header-right {
+      margin: 0; }
+    .header .header-left {
+      min-width: 8rem;
+      position: relative;
+      text-align: center;
+      background: rgba(40, 44, 55, 0.3); }
+      .header .header-left .avatar {
+        width: 6rem;
+        height: 6rem;
+        position: relative;
+        top: calc(50% - 3rem); }
+    .header .header-right {
+      flex-grow: 1;
+      font-size: 0.9rem;
+      padding: 0.9rem;
+      background: rgba(40, 44, 55, 0.85); }
+    .header .header-title {
+      font-size: 1.3rem; }
+  .item {
+    padding: 1rem;
+    border-top: solid 1px #626d80; }
+  .item-content,
+  .cw,
+  .title {
+    font-size: 1.1rem;
+    font-weight: lighter; }
+  .item-content *, .cw {
+    margin: 1rem 0;
+    line-height: 1.4rem; }
+  .item-title,
+  .date,
+  .author-fullname {
+    color: #9baec8;
+    font-size: 0.9rem; }
+  .date {
+    margin: 1rem 0 0 0; }
+  .author {
+    display: flex;
+    margin: 1rem 0; }
+  .author-info {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    .author-info .author-displayname {
+      font-size: 1.2rem;
+      color: #ffffff;
+      text-decoration: none;
+      display: block;
+      font-weight: bolder; }
+  .avatar {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10%; }
+    .avatar.circular {
+      border-radius: 100%; }
+  .enclosures {
+    padding: 0.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden; }
+  .enclosure {
+    display: flex;
+    flex: 1 1 auto;
+    width: 50%;
+    border: none;
+    max-height: 12rem; }
+  a.enclosure {
+    cursor: zoom-in; }
+  .enclosure > * {
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .meta .title {
+    font-weight: bold; }
+  .hidden {
+    display: none; }
+  .button {
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    text-decoration: none;
+    background: #2b90d9;
+    color: #ffffff;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+    user-select: none; }
+  label.button {
+    padding: 0.25rem 0.5rem;
+    margin: 0.4rem;
+    background: #626d80;
+    color: #282c37;
+    font-size: 0.8rem; }
+  input[type=checkbox] {
+    position: absolute;
+    left: -9999px; }
+  input[type=checkbox]:checked ~ label::after {
+    content: " Less"; }
+  input[type=checkbox]:not(:checked) ~ label::after {
+    content: " More"; }
+  input[type=checkbox]:not(:checked) ~ div {
+    display: none; } }

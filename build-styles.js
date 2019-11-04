@@ -4,7 +4,7 @@ var sass = require('node-sass');
 
 var staticDir = './static/'
 var srcDir = './stylesrc/';
-var themes = ['light','dark'];
+var themes = ['light','dark','auto'];
 
 
 themes.forEach(function(s){
