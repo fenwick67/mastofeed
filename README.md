@@ -24,7 +24,7 @@ Querystring options:
 | ------ | -------- | ----------- |
 | `userurl` | **yes** | Mastodon/ActivityPub account URL (usually `https://${instance}/users/${username}`) |
 | `feedurl` | no | a URL to a page of an ActivityPub post collection. Only used for pages beyond the first. |
-| `theme` | no | either `dark`, `light` or `auto`, to select the UI theme (default is `dark`). `auto` will be light unless the user sets up dark mode on their device. |
+| `theme` | no | either `dark`, `light` or `auto`, to select the UI theme (default is `dark`). `auto` will appear light unless the user sets up dark mode on their device. |
 | `boosts` | no | whether to show boosts or not |
 | `replies` | no | whether to show replies or not |
 | `size` | no | the scale of the UI in percent. |
@@ -43,7 +43,7 @@ Querystring options:
 | option | required | description |
 | ------ | -------- | ----------- |
 | `url` | **yes** | Mastodon Atom feed URL |
-| `theme` | no | either `dark` or `light`, to select the UI theme (default is `dark`). |
+| `theme` | no | either dark, light or auto, to select the UI theme (default is dark). `auto` will appear light unless the user sets up dark mode on their device. |
 | `size` | no | the scale of the UI in percent. |
 
 ## Server Installation
