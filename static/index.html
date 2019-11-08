@@ -1,66 +1,95 @@
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-		<meta name="viewport" content="initial-scale=1">
-		<title>Mastofeed - embeddable Mastodon feeds</title>
-    <link rel="stylesheet" href="./stylesheet.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1">
+	<title>Mastofeed - embeddable Mastodon feeds</title>
+	<link rel="stylesheet" href="./stylesheet.css">
 </head>
+
 <body>
-<br>
-<div>
-<h1>Mastofeed</h1>
-<h4>Embedded Mastodon feeds for blogs etc.</h4>
-<a href="https://github.com/fenwick67/mastofeed" class="cta button alt">Fork on Github <img class="link-logo after" src="github-logo.svg" alt="Github Logo" data-reactid="19"></a><br>
-<br><hr><br>
-<form action="javascript:genUrl()">
-	<label>Instance URL:<input required type="text" id="urlin" placeholder="octodon.social" oninvalid="this.setCustomValidity('Insert your instance URL. Example: octodon.social')" oninput="this.setCustomValidity('')"></label><br>
-	<label>Username:<input required type="text" id="usernamein" placeholder="fenwick67" oninvalid="this.setCustomValidity('Insert your username. Example: fenwick67')" oninput="this.setCustomValidity('')"></label><br>
-  <label>Width (px):<input required type="number" id="width" value="400" oninvalid="this.setCustomValidity('Insert width of generated feed. Default: 400')" oninput="this.setCustomValidity('')"></label><br>
-	<label>Height (px):<input required type="number" id="height" value="800" oninvalid="this.setCustomValidity('Insert height of generated feed. Default: 800')" oninput="this.setCustomValidity('')"></label><br>
-	<label>UI Scale (percent):<input required type="number" id="size" value="100" oninvalid="this.setCustomValidity('Insert UI scale. Default: 100')" oninput="this.setCustomValidity('')"></label><br>
-	<label>Theme:
-		<select id="theme">
-			<option value="dark">dark</option>
-			<option value="light">light</option>
-			<option value="auto">auto (based on css prefers-color-scheme)</option>
-		</select>
-	</label><br>
-	<label>Show Header?<input id="header" type="checkbox" checked="checked"></label><br>
-  <label>Hide replies?<input type="checkbox" id="hidereplies" checked="checked"></label><br>
-  <label>Hide boosts?<input type="checkbox" id="hideboosts" checked="checked"></label><br>
+	<br>
+	<div>
+		<h1>Mastofeed</h1>
+		<h4>Embedded Mastodon feeds for blogs etc.</h4>
+		<a href="https://github.com/fenwick67/mastofeed" class="cta button alt">Fork on Github <img
+				class="link-logo after" src="github-logo.svg" alt="Github Logo" data-reactid="19"></a><br>
+		<br>
+		<hr><br>
+		<form action="javascript:genUrl()">
+			<label>Instance URL:<input required type="text" id="urlin" placeholder="octodon.social"
+					oninvalid="this.setCustomValidity('Insert your instance URL. Example: octodon.social')"
+					oninput="this.setCustomValidity('')"></label>
+			<br>
+			<label>Username:<input required type="text" id="usernamein" placeholder="fenwick67"
+					oninvalid="this.setCustomValidity('Insert your username. Example: fenwick67')"
+					oninput="this.setCustomValidity('')"></label>
+			<br>
+			<label>Width (px):<input required type="number" id="width" value="400"
+					oninvalid="this.setCustomValidity('Insert width of generated feed. Default: 400')"
+					oninput="this.setCustomValidity('')"></label>
+			<br>
+			<label>Height (px):<input required type="number" id="height" value="800"
+					oninvalid="this.setCustomValidity('Insert height of generated feed. Default: 800')"
+					oninput="this.setCustomValidity('')"></label>
+			<br>
+			<label>UI Scale (percent):<input required type="number" id="size" value="100"
+					oninvalid="this.setCustomValidity('Insert UI scale. Default: 100')"
+					oninput="this.setCustomValidity('')"></label>
+			<br>
+			<label>Theme:
+				<select id="theme">
+					<option value="dark">Dark</option>
+					<option value="light">Light</option>
+					<option value="auto">Auto (based on css prefers-color-scheme)</option>
+				</select>
+			</label>
+			<br>
+			<label>Show Header?<input id="header" type="checkbox" checked="checked"></label>
+			<br>
+			<label>Hide replies?<input type="checkbox" id="hidereplies" checked="checked"></label>
+			<br>
+			<label>Hide boosts?<input type="checkbox" id="hideboosts" checked="checked"></label>
+			<br>
+			<br>
+			<button value="generate">Generate</button>
+		</form>
+		<br><br>
+		<label>Use this markup in your HTML: <br><textarea id="result"
+				placeholder="result will go here"></textarea></label>
+		<br><br>
+		<h3>Live Preview:</h3>
+		<span class="iframe-contain">
+			<iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800"
+				src="/apiv2/feed?userurl=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67&replies=false&boosts=true"></iframe>
+		</span>
+		<br>
+	</div>
+	<script>
+		window.genUrl = function genUrl() {
+			function val(id) {
+				return document.getElementById(id).value;
+			}
 
-	<button value="generate">Generate</button>
-</form>
-<br>
-<br>
-<label>Use this markup in your HTML: <br><textarea id="result" placeholder="result will go here"></textarea></label>
-<br>
-<h3>Live Preview:</h3>
-<iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800" src="/apiv2/feed?userurl=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67&replies=false&boosts=true"></iframe>
-<br>
-</div>
-<script>
-window.genUrl = function genUrl(){
-	function val(id){
-		return document.getElementById(id).value;
-	}
+			var inUrl = 'https://' + val('urlin') + '/users/' + val('usernamein');
 
-	var inUrl = 'https://' + val('urlin') + '/users/'+val('usernamein');
+			var showBoosts = (!document.getElementById('hideboosts').checked).toString();
+			var showReplies = (!document.getElementById('hidereplies').checked).toString();
+			var showHeader = document.getElementById('header').checked.toString()
+			var portStr = (window.location.port && window.location.port != 80) ? (':' + window.location.port) : ''
 
-	var showBoosts = (!document.getElementById('hideboosts').checked).toString();
-	var showReplies = (!document.getElementById('hidereplies').checked).toString();
+			var iframeUrl = window.location.protocol + '//' + window.location.hostname + portStr
+				+ "/apiv2/feed?userurl=" + encodeURIComponent(inUrl) + "&theme=" + val('theme') + '&size=' + val('size')
+				+ "&header=" + showHeader + '&replies=' + showReplies + '&boosts=' + showBoosts;
 
-	var iframeUrl = window.location.protocol + '//'+ window.location.hostname +((window.location.port && window.location.port!=80)?(':'+window.location.port):'')
-	+"/apiv2/feed?userurl="+encodeURIComponent(inUrl)+"&theme="+val('theme')+'&size='+val('size')
-	+ "&header="+(document.getElementById('header').checked.toString())+'&replies='+showReplies+'&boosts='+showBoosts;
+			document.getElementById('result').value = '<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="' + val('width') + '" height="' + val('height') + '" src="' + iframeUrl + '"></iframe>';
 
-	document.getElementById('result').value = '<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="'+val('width')+'" height="'+val('height')+'" src="'+iframeUrl+'"></iframe>';
-
-	var iframe = document.getElementById('frame');
-	iframe.src = iframeUrl;
-	iframe.width = val('width');
-	iframe.height = val('height');
-}
-</script>
+			var iframe = document.getElementById('frame');
+			iframe.src = iframeUrl;
+			iframe.width = val('width');
+			iframe.height = val('height');
+		}
+	</script>
 </body>
+
 </html>

@@ -3,7 +3,6 @@
  */
 
 @import url(https://fonts.googleapis.com/css?family=Quando|Judson|Montserrat:500|Roboto:400,500);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
 body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl,
 dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4,
@@ -58,22 +57,7 @@ h1 {
     margin-bottom: 20px
 }
 
-button {
-    background: transparent;
-    border: 1px solid #9baec8;
-    padding: 3px 15px;
-    color: #9baec8;
-    margin-left: 4px;
-    font-weight: 500;
-    border-radius: 4px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, .1)
-}
-
-button:hover {
-    background-color: #b5c3d6
-}
-
-input[type="text"], input[type="number"] {
+input[type="text"], input[type="number"], select {
     outline: 0;
     box-sizing: border-box;
     border-radius: 4px;
@@ -110,11 +94,12 @@ div {
     margin: 0 auto
 }
 
-iframe {
-    float: middle;
+.iframe-contain {
+    display:block;
+    text-align:center;
 }
 
-a {
+button, a {
     display: inline-block;
     text-align: center;
     font-size: 16px;
@@ -126,5 +111,8 @@ a {
     border-radius: 4px;
     padding: 3px 15px;
     color: #9baec8;
-    margin-left: 4px
+    cursor:pointer;
+}
+button:hover, a:hover {
+    background-color: #394150;
 }
