@@ -65,11 +65,17 @@ a * {
   font-size: 0.9rem; }
 
 .date {
-  margin: 1rem 0 0 0; }
+  margin: 1rem 0 0 0;
+  text-decoration: none; }
+
+.date:hover {
+  text-decoration: underline; }
+
+.item-title {
+  margin-bottom: 0.7rem; }
 
 .author {
-  display: flex;
-  margin: 1rem 0; }
+  display: flex; }
 
 .author-info {
   margin: 0 1rem;

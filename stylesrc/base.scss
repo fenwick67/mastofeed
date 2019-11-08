@@ -88,11 +88,17 @@ a * {
 }
 .date{
   margin: 1rem 0 0 0;
+  text-decoration: none;
+}
+.date:hover{
+  text-decoration: underline;
+}
+.item-title{
+  margin-bottom:0.7rem;
 }
 
 .author {
   display: flex;
-  margin: 1rem 0;
 }
 
 .author-info {
