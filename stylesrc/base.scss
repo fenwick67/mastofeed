@@ -89,6 +89,7 @@ a * {
 .date{
   margin: 1rem 0 0 0;
   text-decoration: none;
+  display:block;
 }
 .date:hover{
   text-decoration: underline;
@@ -99,6 +100,7 @@ a * {
 
 .author {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .author-info {

@@ -66,7 +66,8 @@ a * {
 
 .date {
   margin: 1rem 0 0 0;
-  text-decoration: none; }
+  text-decoration: none;
+  display: block; }
 
 .date:hover {
   text-decoration: underline; }
@@ -75,7 +76,8 @@ a * {
   margin-bottom: 0.7rem; }
 
 .author {
-  display: flex; }
+  display: flex;
+  margin-bottom: 1rem; }
 
 .author-info {
   margin: 0 1rem;
@@ -227,13 +229,15 @@ body {
     font-size: 0.9rem; }
   .date {
     margin: 1rem 0 0 0;
-    text-decoration: none; }
+    text-decoration: none;
+    display: block; }
   .date:hover {
     text-decoration: underline; }
   .item-title {
     margin-bottom: 0.7rem; }
   .author {
-    display: flex; }
+    display: flex;
+    margin-bottom: 1rem; }
   .author-info {
     margin: 0 1rem;
     display: flex;
