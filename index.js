@@ -40,8 +40,6 @@ The MIT License:
     THE SOFTWARE.
 */
 var Express = require('express');
-// v1 api
-var convert = require('./lib/convert');
 // v2 api
 var convertv2 = require('./lib/convertv2');
 var serveStatic = require('serve-static');
