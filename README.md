@@ -48,8 +48,25 @@ Querystring options:
 
 ## Server Installation
 
-This is a straightforward node project with zero databases or anything, you should just be able to run `npm install` and then `npm start` to get up and running.  Set your `PORT` environment variable to change the port it listens on.
+This is a straightforward node project with zero
+databases or anything. you should just be able to
+run `npm install` and then `npm start` to get up and running. 
+Set your `PORT` environment variable to change the
+port it listens on.
+
+1. install NodeJS and npm
+2. install yarn
+   ```
+   npm -g install yarn
+   ```
+3. install the packages
+   ```
+   yarn install
+   ```
+   You may need to have Python2 installed
+   if you cannot install `node-sass`.
 
 ## Improve me
 
-Feel free to add a chaching layer, improve the styles and add more features.
+Feel free to add a caching layer, improve the styles
+and add more features.
