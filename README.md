@@ -20,14 +20,15 @@ Returns a html page which displays a mastodon feed for a user URL.  Note that UR
 
 Querystring options:
 
-| option | required | description |
-| ------ | -------- | ----------- |
-| `userurl` | **yes** | Mastodon/ActivityPub account URL (usually `https://${instance}/users/${username}`) or <br/> hashtag URL (usually `https://${instance}/tags/${tagname}`) |
-| `feedurl` | no | a URL to a page of an ActivityPub post collection. Only used for pages beyond the first. |
-| `theme` | no | either `dark`, `light` or `auto`, to select the UI theme (default is `dark`). `auto` will appear light unless the user sets up dark mode on their device. |
-| `boosts` | no | whether to show boosts or not |
-| `replies` | no | whether to show replies or not |
-| `size` | no | the scale of the UI in percent. |
+| option | required | description | value | default |
+| ------ | -------- | ----------- | ----- | ------- |
+| `userurl` | **yes** | Mastodon/ActivityPub account URL  or hashtag URL | `https://${instance}/tags/${tagname}` <br/> `https://${instance}/users/${username}`| |
+| `feedurl` | no | a URL to a page of an ActivityPub post collection. Only used for pages beyond the first. |  |  |
+| `theme` | no |  `auto` will appear light unless the user sets up dark mode on their device. | either `dark`, `light` or `auto`, to select the UI theme | `dark` |
+| `boosts` | no | whether to show boosts or not | `yes` or `no` | `yes` |
+| `replies` | no | whether to show replies or not | `yes` or `no` | `yes` |
+| `size` | no | the scale of the UI in percent. | e.g. `200` | `100` |
+| `header` | no | whether to show the user header (only for users, not hashtags) | `yes` or `no` | `no` |
 
 ## Server Installation
 
