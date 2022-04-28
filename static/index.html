@@ -80,7 +80,7 @@
 
 			var showBoosts = (!document.getElementById('hideboosts').checked).toString();
 			var showReplies = (!document.getElementById('hidereplies').checked).toString();
-			var showHeader = document.getElementById('header').checked.toString()
+			var showHeader = (isUser && document.getElementById('header').checked).toString()
 			var portStr = (window.location.port && window.location.port != 80) ? (':' + window.location.port) : ''
 
 			var iframeUrl = window.location.protocol + '//' + window.location.hostname + portStr
