@@ -8,6 +8,13 @@ https://www.mastofeed.com
 
 The homepage has a tool for generating iframe code for you, with a sensible `sandbox` attribute.  The feeds fit comfortably in a 400px wide area.
 
+## Deployment
+
+You can deploy the app using Heroku.
+There is a free plan.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## API
 
 ### V2
