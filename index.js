@@ -94,6 +94,17 @@ app.get('/api/feed',cors(),logger,function(req,res){
 
 });
 
+function getBoolFromQuery(req, name, defaultValue) {
+	if (req.query[name]){
+		if (req.query[name].toLowerCase() == 'no' || req.query[name].toLowerCase() == 'false'){
+			return false;
+		}else{
+			return true;
+		}
+	}
+	return defaultValue;
+}
+
 app.options('/apiv2/feed',cors());
 // http://localhost:8000/apiv2/feed?userurl=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67
 app.get('/apiv2/feed',cors(),logger,function(req,res){
@@ -115,31 +126,11 @@ app.get('/apiv2/feed',cors(),logger,function(req,res){
 	if (req.query.theme){
 		opts.theme = req.query.theme;
 	}
-	if (req.query.header){
-		if (req.query.header.toLowerCase() == 'no' || req.query.header.toLowerCase() == 'false'){
-			opts.header = false;
-		}else{
-			opts.header = true;
-		}
-	}
 
-	opts.boosts = true;
-	if (req.query.boosts){
-		if (req.query.boosts.toLowerCase() == 'no' || req.query.boosts.toLowerCase() == 'false'){
-			opts.boosts = false;
-		}else{
-			opts.boosts = true;
-		}
-	}
+	opts.header = getBoolFromQuery(req, "header", false);
+	opts.boosts = getBoolFromQuery(req, "boosts", true);
+	opts.replies = getBoolFromQuery(req, "replies", true);
 
-	opts.replies = true;
-	if (req.query.replies){
-		if (req.query.replies.toLowerCase() == 'no' || req.query.replies.toLowerCase() == 'false'){
-			opts.replies = false;
-		}else{
-			opts.replies = true;
-		}
-	}
 	opts.userUrl = userUrl;
 	opts.feedUrl = feedUrl;
 	opts.mastofeedUrl = req.url;
