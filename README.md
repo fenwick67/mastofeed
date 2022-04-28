@@ -70,3 +70,8 @@ port it listens on.
 
 Feel free to add a caching layer, improve the styles
 and add more features.
+
+## License
+
+MIT License: Copyright 2017 fenwick67
+AGPL License: Copyright 2022 Nicco Kunzmann
