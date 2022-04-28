@@ -29,23 +29,6 @@ Querystring options:
 | `replies` | no | whether to show replies or not |
 | `size` | no | the scale of the UI in percent. |
 
-### V1 (deprecated, will now just redirect you to the v2 API)
-
-#### GET `/api/feed`
-
-> example: `/api/feed?url=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67.atom&scale=90&theme=light`
-
-Returns a html page which displays a mastodon feed for an atom feed URL.  Note that URLs must be URI encoded (i.e. `encodeURIComponent('https://octodon.social/users/fenwick67.atom')` ).
-
-Querystring options:
-
-
-| option | required | description |
-| ------ | -------- | ----------- |
-| `url` | **yes** | Mastodon Atom feed URL |
-| `theme` | no | either dark, light or auto, to select the UI theme (default is dark). `auto` will appear light unless the user sets up dark mode on their device. |
-| `size` | no | the scale of the UI in percent. |
-
 ## Server Installation
 
 This is a straightforward node project with zero
@@ -64,7 +47,11 @@ port it listens on.
    yarn install
    ```
    You may need to have Python2 installed
-   if you cannot install `node-sass`.
+   if you cannot install `node-sass` or
+   remove the line in the `devDependencies`
+   in `package.json`.
+   You do not need it for small fixes.
+4. run `npm start`
 
 ## Improve me
 
@@ -75,3 +62,24 @@ and add more features.
 
 MIT License: Copyright 2017 fenwick67
 AGPL License: Copyright 2022 Nicco Kunzmann
+
+## Deprecated
+
+### V1 (deprecated, will now just redirect you to the v2 API)
+
+#### GET `/api/feed`
+
+> example: `/api/feed?url=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67.atom&scale=90&theme=light`
+
+Returns a html page which displays a mastodon feed for an atom feed URL.  Note that URLs must be URI encoded (i.e. `encodeURIComponent('https://octodon.social/users/fenwick67.atom')` ).
+
+Querystring options:
+
+
+| option | required | description |
+| ------ | -------- | ----------- |
+| `url` | **yes** | Mastodon Atom feed URL |
+| `theme` | no | either dark, light or auto, to select the UI theme (default is dark). `auto` will appear light unless the user sets up dark mode on their device. |
+| `size` | no | the scale of the UI in percent. |
+
+
