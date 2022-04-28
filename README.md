@@ -61,7 +61,7 @@ npm install -g nodemon
 ```
 Run it:
 ```
-nodemon index.js
+nodemon index.js --watch lib
 ```
 
 ## Improve me
