@@ -18,5 +18,21 @@
   },
   "devDependencies": {
     "node-sass": "^4.12.0"
-  }
+  },
+  "keywords": [
+    "mastodon",
+    "feed",
+    "timeline",
+    "users",
+    "hashtags",
+    "embed",
+    "iframe"
+  ],
+  "license": "AGPL",
+  "engines": {
+    "node": "17.x"
+  },
+  "name": "mastofeed",
+  "version": "1.0.1",
+  "description": "Embed your mastodon user feed or hashtag feed into your website."
 }
