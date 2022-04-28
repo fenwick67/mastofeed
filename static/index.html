@@ -21,7 +21,11 @@
 					oninvalid="this.setCustomValidity('Insert your instance URL. Example: mastodon.social')"
 					oninput="this.setCustomValidity('')"></label>
 			<br>
-			<label>Username:<input required type="text" id="usernamein" placeholder="gargron"
+			<input type="radio" id="source-user" name="source" value="user" checked="true" />
+			<label for="user">@Username</label>
+			<input type="radio" id="source-hashtag" name="source" value="tag" />
+			<label for="hashtag">#Hashtag</label>:
+			<label><input required type="text" id="usernamein" placeholder="gargron"
 					oninvalid="this.setCustomValidity('Insert your username. Example: gargron')"
 					oninput="this.setCustomValidity('')"></label>
 			<br>
@@ -45,7 +49,7 @@
 				</select>
 			</label>
 			<br>
-			<label>Show Header?<input id="header" type="checkbox" checked="checked"></label>
+			<label>Show Header?<input id="header" type="checkbox" checked="checked"></label> (Only for Users)
 			<br>
 			<label>Hide replies?<input type="checkbox" id="hidereplies" checked="checked"></label>
 			<br>
@@ -71,7 +75,8 @@
 				return document.getElementById(id).value;
 			}
 
-			var inUrl = 'https://' + val('urlin') + '/users/' + val('usernamein');
+			var isUser = document.getElementById("source-user").checked;
+			var inUrl = 'https://' + val('urlin') + '/' + (isUser ? "users" : "tags") + '/' + val('usernamein');
 
 			var showBoosts = (!document.getElementById('hideboosts').checked).toString();
 			var showReplies = (!document.getElementById('hidereplies').checked).toString();
