@@ -22,8 +22,7 @@ Querystring options:
 
 | option | required | description |
 | ------ | -------- | ----------- |
-| `userurl` | **yes** | Mastodon/ActivityPub account URL (usually `https://${instance}/users/${username}`) |
-| `userurl` | **yes** | Mastodon/ActivityPub hashtag URL (usually `https://${instance}/tags/${tagname}`) |
+| `userurl` | **yes** | Mastodon/ActivityPub account URL (usually `https://${instance}/users/${username}`) or <br/> hashtag URL (usually `https://${instance}/tags/${tagname}`) |
 | `feedurl` | no | a URL to a page of an ActivityPub post collection. Only used for pages beyond the first. |
 | `theme` | no | either `dark`, `light` or `auto`, to select the UI theme (default is `dark`). `auto` will appear light unless the user sets up dark mode on their device. |
 | `boosts` | no | whether to show boosts or not |
