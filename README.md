@@ -54,6 +54,16 @@ port it listens on.
    You do not need it for small fixes.
 4. run `npm start`
 
+If you want automatic reloading of files during development,
+you can install `nodemon`:
+```
+npm install -g nodemon
+```
+Run it:
+```
+nodemon index.js
+```
+
 ## Improve me
 
 Feel free to add a caching layer, improve the styles
