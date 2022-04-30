@@ -1,0 +1,8 @@
+{
+  "name": "Mastofeed",
+  "description": "Embed an iframe feed for Mastodon users or hashtags.",
+  "repository": "https://github.com/foss.wales/mastofeed",
+  "website": "https://mastofeed.com",
+  "success_url": "/"
+}
+
