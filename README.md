@@ -12,6 +12,8 @@ The homepage has a tool for generating iframe code for you, with a sensible `san
 
 You can deploy the app using Heroku.
 There is a free plan.
+You can use the [heroku git deployment](https://devcenter.heroku.com/articles/git) or
+click this button:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
