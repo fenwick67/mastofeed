@@ -14,6 +14,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "mon": "node ./node_modules/nodemon/bin/nodemon.js index.js --watch lib",
     "build-styles": "node build-styles.js"
   },
   "devDependencies": {
