@@ -63,6 +63,8 @@ port it listens on.
    You do not need it for small fixes.
 4. run `npm start`
 
+## Development
+
 If you want automatic reloading of files during development,
 you can install `nodemon`:
 ```
@@ -71,6 +73,12 @@ npm install -g nodemon
 Run it:
 ```
 nodemon index.js --watch lib
+```
+
+To generate the layout, install `node-sass`.
+Then, run
+```
+node build-styles.js
 ```
 
 ## Improve me
