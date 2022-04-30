@@ -29,9 +29,9 @@
     "embed",
     "iframe"
   ],
-  "license": "AGPL",
+  "license": "AGPL-3.0-only",
   "engines": {
-    "node": "17.x"
+    "node": ">=17.x"
   },
   "name": "mastofeed",
   "version": "1.0.1",
