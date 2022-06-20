@@ -12,8 +12,9 @@
 	<div>
 		<h1>MaPleFeed</h1>
 		<h4>Embed Mastodon or Pleroma profile feeds on any web page.</h4>
-		<a href="https://github.com/bihlink/maplefeed" class="cta button alt">Fork on Github <img
-				class="link-logo after" src="github-logo.svg" alt="Github Logo" data-reactid="19"></a><br>
+		<a href="https://github.com/bihlink/maplefeed" target="_blank" class="cta button alt">Source <img
+				class="link-logo after" src="github-logo.svg" alt="Github Logo" data-reactid="19"></a> 
+		<a href="https://coki.me/donate" target="_blank" class="cta button alt">Donate</a><br>
 		<br>
 		<hr><br>
 		<form action="javascript:genUrl()">
@@ -22,7 +23,7 @@
 					oninput="this.setCustomValidity('')"></label>
 			<br>
 			<label>Username:<input required type="text" id="usernamein" placeholder="gargron"
-					oninvalid="this.setCustomValidity('Insert your username. Example: bihlink')"
+					oninvalid="this.setCustomValidity('Insert your username. Example: gargron')"
 					oninput="this.setCustomValidity('')"></label>
 			<br>
 			<label>Width (px):<input required type="number" id="width" value="400"
@@ -60,7 +61,7 @@
 		<br><br>
 		<h3>Live Preview:</h3>
 		<span class="iframe-contain">
-			<iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800"
+			<iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="100%" height="800"
 				src="/apiv2/feed?userurl=https%3A%2F%2Fabid.cc%2Fusers%2Fbihlink&replies=false&boosts=true"></iframe>
 		</span>
 		<br>
