@@ -1,9 +1,13 @@
 {
   "dependencies": {
     "cors": "^2.8.5",
+    "desandro-matches-selector": "^2.0.2",
     "ejs": "^2.5.8",
+    "ev-emitter": "^2.1.2",
     "express": "^4.16.4",
     "feedparser": "^2.2.9",
+    "fizzy-ui-utils": "^3.0.0",
+    "jquery": "^3.6.0",
     "morgan": "^1.9.1",
     "request": "^2.88.0",
     "request-promise-cache": "^2.0.1",
