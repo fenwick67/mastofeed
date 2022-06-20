@@ -3,16 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1">
-	<title>Mastofeed - embeddable Mastodon feeds</title>
+	<title>MaPleFeed - Embed Mastodon or Pleroma Feeds</title>
 	<link rel="stylesheet" href="./stylesheet.css">
 </head>
 
 <body>
 	<br>
 	<div>
-		<h1>Mastofeed</h1>
-		<h4>Embedded Mastodon feeds for blogs etc.</h4>
-		<a href="https://github.com/fenwick67/mastofeed" class="cta button alt">Fork on Github <img
+		<h1>MaPleFeed</h1>
+		<h4>Embed Mastodon or Pleroma profile feeds on any web page.</h4>
+		<a href="https://github.com/bihlink/maplefeed" class="cta button alt">Fork on Github <img
 				class="link-logo after" src="github-logo.svg" alt="Github Logo" data-reactid="19"></a><br>
 		<br>
 		<hr><br>
@@ -22,7 +22,7 @@
 					oninput="this.setCustomValidity('')"></label>
 			<br>
 			<label>Username:<input required type="text" id="usernamein" placeholder="gargron"
-					oninvalid="this.setCustomValidity('Insert your username. Example: gargron')"
+					oninvalid="this.setCustomValidity('Insert your username. Example: bihlink')"
 					oninput="this.setCustomValidity('')"></label>
 			<br>
 			<label>Width (px):<input required type="number" id="width" value="400"
@@ -61,7 +61,7 @@
 		<h3>Live Preview:</h3>
 		<span class="iframe-contain">
 			<iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800"
-				src="/apiv2/feed?userurl=https%3A%2F%2Fmastodon.social%2Fusers%2Fgargron&replies=false&boosts=true"></iframe>
+				src="/apiv2/feed?userurl=https%3A%2F%2Fabid.cc%2Fusers%2Fbihlink&replies=false&boosts=true"></iframe>
 		</span>
 		<br>
 	</div>
