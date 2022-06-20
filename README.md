@@ -1,4 +1,4 @@
-# Mastofeed
+# MaPlefeed
 
 Open source tool to create Mastodon or Pleroma feed and display it on any web page.
 
