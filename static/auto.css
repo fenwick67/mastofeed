@@ -55,8 +55,7 @@ a * {
   font-weight: lighter; }
 
 .item-content *, .cw {
-  margin: 1rem 0;
-  line-height: 1.4rem; }
+ }
 
 .item-title,
 .date,
