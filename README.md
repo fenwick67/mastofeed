@@ -1,8 +1,6 @@
 # Mastofeed
 
-Embed a mastodon feed in your blog et cetera.
-
-https://www.mastofeed.com
+Open source tool to create Mastodon or Pleroma feed and display it on any web page.
 
 ## User guide
 
@@ -14,9 +12,9 @@ The homepage has a tool for generating iframe code for you, with a sensible `san
 
 #### GET `/apiv2/feed`
 
-> example: `/api/feed?userurl=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67&scale=90&theme=light`
+> example: `/api/feed?userurl=https%3A%2F%2Fmastodon.social%2Fusers%2Fabidnev&scale=90&theme=light`
 
-Returns a html page which displays a mastodon feed for a user URL.  Note that URLs must be URI encoded (i.e. `encodeURIComponent('https://octodon.social/users/fenwick67')` ).
+Returns a html page which displays a mastodon feed for a user URL.  Note that URLs must be URI encoded (i.e. `encodeURIComponent('https://mastodon.social/users/abidnev')` ).
 
 Querystring options:
 
@@ -33,9 +31,9 @@ Querystring options:
 
 #### GET `/api/feed`
 
-> example: `/api/feed?url=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67.atom&scale=90&theme=light`
+> example: `/api/feed?url=https%3A%2F%2Fmastodon.social%2Fusers%2Fabidnev.atom&scale=90&theme=light`
 
-Returns a html page which displays a mastodon feed for an atom feed URL.  Note that URLs must be URI encoded (i.e. `encodeURIComponent('https://octodon.social/users/fenwick67.atom')` ).
+Returns a html page which displays a mastodon feed for an atom feed URL.  Note that URLs must be URI encoded (i.e. `encodeURIComponent('https://mastodon.social/users/abidnev.atom')` ).
 
 Querystring options:
 
@@ -49,7 +47,3 @@ Querystring options:
 ## Server Installation
 
 This is a straightforward node project with zero databases or anything, you should just be able to run `npm install` and then `npm start` to get up and running.  Set your `PORT` environment variable to change the port it listens on.
-
-## Improve me
-
-Feel free to add a chaching layer, improve the styles and add more features.
