@@ -922,26 +922,6 @@ minimist@^1.1.3, minimist@^1.2.5:
   dependencies:
     minimist "^1.2.5"
     
-"megalodon@npm:4.0.2":
-  version: 4.0.2
-  resolution: "megalodon@npm:4.0.2"
-  dependencies:
-    "@types/oauth": ^0.9.0
-    "@types/ws": ^8.2.3
-    axios: ^0.27.2
-    dayjs: ^1.11.3
-    form-data: ^4.0.0
-    https-proxy-agent: ^5.0.1
-    oauth: ^0.9.15
-    object-assign-deep: ^0.4.0
-    socks-proxy-agent: ^7.0.0
-    typescript: 4.7.3
-    uuid: ^8.0.0
-    ws: 8.5.0
-  checksum: e02a68bffa21fd52dda494f1a81a8e563d3bc48bc43c19ded743586e9b3e2146e5ffacfcfca1d92281e7bfc12f5d1d04d7a6eab6f7a969595a7f65c99c13a509
-  languageName: node
-  linkType: hard
-
 morgan@^1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.9.1.tgz#0a8d16734a1d9afbc824b99df87e738e58e2da59"
