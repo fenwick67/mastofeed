@@ -2,6 +2,9 @@
 a {
     text-decoration:none;
 }
+br {
+  font-size: 0px;
+}
 hr {
     margin:0;
     padding:0;
