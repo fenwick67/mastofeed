@@ -1,0 +1,116 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+a {
+    text-decoration:none;
+}
+hr {
+    margin:0;
+    padding:0;
+}
+.card {
+    border:none;
+}
+.headerimg {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+.header-left {
+    position: absolute;
+    top:100px;
+    left:22px;
+}
+.avatar {
+    width:100px;
+}
+.follow {
+    border-radius: 5px;
+    padding:3px;
+    width:80px;
+    text-align:center;
+}
+.follow a{
+    color:#fff;
+    font-weight:700;
+}
+.author {
+  display: flex;
+}
+.avatar-item {
+  width: 3rem;
+  height: 3rem;
+}
+.author-info {
+    width:100%;
+  margin: 0 10px;
+  position:relative;
+}
+.date {
+    float:right;
+}
+.item-title {
+    font-size:0.8em;
+}
+.enclosures {
+  padding: 0.5em 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.enclosure {
+  display: flex;
+  flex: 1 1 auto;
+  width: 50%;
+  border: none; 
+}
+
+a.enclosure {
+  cursor: zoom-in; 
+}
+
+.enclosure > * {
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.hidden {
+  display: none; }
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+  background: #2b90d9;
+  color: #282c37;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: uppercase;
+  user-select: none; }
+
+label.button {
+  padding: 0.25rem 0.5rem;
+  margin: 0.4rem;
+  background: #8494ab;
+  color: #ffffff;
+  font-size: 0.8rem; }
+
+input[type=checkbox] {
+  position: absolute;
+  left: -9999px; }
+
+input[type=checkbox]:checked ~ label::after {
+  content: " Less"; }
+
+input[type=checkbox]:not(:checked) ~ label::after {
+  content: " More"; }
+
+input[type=checkbox]:not(:checked) ~ div {
+  display: none; }
