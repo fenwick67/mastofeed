@@ -8,7 +8,6 @@ var request = require('request');
 var cors = require('cors');
 var errorPage = require('./lib/errorPage');
 var morgan = require('morgan');
-var { detector } = require('megalodon');
 
 var app = Express();
 
@@ -61,22 +60,11 @@ app.get('/apiv2/feed',cors(),logger,function(req,res){
 	// get feed url
 	var userUrl = req.query.userurl;
 	
-  if (userUrl === "" || userUrl === undefined) {
-    const user = req.query.user;
-    const instance = req.query.instance;
-    if (type === "" || type === undefined) {
-      type = await detector(instance).catch(() => "");
-    }
-    if (type === "mastodon" || type === "pleroma")
-      userUrl = instance + "/users/" + user;
-    else if (type === "misskey") userUrl = instance + "/@" + user;
-    else if (type === "wordpress") userUrl = instance + "/author/" + user;
-    else {
-      res
-        .status(400)
-        .send(errorPage(400, "You need to specify a user URL", null));
-      return;
-    }
+	if (!userUrl){
+		res.status(400);
+		res.send(errorPage(400,'You need to specify a user URL'));
+		return;
+	}
 
 	var feedUrl = req.query.feedurl;
 
