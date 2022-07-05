@@ -15,7 +15,9 @@ body {
 a,
 a * {
   color: #2b90d9; }
-
+br {
+  font-size: 0px;
+}
 .meta {
   background-color: #ecf0f4; }
 
