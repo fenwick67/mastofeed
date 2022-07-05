@@ -25,9 +25,9 @@
   			<input type="radio" id="t2" name="instancetype" value="pleroma">
   			<label for="t2">Pleroma</label><br>
   			<input type="radio" id="t3" name="instancetype" value="misskey">
-  			<label for="t3">Misskey</label><br>
+  			<label for="t3">Misskey (coming soon)</label><br>
   			<input type="radio" id="t4" name="instancetype" value="wordpress">
-  			<label for="t4">WordPress</label><br><br>
+  			<label for="t4">WordPress (coming soon)</label><br><br>
 			<label>Instance URL:<input required type="text" id="urlin" placeholder="mastodon.social"
 					oninvalid="this.setCustomValidity('Insert your instance URL. Example: mastodon.social')"
 					oninput="this.setCustomValidity('')"></label>
@@ -85,16 +85,7 @@
 				return document.getElementById(id).value;
 			}
 	
-			var instype = val('instancetype');
-			if(instype=="wordpress"){
-			    var inUrl = 'https://' + val('urlin') + '/author/' + val('usernamein');
-			}
-			elseif(instype=="misskey"){
-			    var inUrl = 'https://' + val('urlin') + '/@' + val('usernamein');
-			}
-			else{
-			    var inUrl = 'https://' + val('urlin') + '/users/' + val('usernamein');
-			}
+			var inUrl = 'https://' + val('urlin') + '/users/' + val('usernamein');
 
 			var showBoosts = (!document.getElementById('hideboosts').checked).toString();
 			var showReplies = (!document.getElementById('hidereplies').checked).toString();
