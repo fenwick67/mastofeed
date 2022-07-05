@@ -9,6 +9,9 @@ hr {
     margin:0;
     padding:0;
 }
+.hidden {
+  display: none; 
+}
 .card {
     border:none;
 }
