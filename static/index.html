@@ -85,7 +85,19 @@
 				return document.getElementById(id).value;
 			}
 	
-			var inUrl = 'https://' + val('urlin') + '/users/' + val('usernamein');
+			var instype = val('instancetype');
+			if (instype == "wordpress") {
+			  var inUrl = 'https://' + val('urlin') + '/author/' + val('usernamein');
+			}
+			else if(instype == "misskey") {
+			  var inUrl = 'https://' + val('urlin') + '/@' + val('usernamein');
+			}
+			else if(instype == "mastodon") {
+			  var inUrl = 'https://' + val('urlin') + '/users/' + val('usernamein');
+			}
+			else {
+			  var inUrl = 'https://' + val('urlin') + '/users/' + val('usernamein');
+			}
 
 			var showBoosts = (!document.getElementById('hideboosts').checked).toString();
 			var showReplies = (!document.getElementById('hidereplies').checked).toString();
