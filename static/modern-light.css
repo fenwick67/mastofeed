@@ -21,6 +21,7 @@ hr {
     width: 100%;
     height: 150px;
     border-radius: 10px;
+    background-color: #777;
 }
 .header-left {
     position: absolute;
@@ -29,6 +30,7 @@ hr {
 }
 .avatar {
     width:100px;
+    background-color: #dc3545;
 }
 .follow {
     border-radius: 5px;
