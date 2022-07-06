@@ -48,6 +48,7 @@ hr {
 .avatar-item {
   width: 3rem;
   height: 3rem;
+  background-color: #dc3545;
 }
 .author-info {
     width:100%;
