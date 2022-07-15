@@ -1,0 +1,84 @@
+br {
+  font-size: 0px;
+}
+hr {
+    margin:0;
+    padding:0;
+}
+.hidden {
+  display: none; 
+}
+.card {
+    border:none;
+}
+.headerimg {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #777;
+}
+.header-left {
+    position: absolute;
+    top:100px;
+    left:22px;
+}
+.avatar {
+    width:100px;
+    background-color: #dc3545;
+}
+.follow {
+    border-radius: 5px;
+    padding:3px;
+    width:80px;
+    text-align:center;
+}
+.follow a{
+    color:#fff;
+    font-weight:700;
+}
+.author {
+  display: flex;
+}
+.avatar-item {
+  width: 3rem;
+  height: 3rem;
+  background-color: #dc3545;
+}
+.author-info {
+    width:100%;
+  margin: 0 10px;
+  position:relative;
+}
+.date {
+    float:right;
+}
+.item-title {
+    font-size:0.8em;
+}
+.enclosures {
+  padding: 0.5em 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.enclosure {
+  display: flex;
+  flex: 1 1 auto;
+  width: 50%;
+  border: none; 
+}
+
+a.enclosure {
+  cursor: zoom-in; 
+}
+
+.enclosure > * {
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
