@@ -17,6 +17,6 @@
     "build-styles": "node build-styles.js"
   },
   "devDependencies": {
-    "node-sass": "4.x"
+    "node-sass": "8.x"
   }
 }
