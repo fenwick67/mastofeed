@@ -1,6 +1,4 @@
 var Express = require('express');
-// v1 api
-var convert = require('./lib/convert');
 // v2 api
 var convertv2 = require('./lib/convertv2');
 var serveStatic = require('serve-static');
@@ -28,7 +26,7 @@ function doCache(res,durationSecs){
 }
 
 
-// this just redirects to the 
+// this just redirects to the v2 API
 app.options('/api/feed',cors());
 app.get('/api/feed',cors(),logger,function(req,res){
 
