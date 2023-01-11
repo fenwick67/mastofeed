@@ -4,7 +4,6 @@ var convert = require('./lib/convert');
 // v2 api
 var convertv2 = require('./lib/convertv2');
 var serveStatic = require('serve-static');
-var request = require('request');
 var cors = require('cors');
 var errorPage = require('./lib/errorPage');
 var morgan = require('morgan');
