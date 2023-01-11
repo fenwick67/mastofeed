@@ -8,10 +8,13 @@ var request = require('request');
 var cors = require('cors');
 var errorPage = require('./lib/errorPage');
 var morgan = require('morgan');
+var compression = require('compression')
 
 var app = Express();
 
 var logger = morgan(':method :url :status via :referrer - :response-time ms') 
+
+app.use(compression());
 
 app.use(
 	serveStatic('static',{
