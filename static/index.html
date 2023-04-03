@@ -65,7 +65,7 @@
 		<br><br>
 		<h3>Live Preview:</h3>
 		<span class="iframe-contain">
-			<iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800"
+			<iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="400" height="800"
 				src="/apiv2/feed?userurl=https%3A%2F%2Fmastodon.social%2Fusers%2Fgargron&replies=false&boosts=true"></iframe>
 		</span>
 		<br>
@@ -88,7 +88,7 @@
 				+ "/apiv2/feed?userurl=" + encodeURIComponent(inUrl) + "&theme=" + val('theme') + '&size=' + val('size')
 				+ "&header=" + showHeader + '&replies=' + showReplies + '&boosts=' + showBoosts;
 
-			document.getElementById('result').value = '<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="' + val('width') + '" height="' + val('height') + '" src="' + iframeUrl + '"></iframe>';
+			document.getElementById('result').value = '<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="' + val('width') + '" height="' + val('height') + '" src="' + iframeUrl + '"></iframe>';
 
 			var iframe = document.getElementById('frame');
 			iframe.src = iframeUrl;

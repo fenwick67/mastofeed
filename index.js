@@ -43,14 +43,16 @@ var Express = require('express');
 // v2 api
 var convertv2 = require('./lib/convertv2');
 var serveStatic = require('serve-static');
-var request = require('request');
 var cors = require('cors');
 var errorPage = require('./lib/errorPage');
 var morgan = require('morgan');
+var compression = require('compression')
 
 var app = Express();
 
 var logger = morgan(':method :url :status via :referrer - :response-time ms') 
+
+app.use(compression());
 
 app.use(
 	serveStatic('static',{
@@ -65,7 +67,7 @@ function doCache(res,durationSecs){
 }
 
 
-// this just redirects to the 
+// this just redirects to the v2 API
 app.options('/api/feed',cors());
 app.get('/api/feed',cors(),logger,function(req,res){
 
