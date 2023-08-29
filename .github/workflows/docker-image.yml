@@ -57,5 +57,5 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           # architectures: https://hub.docker.com/_/node/tags?page=1&name=20-alpine
-          platforms: linux/amd64,linux/arm64/v8,linux/arm/v7
+          platforms: linux/amd64,linux/arm64/v8
           labels: ${{ steps.meta.outputs.labels }}
