@@ -14,7 +14,7 @@ There are several ways to deploy this server.
 
 ### Docker
 
-You can deploy the docker image `niccokunzmann/mastofeed`.
+You can deploy the docker image [niccokunzmann/mastofeed:master][dockerhub].
 Note that the the HTTP server runs on port `8000`.
 
 ```
@@ -27,12 +27,14 @@ This is an example `docker-compose.yml` file:
 version: '3'
 services:
   mastofeed:
-    image: 'niccokunzmann/mastofeed:latest'
+    image: 'niccokunzmann/mastofeed:master'
     restart: unless-stopped
     ports:
       - '80:8000'
 
 ```
+
+[dockerhub]: https://hub.docker.com/repository/docker/niccokunzmann/mastofeed/tags?page=1&ordering=last_updated
 
 ### Heroku
 
