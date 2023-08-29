@@ -17,7 +17,7 @@
     "build-styles": "node build-styles.js"
   },
   "devDependencies": {
-    "node-sass": "8.x"
+    "node-sass": "^8.0.0"
   },
   "keywords": [
     "mastodon",
