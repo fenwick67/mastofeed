@@ -10,9 +10,34 @@ The homepage has a tool for generating iframe code for you, with a sensible `san
 
 ## Deployment
 
+There are several ways to deploy this server.
+
+### Docker
+
+You can deploy the docker image `niccokunzmann/mastofeed`.
+Note that the the HTTP server runs on port `8000`.
+
+```
+docker run niccokunzmann/mastofeed
+```
+
+This is an example `docker-compose.yml` file:
+
+```
+version: '3'
+services:
+  mastofeed:
+    image: 'niccokunzmann/mastofeed:latest'
+    restart: unless-stopped
+    ports:
+      - '80:8000'
+
+```
+
+### Heroku
+
 You can deploy the app using Heroku.
-There is a free plan.
-You can use the [heroku git deployment](https://devcenter.heroku.com/articles/git) or
+You can use the [Heroku git deployment](https://devcenter.heroku.com/articles/git) or
 click this button:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -56,11 +81,6 @@ port it listens on.
    ```
    yarn install
    ```
-   You may need to have Python2 installed
-   if you cannot install `node-sass` or
-   remove the line in the `devDependencies`
-   in `package.json`.
-   You do not need it for small fixes.
 4. run `npm start`
 
 ## Development
@@ -75,10 +95,28 @@ Run it:
 nodemon index.js --watch lib
 ```
 
+### Layout
+
 To generate the layout, install `node-sass`.
 Then, run
 ```
 node build-styles.js
+```
+
+The layout is committed to the repository and only needs building when you change the `.sass` files.
+
+### Docker
+
+To build the docker image:
+
+```
+docker build --tag niccokunzmann/mastofeed .
+```
+
+You can run the docker image:
+
+```
+docker run --rm niccokunzmann/mastofeed
 ```
 
 ## Improve me
