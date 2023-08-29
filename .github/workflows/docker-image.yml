@@ -48,7 +48,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: niccokunzmann/open-web-calendar
+          images: niccokunzmann/mastofeed
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
@@ -57,5 +57,5 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           # architectures: https://hub.docker.com/_/node/tags?page=1&name=20-alpine
-          platforms: linux/amd64,linux/arm64/v8,linux/arm/v7,linux/arm/v6
+          platforms: linux/amd64,linux/arm64/v8,linux/arm/v7
           labels: ${{ steps.meta.outputs.labels }}
