@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,9 +13,11 @@
 	<div>
 		<h1>Mastofeed</h1>
 		<h4>Embedded Mastodon feeds for blogs etc.</h4>
-		<a href="https://github.com/fenwick67/mastofeed" class="cta button alt">Fork on Github <img
-				class="link-logo after" src="github-logo.svg" alt="Github Logo" data-reactid="19"></a><br>
+		<a href="https://github.com/fenwick67/mastofeed" class="cta button alt"><img
+			class="link-logo" src="github-logo.svg" alt="Github Logo"> Fork on Github</a><br>
 		<br>
+		<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi, hosting fees are a bitch', '#29abe0', 'M4M014P3UT');kofiwidget2.draw();</script> 
+
 		<hr><br>
 		<form action="javascript:genUrl()">
 			<label>Instance URL:<input required type="text" id="urlin" placeholder="mastodon.social"
@@ -60,7 +63,9 @@
 		<br><br>
 		<h3>Live Preview:</h3>
 		<span class="iframe-contain">
-			<iframe id="frame" allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="400" height="800"
+			<iframe id="frame" allowfullscreen
+				sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="400"
+				height="800"
 				src="/apiv2/feed?userurl=https%3A%2F%2Fmastodon.social%2Fusers%2Fgargron&replies=false&boosts=true"></iframe>
 		</span>
 		<br>

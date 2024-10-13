@@ -81,10 +81,9 @@ h4 {
     color: #9baec8
 }
 
-img {
+img.link-logo {
     width: 16px;
     height: 16px;
-    opacity: .5;
     -webkit-transition: opacity .25s linear;
     transition: opacity .25s linear
 }
