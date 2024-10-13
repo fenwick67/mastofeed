@@ -174,6 +174,6 @@ app.get('/actor', logger, function(req,res){
 	res.json(j);
 })
 
-app.listen(process.env.PORT || 8000,function(){
-	console.log('Server started, listening on '+(process.env.PORT || 8000));
+app.listen(process.env.PORT || 8080,function(){
+	console.log('Mastofeed started, listening on '+(process.env.PORT || 8080));
 });
