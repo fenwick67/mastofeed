@@ -52,16 +52,9 @@ This is a straightforward node project with zero databases or anything, you shou
 
 ### ENV VARS
 
-
-then set em
-
 you need to set:
 
-`AP_PRIVATE_KEY_BASE64=asdfsd` Run utils/make-keys.js to make a key
-`AP_PUBLIC_KEY_BASE64=safasdf` Run utils/make-keys.js to make a key
-`DOMAIN_NAME=mastofeed.com` or whatever
-`PORT=80` or whatever
-
-## Improve me
-
-Feel free to add a chaching layer, improve the styles and add more features.
+* `AP_PRIVATE_KEY_BASE64=asdfsd` Run utils/make-keys.js to make a key
+* `AP_PUBLIC_KEY_BASE64=safasdf` Run utils/make-keys.js to make a key
+* `DOMAIN_NAME=mastofeed.com` or whatever
+* `PORT=80` or whatever
