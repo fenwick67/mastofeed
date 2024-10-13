@@ -23,6 +23,13 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@digitalbazaar/http-signature-header@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@digitalbazaar/http-signature-header/-/http-signature-header-5.0.1.tgz#7847a8e0b19c898548b4b190b7ff0560fa2f659f"
+  integrity sha512-c7U6KYLEcAv1lh6QdBocOzuqmE5HKT2BAwn+0roiIPv527c+6qUh7rPHMrbVavWYTgk9kWBhCPba+Ql7gwG57g==
+  dependencies:
+    assert-plus "^1.0.0"
+
 "@gar/promisify@^1.0.1", "@gar/promisify@^1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
@@ -163,6 +170,11 @@ arrify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha512-3CYzex9M9FGQjCGMGyi6/31c8GJbgb0qGyrx5HWxPd0aCwh4cB2YjMb2Xf9UuoogrMrlO9cTqnB5rI5GHZTcUA==
+
+assert-plus@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
+  integrity sha512-NfJ4UzBCcQGLDlQq7nHxH+tv3kyZ0hHQqF5BO6J7tNJeP5do1llPr8dZ8zHonfhAu0PHAdMkSo+8o0wxg9lZWw==
 
 async-foreach@^0.1.3:
   version "0.1.3"

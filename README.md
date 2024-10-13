@@ -48,7 +48,19 @@ Querystring options:
 
 ## Server Installation
 
-This is a straightforward node project with zero databases or anything, you should just be able to run `npm install` and then `npm start` to get up and running.  Set your `PORT` environment variable to change the port it listens on.
+This is a straightforward node project with zero databases or anything, you should just be able to run `npm install` and then `npm start` to get up and running.
+
+### ENV VARS
+
+
+then set em
+
+you need to set:
+
+`AP_PRIVATE_KEY_BASE64=asdfsd` Run utils/make-keys.js to make a key
+`AP_PUBLIC_KEY_BASE64=safasdf` Run utils/make-keys.js to make a key
+`DOMAIN_NAME=mastofeed.com` or whatever
+`PORT=80` or whatever
 
 ## Improve me
 

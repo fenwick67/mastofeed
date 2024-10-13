@@ -6,6 +6,7 @@ var cors = require('cors');
 var errorPage = require('./lib/errorPage');
 var morgan = require('morgan');
 var compression = require('compression')
+const apCryptoShit = require('./lib/apCryptoShit')
 
 var app = Express();
 
@@ -113,6 +114,64 @@ app.get('/apiv2/feed',cors(),logger,function(req,res){
 		// TODO log the error
 		console.error(er,er.stack);
 	})
+})
+
+app.get('/actor', logger, function(req,res){
+	// return something like what https://mastodon.social/actor does...
+	res.status(200);
+	let j = {
+		"@context": [
+		  "https://www.w3.org/ns/activitystreams",
+		  "https://w3id.org/security/v1",
+		  {
+			"manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
+			"toot": "http://joinmastodon.org/ns#",
+			"featured": {
+			  "@id": "toot:featured",
+			  "@type": "@id"
+			},
+			"featuredTags": {
+			  "@id": "toot:featuredTags",
+			  "@type": "@id"
+			},
+			"alsoKnownAs": {
+			  "@id": "as:alsoKnownAs",
+			  "@type": "@id"
+			},
+			"movedTo": {
+			  "@id": "as:movedTo",
+			  "@type": "@id"
+			},
+			"schema": "http://schema.org#",
+			"PropertyValue": "schema:PropertyValue",
+			"value": "schema:value",
+			"discoverable": "toot:discoverable",
+			"suspended": "toot:suspended",
+			"memorial": "toot:memorial",
+			"indexable": "toot:indexable",
+			"attributionDomains": {
+			  "@id": "toot:attributionDomains",
+			  "@type": "@id"
+			}
+		  }
+		],
+		"id": `https://${apCryptoShit.getDomainName()}/actor`,
+		"type": "Application",
+		"inbox": `https://${apCryptoShit.getDomainName()}/actor/inbox`,
+		"outbox": `https://${apCryptoShit.getDomainName()}/actor/outbox`,
+		"preferredUsername": `${apCryptoShit.getDomainName()}`,
+		"url": `https://${apCryptoShit.getDomainName()}`,
+		"manuallyApprovesFollowers": true,
+		"publicKey": {
+		  "id": `https://${apCryptoShit.getDomainName()}/actor#main-key`,
+		  "owner": `https://${apCryptoShit.getDomainName()}/actor`,
+		  "publicKeyPem": apCryptoShit.getPublicKey()
+		},
+		"endpoints": {
+		  "sharedInbox": `https://${apCryptoShit.getDomainName()}/inbox`
+		}
+	  };
+	res.json(j);
 })
 
 app.listen(process.env.PORT || 8000,function(){
