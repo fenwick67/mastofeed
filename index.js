@@ -205,7 +205,7 @@ app.get('/.well-known/webfinger', function(req,res){
 		return res.send(JSON.stringify(resJson));
 	} else {
 		res.status(404);
-		res.send();
+		res.send("unknown user");
 	}
 })
 
