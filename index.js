@@ -175,6 +175,40 @@ app.get('/actor', logger, function(req,res){
 	res.send(JSON.stringify(j,null,2));
 })
 
+app.get('/.well-known/webfinger', function(req,res){
+	let domainName = apCryptoShit.getDomainName();
+	if (req.query.resource == `acct:${domainName}@${domainName}`){
+		res.setHeader("content-type","application/jrd+json; charset=utf-8");
+		var resJson = {
+			"subject": `acct:${domainName}@${domainName}`,
+			"aliases": [
+			  `https://${domainName}/actor`
+			],
+			"links": [
+			  {
+				"rel": "http://webfinger.net/rel/profile-page",
+				"type": "text/html",
+				"href": `https://${domainName}`
+			  },
+			  {
+				"rel": "self",
+				"type": "application/activity+json",
+				"href": `https://${domainName}/actor`
+			  }
+			//   ,
+			//   {
+			// 	"rel": "http://ostatus.org/schema/1.0/subscribe",
+			// 	"template": "https://mastodon.social/authorize_interaction?uri={uri}"
+			//   }
+			]
+		  };
+		return res.send(JSON.stringify(resJson));
+	} else {
+		res.status(404);
+		res.send();
+	}
+})
+
 app.listen(process.env.PORT || 8080,function(){
 	console.log('Mastofeed started, listening on '+(process.env.PORT || 8080));
 });
