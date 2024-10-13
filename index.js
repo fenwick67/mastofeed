@@ -171,7 +171,8 @@ app.get('/actor', logger, function(req,res){
 		  "sharedInbox": `https://${apCryptoShit.getDomainName()}/inbox`
 		}
 	  };
-	res.json(j);
+	res.setHeader("content-type","application/activity+json; charset=utf-8")
+	res.send(JSON.stringify(j,null,2));
 })
 
 app.listen(process.env.PORT || 8080,function(){
