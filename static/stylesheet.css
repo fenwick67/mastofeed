@@ -115,3 +115,6 @@ button, a {
 button:hover, a:hover {
     background-color: #394150;
 }
+b{
+    font-weight:bold;
+}
