@@ -110,8 +110,8 @@ app.get('/apiv2/feed',cors(),logger,function(req,res){
 		res.send(data);
 	}).catch((er)=>{
 		res.status(500);
-		res.send(errorPage(500,null,{theme:opts.theme,size:opts.size}));
-		// TODO log the error
+		res.send(errorPage(500,er.toString(),{theme:opts.theme,size:opts.size}));
+		// log the error
 		console.error(er,er.stack);
 	})
 })
