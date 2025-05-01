@@ -55,7 +55,7 @@ app.get('/api/feed',cors(),logger,function(req,res){
 });
 
 app.options('/apiv2/feed',cors());
-// http://localhost:8000/apiv2/feed?userurl=https%3A%2F%2Foctodon.social%2Fusers%2Ffenwick67
+// http://localhost:8000/apiv2/feed?userurl=https%3A%2F%2Ftechhub.social%2Fusers%2Ffenwick67
 app.get('/apiv2/feed',cors(),logger,function(req,res){
 	
 	// get feed url
