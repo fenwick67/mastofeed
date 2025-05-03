@@ -14,7 +14,7 @@
 		<h1>Mastofeed</h1>
 		<h4>Embedded Mastodon feeds for blogs etc.</h4>
 		<div>
-			<p><b>New!</b> Want to opt out? Add #nobot or #noMastofeed to your profile and it won't be shown</p>
+			<p><b>New!</b> Want to opt out of your posts showing up? Add <code>#nobot</code> or <code>#noMastofeed</code> to your profile and it won't be shown.<br>You can also override your existing <code>#nobot</code> tag for mastofeed specifically by adding <code>#mastofeed</code></p>
 		</div>
 		<br>
 		<a href="https://github.com/fenwick67/mastofeed" class="cta button alt"><img
@@ -52,12 +52,24 @@
 				</select>
 			</label>
 			<br>
-			<label>Show Header?<input id="header" type="checkbox" checked="checked"></label>
+			<label><input id="header" type="checkbox" checked="checked">Show Header</label>
 			<br>
-			<label>Hide replies?<input type="checkbox" id="hidereplies" checked="checked"></label>
+			<label><input type="checkbox" id="hidereplies" checked="checked">Hide replies</label>
 			<br>
-			<label>Hide boosts?<input type="checkbox" id="hideboosts" checked="checked"></label>
+			<label><input type="checkbox" id="hideboosts" checked="checked">Hide boosts</label>
 			<br>
+			<!-- colors -->
+			<label><input type="checkbox" id="bgcustom">Custom background color&nbsp;&nbsp;<input type="color" id="bgcolor"></label>
+			<br>
+			<label><input type="checkbox" id="linkcustom">Custom link color&nbsp;&nbsp;<input type="color" id="linkcolor" value="#0000ff"></label>
+			<br>
+			<label><input type="checkbox" id="fgcustom">Custom text color&nbsp;&nbsp;<input type="color" id="fgcolor" value="#ffffff"></label>
+			<br>
+			<label><input type="checkbox" id="bg2custom">Custom header default background&nbsp;&nbsp;<input type="color" id="bg2color"></label>
+			<br>
+			<label><input type="checkbox" id="dimcustom">Custom accent color&nbsp;&nbsp;<input type="color" id="dimcolor" value="#aaaaaa"></label>
+			<br>
+			<label><input type="checkbox" id="dimmercustom">Custom accent color 2&nbsp;&nbsp;<input type="color" id="dimmercolor" value="#444444"></label>
 			<br>
 			<button value="generate">Generate</button>
 		</form>
@@ -87,9 +99,18 @@
 			var showHeader = document.getElementById('header').checked.toString()
 			var portStr = (window.location.port && window.location.port != 80) ? (':' + window.location.port) : ''
 
+
 			var iframeUrl = window.location.protocol + '//' + window.location.hostname + portStr
 				+ "/apiv2/feed?userurl=" + encodeURIComponent(inUrl) + "&theme=" + val('theme') + '&size=' + val('size')
 				+ "&header=" + showHeader + '&replies=' + showReplies + '&boosts=' + showBoosts;
+
+				
+			var colorInputs = ['bg','bg2','fg','dimmer','dim','link'];
+			colorInputs.forEach((name)=>{
+				if (document.getElementById(name+"custom").checked){
+					iframeUrl+= `&${name}=${encodeURIComponent(document.getElementById(name+"color").value)}`
+				}
+			})
 
 			document.getElementById('result').value = '<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="' + val('width') + '" height="' + val('height') + '" src="' + iframeUrl + '"></iframe>';
 

@@ -118,3 +118,18 @@ button:hover, a:hover {
 b{
     font-weight:bold;
 }
+code{
+    display: inline;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #0e1013;
+}
+input[type="color"]{
+    border: solid 1px #0e1013; 
+    padding:0;
+    width:2rem;
+    height:2rem;
+}
+
+input[type="checkbox"]:not(:checked) ~ input[type="color"]{
+    visibility: hidden;
+}

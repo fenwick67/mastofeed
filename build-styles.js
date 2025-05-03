@@ -1,6 +1,6 @@
 // build the styles
 var fs = require('fs');
-var sass = require('node-sass');
+var sass = require('sass');
 
 var staticDir = './static/'
 var srcDir = './stylesrc/';

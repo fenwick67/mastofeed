@@ -5,11 +5,20 @@ $dim: lighten($fg, 50) !default;
 $dimmer: darken($bg2, 10) !default;
 $link: #09c !default;
 
+:root{
+  --bg: #{$bg};
+  --bg2: #{$bg2};
+  --fg: #{$fg};
+  --dim: #{$dim};
+  --dimmer: #{$dimmer};
+  --link: #{$link};
+}
+
 html,
 body {
-  background-color: $bg;
+  background-color: var(--bg);
   font-family: 'Roboto', roboto, Arial, sans-serif;
-  color: $fg;
+  color: var(--fg);
   font-weight: lighter;
   overflow-x:hidden;
   font-size:100%;
@@ -23,27 +32,35 @@ body {
 
 a,
 a * {
-  color: $link;
+  color: var(--link);
 }
 
 .meta {
   //padding: 1rem;
-  background-color: $bg2;
+  background-color: var(--bg2);
 }
 
 .header{
   display:flex;
   background-size:cover;
   min-height:8rem;
-  color:$fg;
+  color:var(--fg);
   .header-left,.header-right{
     margin:0;
+    position:relative;
   }
   .header-left{
     min-width:8rem;
-    position:relative;
     text-align:center;
-    background:transparentize($bg,0.7);
+    .header-left-bg{
+      position: absolute;
+      left:0;
+      right:0;
+      top:0;
+      bottom:0;
+      opacity:0.3;
+      background-color: var(--bg);
+    }
     .avatar{
       width: 6rem;
       height: 6rem;
@@ -55,7 +72,18 @@ a * {
     flex-grow:1;
     font-size:0.9rem;
     padding:0.9rem;
-    background:transparentize($bg,0.15);
+    .header-right-bg{
+      position: absolute;
+      left:0;
+      right:0;
+      top:0;
+      bottom:0;
+      opacity:0.85;
+      background-color: var(--bg);
+    }
+    .description{
+      position:relative;
+    }
   }
   .header-title{
     font-size:1.3rem;
@@ -64,7 +92,7 @@ a * {
 
 .item {
   padding: 1rem;
-  border-top: solid 1px $dimmer;
+  border-top: solid 1px var(--dimmer);
 }
 
 .item-content,
@@ -83,7 +111,7 @@ a * {
 .item-title,
 .date,
 .author-fullname {
-  color: $dim;
+  color: var(--dim);
   font-size: 0.9rem;
 }
 .date{
@@ -110,7 +138,7 @@ a * {
   justify-content: space-around;
   .author-displayname {
     font-size: 1.2rem;
-    color: $fg;
+    color: var(--fg);
     text-decoration: none;
     display: block;
     font-weight: bolder;
@@ -164,8 +192,8 @@ a.enclosure{
   border-radius: 0.5rem;
   display: inline-block;
   text-decoration: none;
-  background:$link;
-  color:$fg;
+  background:var(--link);
+  color:var(--fg);
   font-weight:400;
   cursor: pointer;
   text-transform: uppercase;
@@ -174,8 +202,8 @@ a.enclosure{
 label.button{
   padding: 0.25rem 0.5rem;
   margin:0.4rem;
-  background:$dimmer;
-  color:$bg;
+  background:var(--dimmer);
+  color:var(--bg);
   font-size:0.8rem;
 }
 

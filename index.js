@@ -104,6 +104,20 @@ app.get('/apiv2/feed',cors(),logger,function(req,res){
 	opts.feedUrl = feedUrl;
 	opts.mastofeedUrl = req.url;
 
+	var allCustomColorNames = ['bg','bg2','fg','dim','dimmer','link'];
+	var reqHasCustomColors=false;
+	allCustomColorNames.forEach((name)=>{if(req.query[name]){reqHasCustomColors=true;}});
+	if (reqHasCustomColors){
+		colorRules = allCustomColorNames.map((name)=>{
+			if (req.query[name]){
+				return `--${name}:${req.query[name]};`
+			} else {
+				return '';
+			}
+		}).join('');
+		opts.colorOverrides=`:root{${colorRules}}`;
+	}
+
 	convertv2(opts).then((data)=>{
 		res.status(200);
 		doCache(res,60*60);
