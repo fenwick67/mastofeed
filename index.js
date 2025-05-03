@@ -106,7 +106,12 @@ app.get('/apiv2/feed',cors(),logger,function(req,res){
 
 	var allCustomColorNames = ['bg','bg2','fg','dim','dimmer','link'];
 	var reqHasCustomColors=false;
-	allCustomColorNames.forEach((name)=>{if(req.query[name]){reqHasCustomColors=true;}});
+	for (let i = 0; i < allCustomColorNames.length; i++){
+		if(req.query[allCustomColorNames[i]]){
+			reqHasCustomColors=true;
+			break;
+		}
+	}
 	if (reqHasCustomColors){
 		colorRules = allCustomColorNames.map((name)=>{
 			if (req.query[name]){

@@ -65,23 +65,29 @@
 			<br>
 			<label><input type="checkbox" id="fgcustom">Custom text color&nbsp;&nbsp;<input type="color" id="fgcolor" value="#ffffff"></label>
 			<br>
-			<label><input type="checkbox" id="bg2custom">Custom header default background&nbsp;&nbsp;<input type="color" id="bg2color"></label>
+			<label><input type="checkbox" id="bg2custom">Custom header background fallback&nbsp;&nbsp;<input type="color" id="bg2color"></label>
 			<br>
 			<label><input type="checkbox" id="dimcustom">Custom accent color&nbsp;&nbsp;<input type="color" id="dimcolor" value="#aaaaaa"></label>
 			<br>
 			<label><input type="checkbox" id="dimmercustom">Custom accent color 2&nbsp;&nbsp;<input type="color" id="dimmercolor" value="#444444"></label>
 			<br>
+			<br>
 			<button value="generate">Generate</button>
 		</form>
-		<br><br>
-		<label>Use this markup in your HTML: <br><textarea id="result"
-				placeholder="result will go here"></textarea></label>
+		<hr>
+		<label>Use this markup in your HTML:</label>
+			<br>
+			<p><b>Note:</b> the snippet below has <code>max-height:100vh;max-width:100vw</code> to keep it from being bigger than your screen, remove that if you don't like it</p>
+			<br>
+		<textarea id="result"
+				placeholder="result will go here"></textarea>
 		<br><br>
 		<h3>Live Preview:</h3>
 		<span class="iframe-contain">
 			<iframe id="frame" allowfullscreen
 				sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="400"
 				height="800"
+				style="max-width:100vw;max-height:100vh;"
 				src="/apiv2/feed?userurl=https%3A%2F%2Fmastodon.social%2Fusers%2Fgargron&replies=false&boosts=true"></iframe>
 		</span>
 		<br>
@@ -112,7 +118,7 @@
 				}
 			})
 
-			document.getElementById('result').value = '<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="' + val('width') + '" height="' + val('height') + '" src="' + iframeUrl + '"></iframe>';
+			document.getElementById('result').value = '<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" style="max-width:100vw;max-height:100vh;" width="' + val('width') + '" height="' + val('height') + '" src="' + iframeUrl + '"></iframe>';
 
 			var iframe = document.getElementById('frame');
 			iframe.src = iframeUrl;
