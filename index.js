@@ -174,20 +174,20 @@ app.get('/actor', logger, function(req,res){
 			}
 		  }
 		],
-		"id": `https://${apCryptoShit.getDomainName()}/actor`,
+		"id": `https://${apCryptoShit.getDomainName()}${apCryptoShit.getPathPrefix()}/actor`,
 		"type": "Application",
-		"inbox": `https://${apCryptoShit.getDomainName()}/actor/inbox`,
-		"outbox": `https://${apCryptoShit.getDomainName()}/actor/outbox`,
+		"inbox": `https://${apCryptoShit.getDomainName()}${apCryptoShit.getPathPrefix()}/actor/inbox`,
+		"outbox": `https://${apCryptoShit.getDomainName()}${apCryptoShit.getPathPrefix()}/actor/outbox`,
 		"preferredUsername": `${apCryptoShit.getDomainName()}`,
-		"url": `https://${apCryptoShit.getDomainName()}`,
+		"url": `https://${apCryptoShit.getDomainName()}${apCryptoShit.getPathPrefix()}`,
 		"manuallyApprovesFollowers": true,
 		"publicKey": {
-		  "id": `https://${apCryptoShit.getDomainName()}/actor#main-key`,
-		  "owner": `https://${apCryptoShit.getDomainName()}/actor`,
+		  "id": `https://${apCryptoShit.getDomainName()}${apCryptoShit.getPathPrefix()}/actor#main-key`,
+		  "owner": `https://${apCryptoShit.getDomainName()}${apCryptoShit.getPathPrefix()}/actor`,
 		  "publicKeyPem": apCryptoShit.getPublicKey()
 		},
 		"endpoints": {
-		  "sharedInbox": `https://${apCryptoShit.getDomainName()}/inbox`
+		  "sharedInbox": `https://${apCryptoShit.getDomainName()}${apCryptoShit.getPathPrefix()}/inbox`
 		}
 	  };
 	res.setHeader("content-type","application/activity+json; charset=utf-8")
@@ -201,18 +201,18 @@ app.get('/.well-known/webfinger', function(req,res){
 		var resJson = {
 			"subject": `acct:${domainName}@${domainName}`,
 			"aliases": [
-			  `https://${domainName}/actor`
+			  `https://${domainName}${apCryptoShit.getPathPrefix()}/actor`
 			],
 			"links": [
 			  {
 				"rel": "http://webfinger.net/rel/profile-page",
 				"type": "text/html",
-				"href": `https://${domainName}`
+				"href": `https://${domainName}${apCryptoShit.getPathPrefix()}`
 			  },
 			  {
 				"rel": "self",
 				"type": "application/activity+json",
-				"href": `https://${domainName}/actor`
+				"href": `https://${domainName}${apCryptoShit.getPathPrefix()}/actor`
 			  }
 			//   ,
 			//   {
